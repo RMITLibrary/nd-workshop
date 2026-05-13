@@ -3,7 +3,9 @@
 <head>
 	<meta charset="utf-8">
 	<title>{{ block "title" . }}{{ .Title }}{{ end }}</title>
-	<link rel="stylesheet" href="/css/styles.css">
+	<meta name="robots" content="noindex, nofollow">
+	{{ $sass := resources.Get "scss/styles.scss" | toCSS }}
+	<link rel="stylesheet" href="{{ $sass.RelPermalink }}">
 </head>
 <body>
 	{{ partial "header.html" . }}

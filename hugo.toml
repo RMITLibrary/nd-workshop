@@ -1,3 +1,14 @@
-baseURL = "/"
-languageCode = "en-au"
+baseURL = "https://rmitlibrary.github.io/nd-workshop/"
+locale = "en-AU"
 title = "ND Workshop Prototype"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[taxonomies]
+# Disable default taxonomies
+
+[outputs]
+home = ["HTML", "RSS", "Robots"]

@@ -1,0 +1,17 @@
+$primary: #0077cc;
+
+body {
+  font-family: system-ui, -apple-system, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header, footer {
+  padding: 1rem;
+  background: #f4f4f4;
+  color: blue;
+}
+
+.progress-bar__inner {
+  background: $primary;
+}
