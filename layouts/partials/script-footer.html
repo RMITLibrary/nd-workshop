@@ -1,0 +1,111 @@
+<!-- bootstrap.js -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/js/bootstrap.min.js"></script>
+<script>
+
+/* START dark mode - there is also script in partial script-head.html */
+
+  (function() {
+    'use strict';
+
+    const getStoredTheme = () => localStorage.getItem('theme');
+
+    const setStoredTheme = theme => localStorage.setItem('theme', theme);
+
+    const getPreferredTheme = () => {
+      const storedTheme = getStoredTheme();
+      return storedTheme ? storedTheme : (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+    };
+
+    const setTheme = theme => {
+      const themeToSet = theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme;
+      document.documentElement.setAttribute('data-bs-theme', themeToSet);
+    };
+
+    const showActiveTheme = theme => {
+      document.querySelectorAll('.theme-switch').forEach(themeSwitcher => {
+        themeSwitcher.querySelectorAll('[data-bs-theme-value]').forEach(element => {
+          element.checked = (element.getAttribute('data-bs-theme-value') === theme);
+        });
+      });
+    };
+
+    window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', () => {
+      const storedTheme = getStoredTheme();
+      if (storedTheme !== 'light' && storedTheme !== 'dark') {
+        setTheme(getPreferredTheme());
+      }
+    });
+
+    window.addEventListener('DOMContentLoaded', () => {
+      showActiveTheme(getPreferredTheme());
+      document.querySelectorAll('.theme-switch [data-bs-theme-value]').forEach(toggle => {
+        toggle.addEventListener('change', () => {
+          const theme = toggle.getAttribute('data-bs-theme-value');
+          setStoredTheme(theme);
+          setTheme(theme);
+          showActiveTheme(theme);
+        });
+      });
+    });
+  })();
+
+/* END dark mode */
+
+/* START theme switcher show and hide */
+
+(function() {
+  'use strict';
+
+  window.addEventListener('DOMContentLoaded', () => {
+    const button = document.getElementById('theme-switch-button');
+    const panel  = document.getElementById('theme-switcher');
+
+    if (!button || !panel) return;
+
+    const openPanel = () => {
+      panel.hidden = false;
+      button.setAttribute('aria-expanded', 'true');
+    };
+
+    const closePanel = () => {
+      panel.hidden = true;
+      button.setAttribute('aria-expanded', 'false');
+    };
+
+    const togglePanel = () => {
+      if (panel.hidden) {
+        openPanel();
+      } else {
+        closePanel();
+      }
+    };
+
+    button.addEventListener('click', (event) => {
+      event.stopPropagation(); // don't trigger document click
+      togglePanel();
+    });
+
+    // Close when clicking outside
+    document.addEventListener('click', (event) => {
+      if (panel.hidden) return;
+
+      // If click is inside panel or on button, do nothing
+      if (panel.contains(event.target) || button.contains(event.target)) {
+        return;
+      }
+
+      closePanel();
+    });
+
+    // Optional: close on Escape key
+    document.addEventListener('keydown', (event) => {
+      if (event.key === 'Escape' && !panel.hidden) {
+        closePanel();
+      }
+    });
+  });
+})();
+
+/* END theme switcher show and hide */
+
+</script>

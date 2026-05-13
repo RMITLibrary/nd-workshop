@@ -1,0 +1,22 @@
+<script>
+/* START dark mode: initial theme only */
+(function() {
+  'use strict';
+  const getStoredTheme = () => localStorage.getItem('theme');
+  const getPreferredTheme = () => {
+    const storedTheme = getStoredTheme();
+    return storedTheme
+      ? storedTheme
+      : (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+  };
+  const setTheme = theme => {
+    const themeToSet = theme === 'auto'
+      ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light')
+      : theme;
+    document.documentElement.setAttribute('data-bs-theme', themeToSet);
+  };
+
+  // Initial theme to avoid flash
+  setTheme(getPreferredTheme());
+})();
+</script>

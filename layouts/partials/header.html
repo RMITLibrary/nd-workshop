@@ -1,5 +1,57 @@
-<header>
-	<nav>
-		<a href="{{ "/" | relURL }}">Home</a>
-	</nav>
+<header class="top-navigation">
+    <div class="container">
+        <div class="row">
+            <!-- START left hand column -->
+            <div class="col-auto left-nav">
+                <a href="https://www.rmit.edu.au/" class="rmit-logo"><span class="visually-hidden">RMIT University</span></a>
+                <!-- Explicitly turn off one bit of text and turn on the other to deal with JAWS bug -->
+                <!-- <h2>
+                    <a href="">
+                        <span aria-hidden="true">Optional site title</span>
+                        <span class="visually-hidden">Optional site title homepage</span>
+                    </a>
+                </h2> -->
+            </div>
+            <!-- END left hand column -->
+			<!-- START right hand column -->
+            <div class="col">
+                <ul>
+                    <li class="menu">
+						<button
+							id="theme-switch-button"
+							class="btn btn-primary cog"
+							type="button"
+							aria-expanded="false"
+							aria-controls="theme-switcher"
+						>
+							Click for settings
+						</button>
+					</li>
+                </ul> 
+            </div>
+            <!-- END right hand column -->
+        </div>
+    </div>
 </header>
+
+<!--START Dark mode switcher -->
+<div id="theme-switcher" class="theme-switch" hidden>
+	<fieldset>
+	<legend>Theme</legend>
+		<div class="bg">
+			<div class="form-check form-check-inline">
+				<input class="form-check-input" type="radio" name="themeOptions" data-bs-theme-value="auto" aria-label="System" id="theme-system">
+				<label for="theme-system" class="form-check-label">System</label>
+			</div>
+			<div class="form-check form-check-inline">
+				<input class="form-check-input" type="radio" name="themeOptions" data-bs-theme-value="light" aria-label="Light" id="theme-light">
+				<label for="theme-light" class="form-check-label">Light</label>
+			</div> 
+			<div class="form-check form-check-inline">
+				<input class="form-check-input" type="radio" name="themeOptions" data-bs-theme-value="dark" aria-label="Dark" id="theme-dark">
+				<label for="theme-dark" class="form-check-label">Dark</label>
+			</div>
+		</div>
+	</fieldset>
+  </div>
+  <!-- END Dark mode switcher -->
