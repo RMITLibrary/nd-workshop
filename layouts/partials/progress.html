@@ -1,0 +1,17 @@
+{{ $pages := .CurrentSection.Pages }}
+{{ $total := len $pages }}
+{{ $index := 0 }}
+
+{{ range $i, $p := $pages }}
+	{{ if eq $p.Permalink $.Permalink }}
+		{{ $index = add $i 1 }}
+	{{ end }}
+{{ end }}
+
+{{ if gt $total 0 }}
+	{{ $percent := mul (div (float $index) (float $total)) 100 }}
+	<div class="progress-bar">
+		<div class="progress-bar__inner" style="width: {{ printf "%.0f" $percent }}%"></div>
+	</div>
+	<p class="progress-label">{{ $index }} of {{ $total }} ({{ printf "%.0f" $percent }}%)</p>
+{{ end }}

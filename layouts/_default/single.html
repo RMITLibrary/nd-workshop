@@ -1,0 +1,23 @@
+{{ define "main" }}
+<nav class="breadcrumbs">
+	{{ partial "breadcrumbs.html" . }}
+</nav>
+
+<div class="progress">
+	{{ partial "progress.html" . }}
+</div>
+
+<article>
+	<h1>{{ .Title }}</h1>
+	{{ .Content }}
+</article>
+
+<nav class="pager">
+	{{ with .PrevInSection }}
+	<a href="{{ .RelPermalink }}" class="prev">&larr; {{ .Title }}</a>
+	{{ end }}
+	{{ with .NextInSection }}
+	<a href="{{ .RelPermalink }}" class="next">{{ .Title }} &rarr;</a>
+	{{ end }}
+</nav>
+{{ end }}
