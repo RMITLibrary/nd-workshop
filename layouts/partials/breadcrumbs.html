@@ -1,4 +1,17 @@
 <ul class="breadcrumbs">
-	<li><a href="{{ .Site.BaseURL | relURL }}">Home</a></li>
-	<!--<li aria-current="page">{{ .Title }}</li> -->
+  <!-- Home -->
+  <li><a href="{{ .Site.BaseURL | relURL }}">Home</a></li>
+
+  {{ $section := .CurrentSection }}
+
+  {{ if $section }}
+    {{ if .IsSection }}
+      <!-- On the landing page itself: no extra crumb -->
+    {{ else }}
+      <!-- On an inner page: show link to landing page -->
+      <li><a href="{{ $section.RelPermalink }}">{{ $section.Title }}</a></li>
+    {{ end }}
+  {{ else }}
+    <!-- No section (e.g. home): no extra crumb -->
+  {{ end }}
 </ul>
