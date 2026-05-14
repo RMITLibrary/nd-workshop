@@ -9,21 +9,13 @@
   }
 }
 
+@include media-breakpoint-down(md) {  
+	.top-navigation li, #sub-menu li.menu {
+		margin-right: 0.5rem;
+	}
+}
 
-/* Floating theme switcher panel */
-.theme-switch {
-  position: absolute;
-  top: 3.5rem;          // adjust to sit under your header/nav
-  right: 1rem;          // or left: 1rem;
-  z-index: 1050;
-  width: 260px;
-  padding: 1rem;
-  background-color: var(--bs-body-bg, #fff);
-  color: var(--bs-body-color, #000);
-  border: 1px solid rgba(0, 0, 0, 0.15);
-  border-radius: 0.5rem;
-  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
 
-  // ensure it doesn't animate (no transitions)
-  transition: none;
+.top-navigation .col {
+	position: relative;
 }

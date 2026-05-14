@@ -28,30 +28,32 @@
 						</button>
 					</li>
                 </ul> 
+
+				<!--START Dark mode switcher -->
+				<div id="theme-switcher" class="theme-switch">
+					<fieldset>
+						<legend class="visually-hidden">Theme</legend>
+						<span class="theme-label" aria-hidden="true">Theme</span>
+							
+						<div class="form-check form-check-inline">
+							<input class="form-check-input" type="radio" name="themeOptions" data-bs-theme-value="auto" aria-label="System" id="theme-system">
+							<label for="theme-system" class="form-check-label">System</label>
+						</div>
+						<div class="form-check form-check-inline">
+							<input class="form-check-input" type="radio" name="themeOptions" data-bs-theme-value="light" aria-label="Light" id="theme-light">
+							<label for="theme-light" class="form-check-label">Light</label>
+						</div> 
+						<div class="form-check form-check-inline">
+							<input class="form-check-input" type="radio" name="themeOptions" data-bs-theme-value="dark" aria-label="Dark" id="theme-dark">
+							<label for="theme-dark" class="form-check-label">Dark</label>
+						</div>
+					</fieldset>
+				</div>
+				<!-- END Dark mode switcher -->
+
             </div>
             <!-- END right hand column -->
         </div>
     </div>
 </header>
 
-<!--START Dark mode switcher -->
-<div id="theme-switcher" class="theme-switch" hidden>
-	<fieldset>
-	<legend>Theme</legend>
-		<div class="bg">
-			<div class="form-check form-check-inline">
-				<input class="form-check-input" type="radio" name="themeOptions" data-bs-theme-value="auto" aria-label="System" id="theme-system">
-				<label for="theme-system" class="form-check-label">System</label>
-			</div>
-			<div class="form-check form-check-inline">
-				<input class="form-check-input" type="radio" name="themeOptions" data-bs-theme-value="light" aria-label="Light" id="theme-light">
-				<label for="theme-light" class="form-check-label">Light</label>
-			</div> 
-			<div class="form-check form-check-inline">
-				<input class="form-check-input" type="radio" name="themeOptions" data-bs-theme-value="dark" aria-label="Dark" id="theme-dark">
-				<label for="theme-dark" class="form-check-label">Dark</label>
-			</div>
-		</div>
-	</fieldset>
-  </div>
-  <!-- END Dark mode switcher -->

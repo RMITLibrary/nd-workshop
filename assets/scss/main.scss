@@ -59,7 +59,7 @@ $accordion-border-radius: 0;
 @import 'design-system/title-icon';
 
 
-@import 'design-system/theme-switcher';
+// @import 'design-system/theme-switcher';
 
 
 
@@ -70,7 +70,8 @@ $accordion-border-radius: 0;
 @import "app-specific/sidebar"; */
 
 
-@import "app-specific/nav";
+@import "app-specific/top-nav";
+@import "app-specific/theme-switcher";
 
 
     
