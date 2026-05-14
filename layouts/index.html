@@ -1,7 +1,14 @@
 {{ define "main" }}
 <section class="home">
-	<h1>{{ .Site.Title }}</h1>
-	<p>Welcome to the prototype.</p>
+    <h1>{{ .Site.Title }}</h1>
+    <p>Welcome to the prototype.</p>
+
+    <h2>Sections</h2>
+    <ul>
+        {{ range .Site.Sections }}
+            <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+        {{ end }}
+    </ul>
 </section>
 {{ end }}
 

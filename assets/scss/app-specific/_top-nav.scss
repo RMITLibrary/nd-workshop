@@ -19,3 +19,30 @@
 .top-navigation .col {
 	position: relative;
 }
+
+/* Progress shite */
+
+.my-progress {
+  width: 100%;
+  background-color: #eee;
+  height: 8px;
+  position: relative;
+  overflow: visible;
+
+  .progress-label {
+	display: none;
+  }
+}
+
+.my-progress-bar {
+  width: 100%;
+  background-color: #eee;
+  height: 8px;
+  position: relative;
+}
+
+.my-progress-bar__inner {
+  display: block;
+  height: 100%;
+  background-color: red;
+}

@@ -1,23 +1,71 @@
 {{ define "main" }}
 <nav class="breadcrumbs">
-	{{ partial "breadcrumbs.html" . }}
+  {{ partial "breadcrumbs.html" . }}
 </nav>
-
-<div class="progress">
-	{{ partial "progress.html" . }}
+<div class="my-progress">
+  {{ partial "progress.html" . }}
 </div>
-
 <article>
-	<h1>{{ .Title }}</h1>
-	{{ .Content }}
+  <h1>{{ .Title }}</h1>
+  {{ .Content }}
 </article>
 
+<p>DEBUG: Section = {{ .Section }}</p>
+
+
 <nav class="pager">
-	{{ with .PrevInSection }}
-	<a href="{{ .RelPermalink }}" class="prev">&larr; {{ .Title }}</a>
-	{{ end }}
-	{{ with .NextInSection }}
-	<a href="{{ .RelPermalink }}" class="next">{{ .Title }} &rarr;</a>
-	{{ end }}
+  {{/* Get the current section (e.g. "time-management") and current page context */}}
+  {{ $section := .CurrentSection }}
+  {{ $current := . }}
+
+  {{ if $section }}
+    {{/* Build an ordered list of regular pages in this section */}}
+    {{ $pages := $section.RegularPages.ByWeight }}
+
+    {{/* Find the index of the current page in that list */}}
+    {{ $currentIndex := -1 }}
+    {{ range $i, $p := $pages }}
+      {{/* Compare each page's RelPermalink with the original current page */}}
+      {{ if eq $p.RelPermalink $current.RelPermalink }}
+        {{ $currentIndex = $i }}
+      {{ end }}
+    {{ end }}
+
+    {{/* Only continue if we actually found the current page in the list */}}
+    {{ if ge $currentIndex 0 }}
+      {{ $lastIndex := sub (len $pages) 1 }}
+
+      {{/* CASE 1: First page in the section (index 0) */}}
+      {{ if eq $currentIndex 0 }}
+        {{/* Prev goes to the section landing page (e.g. /time-management/) */}}
+        <a href="{{ $section.RelPermalink }}" class="prev">&larr; {{ $section.Title }}</a>
+
+        {{/* Next goes to the second page, if there is one */}}
+        {{ if lt $currentIndex $lastIndex }}
+          {{ $next := index $pages 1 }}
+          <a href="{{ $next.RelPermalink }}" class="next">{{ $next.Title }} &rarr;</a>
+        {{ end }}
+
+      {{/* CASE 2: Last page in the section */}}
+      {{ else if eq $currentIndex $lastIndex }}
+        {{/* Prev goes to the previous page in the section */}}
+        {{ $prev := index $pages (sub $currentIndex 1) }}
+        <a href="{{ $prev.RelPermalink }}" class="prev">&larr; {{ $prev.Title }}</a>
+
+        {{/* Next goes Home */}}
+        <a href="{{ .Site.BaseURL | relURL }}" class="next">Home &rarr;</a>
+
+      {{/* CASE 3: Any middle page */}}
+      {{ else }}
+        {{/* Prev goes to previous page in the ordered list */}}
+        {{ $prev := index $pages (sub $currentIndex 1) }}
+        <a href="{{ $prev.RelPermalink }}" class="prev">&larr; {{ $prev.Title }}</a>
+
+        {{/* Next goes to next page in the ordered list */}}
+        {{ $next := index $pages (add $currentIndex 1) }}
+        <a href="{{ $next.RelPermalink }}" class="next">{{ $next.Title }} &rarr;</a>
+      {{ end }}
+    {{ end }}
+  {{ end }}
 </nav>
 {{ end }}

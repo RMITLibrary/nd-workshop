@@ -1,10 +1,23 @@
-{{ define "title" }}{{ .Title }} | {{ .Site.Title }}{{ end }}
-
 {{ define "main" }}
+<nav class="breadcrumbs">
+  {{ partial "breadcrumbs.html" . }}
+</nav>
+
+<div class="my-progress">
+  {{ partial "progress.html" . }}
+</div>
+
+<article>
   <h1>{{ .Title }}</h1>
-  <ul>
-    {{ range .Pages }}
-      <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
-    {{ end }}
-  </ul>
+  {{ .Content }}
+</article>
+
+<nav class="pager">
+  <a href="{{ .Site.BaseURL | relURL }}" class="prev">&larr; Home</a>
+
+  {{ $children := .RegularPages.ByWeight }}
+  {{ with index $children 0 }}
+    <a href="{{ .RelPermalink }}" class="next">Next &rarr;</a>
+  {{ end }}
+</nav>
 {{ end }}

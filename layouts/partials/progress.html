@@ -1,17 +1,31 @@
-{{ $pages := .CurrentSection.Pages }}
-{{ $total := len $pages }}
-{{ $index := 0 }}
+{{/* Get the ordered list of regular pages in this section (same as pager) */}}
+{{ $section := .CurrentSection }}
+{{ $current := . }}
 
-{{ range $i, $p := $pages }}
-	{{ if eq $p.Permalink $.Permalink }}
-		{{ $index = add $i 1 }}
-	{{ end }}
-{{ end }}
+{{ if $section }}
+  {{ $pages := $section.RegularPages.ByWeight }}
+  {{ $total := len $pages }}
 
-{{ if gt $total 0 }}
-	{{ $percent := mul (div (float $index) (float $total)) 100 }}
-	<div class="progress-bar">
-		<div class="progress-bar__inner" style="width: {{ printf "%.0f" $percent }}%"></div>
-	</div>
-	<p class="progress-label">{{ $index }} of {{ $total }} ({{ printf "%.0f" $percent }}%)</p>
+  {{ if gt $total 0 }}
+    {{/* Find the 1-based index of the current page within this list */}}
+    {{ $index := 0 }}
+    {{ range $i, $p := $pages }}
+      {{ if eq $p.RelPermalink $current.RelPermalink }}
+        {{ $index = add $i 1 }}
+      {{ end }}
+    {{ end }}
+
+    {{/* Guard: if we didn't find the current page, don't render progress */}}
+    {{ if gt $index 0 }}
+      {{ $percent := mul (div (float $index) (float $total)) 100 }}
+
+      <div class="my-progress-bar">
+		<div
+			class="my-progress-bar__inner"
+			style="width: {{ printf "%.0f" $percent }}%;"
+		></div>
+		</div>
+		<p class="progress-label">{{ $index }} of {{ $total }} ({{ printf "%.0f" $percent }}%)</p>
+    {{ end }}
+  {{ end }}
 {{ end }}
