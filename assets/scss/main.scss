@@ -15,6 +15,24 @@ $link-hover-decoration: none;
 
 $font-family-sans-serif: "Helvetica Neue", Arial, system-ui, -apple-system, "Segoe UI", Roboto,  "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 
+
+/* 
+//test this font. would people notice????
+.atkinson-hyperlegible-regular {
+  font-family: "Atkinson Hyperlegible", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.atkinson-hyperlegible-bold {
+  font-family: "Atkinson Hyperlegible", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+*/
+
+
 $font-family-serif: "Museo700", Museo700, serif;
 
 $lead-font-weight: 500;
@@ -65,13 +83,25 @@ $accordion-border-radius: 0;
 
 // 4. Styles specific to documentation go here (might be worth having a completely seperate stylesheet)
 
-/* @import "app-specific/code-examples";
-@import "app-specific/colour-swatch";
-@import "app-specific/sidebar"; */
+@import "app-specific/base";
 
-
+//minor adjustments to top bar (add cog icon) and theme-switcher (new drop down syle)
 @import "app-specific/top-nav";
 @import "app-specific/theme-switcher";
+
+//progress bar styles
+@import "app-specific/progress";
+
+//styles for reusable nd-two-col classes and variants (safe space, dig deeper)
+@import "app-specific/two-column";
+
+//styles for section landing pages
+@import "app-specific/landing";
+
+//styles for home page
+@import "app-specific/home";
+
+
 
 
     

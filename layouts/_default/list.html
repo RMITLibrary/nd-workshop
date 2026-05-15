@@ -1,23 +1,25 @@
 {{ define "main" }}
-<nav class="breadcrumbs">
-  {{ partial "breadcrumbs.html" . }}
-</nav>
+<div class="content-856px-max">
+  <div class="my-progress">
+    {{ partial "progress.html" . }}
+  </div>
 
-<div class="my-progress">
-  {{ partial "progress.html" . }}
+  <nav class="landing-nav">
+    {{ partial "breadcrumbs.html" . }}
+  </nav>
 </div>
-
 <article>
-  <h1>{{ .Title }}</h1>
   {{ .Content }}
 </article>
 
-<nav class="pager">
-  <a href="{{ .Site.BaseURL | relURL }}" class="prev">&larr; Home</a>
+<nav class="btn-nav-container content-856px-max" aria-label="Previous and next buttons">
+  <!-- <a href="{{ .Site.BaseURL | relURL }}" class="prev">&larr; Home</a> -->
+  <h2 class="btn-nav-prev"><a href="{{ .Site.BaseURL | relURL }}">Home</a></h2>
 
   {{ $children := .RegularPages.ByWeight }}
   {{ with index $children 0 }}
-    <a href="{{ .RelPermalink }}" class="next">Next &rarr;</a>
+    <!-- <a href="{{ .RelPermalink }}" class="next">Next &rarr;</a> -->
+    <h2 class="btn-nav-next"><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
   {{ end }}
 </nav>
 {{ end }}

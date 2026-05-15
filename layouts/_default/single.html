@@ -1,19 +1,22 @@
 {{ define "main" }}
-<nav class="breadcrumbs">
-  {{ partial "breadcrumbs.html" . }}
-</nav>
-<div class="my-progress">
-  {{ partial "progress.html" . }}
+<div class="content-856px-max">
+  <div class="my-progress">
+    {{ partial "progress.html" . }}
+  </div>
+
+  <nav>
+    {{ partial "breadcrumbs.html" . }}
+  </nav>
 </div>
 <article>
-  <h1>{{ .Title }}</h1>
+  <h1 class="content-856px-max">{{ .Title }}</h1>
   {{ .Content }}
 </article>
 
-<p>DEBUG: Section = {{ .Section }}</p>
 
+<!-- <p class="content-856px-max">DEBUG: Section = {{ .Section }}</p> -->
 
-<nav class="pager">
+<nav class="btn-nav-container content-856px-max" aria-label="Previous and next buttons">
   {{/* Get the current section (e.g. "time-management") and current page context */}}
   {{ $section := .CurrentSection }}
   {{ $current := . }}
@@ -38,32 +41,32 @@
       {{/* CASE 1: First page in the section (index 0) */}}
       {{ if eq $currentIndex 0 }}
         {{/* Prev goes to the section landing page (e.g. /time-management/) */}}
-        <a href="{{ $section.RelPermalink }}" class="prev">&larr; {{ $section.Title }}</a>
+        <h2 class="btn-nav-prev"><a href="{{ $section.RelPermalink }}">{{ $section.Title }}</a></h2>
 
         {{/* Next goes to the second page, if there is one */}}
         {{ if lt $currentIndex $lastIndex }}
           {{ $next := index $pages 1 }}
-          <a href="{{ $next.RelPermalink }}" class="next">{{ $next.Title }} &rarr;</a>
+          <h2 class="btn-nav-next"><a href="{{ $next.RelPermalink }}">{{ $next.Title }}</a></h2>
         {{ end }}
 
       {{/* CASE 2: Last page in the section */}}
       {{ else if eq $currentIndex $lastIndex }}
         {{/* Prev goes to the previous page in the section */}}
         {{ $prev := index $pages (sub $currentIndex 1) }}
-        <a href="{{ $prev.RelPermalink }}" class="prev">&larr; {{ $prev.Title }}</a>
+        <h2 class="btn-nav-prev"><a href="{{ $prev.RelPermalink }}">{{ $prev.Title }}</a></h2>
 
         {{/* Next goes Home */}}
-        <a href="{{ .Site.BaseURL | relURL }}" class="next">Home &rarr;</a>
+        <h2 class="btn-nav-next"><a href="{{ .Site.BaseURL | relURL }}">Home</a></h2>
 
       {{/* CASE 3: Any middle page */}}
       {{ else }}
         {{/* Prev goes to previous page in the ordered list */}}
         {{ $prev := index $pages (sub $currentIndex 1) }}
-        <a href="{{ $prev.RelPermalink }}" class="prev">&larr; {{ $prev.Title }}</a>
+        <h2 class="btn-nav-prev"><a href="{{ $prev.RelPermalink }}">{{ $prev.Title }}</a></h2>
 
         {{/* Next goes to next page in the ordered list */}}
         {{ $next := index $pages (add $currentIndex 1) }}
-        <a href="{{ $next.RelPermalink }}" class="next">{{ $next.Title }} &rarr;</a>
+		<h2 class="btn-nav-next"><a href="{{ $next.RelPermalink }}">{{ $next.Title }}</a></h2>
       {{ end }}
     {{ end }}
   {{ end }}

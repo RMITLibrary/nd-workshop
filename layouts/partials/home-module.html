@@ -1,0 +1,7 @@
+<a href="{{ .link }}">
+  <img src="{{ printf "images/%s" .image | relURL }}" alt="">
+  <h3 class="h4 link-large">{{ .title }}</h3>
+  {{ with .inner }}
+    <p>{{ . | markdownify }}</p>
+  {{ end }}
+</a>

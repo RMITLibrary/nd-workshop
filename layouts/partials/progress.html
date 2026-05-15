@@ -1,4 +1,4 @@
-{{/* Get the ordered list of regular pages in this section (same as pager) */}}
+<!-- {{/* Get the ordered list of regular pages in this section (same as pager) */}}
 {{ $section := .CurrentSection }}
 {{ $current := . }}
 
@@ -26,6 +26,57 @@
 		></div>
 		</div>
 		<p class="progress-label">{{ $index }} of {{ $total }} ({{ printf "%.0f" $percent }}%)</p>
+    {{ end }}
+  {{ end }}
+{{ end }} -->
+
+{{/* Determine the section and pages */}}
+{{ $section := .CurrentSection }}
+{{ if not $section }}
+  {{/* On a section landing page, .CurrentSection might be nil; use . */}}
+  {{ if .IsSection }}
+    {{ $section = . }}
+  {{ end }}
+{{ end }}
+
+{{ if $section }}
+  {{ $pages := $section.RegularPages.ByWeight }}
+  {{ $total := len $pages }}
+
+  {{ if gt $total 0 }}
+    {{/* Default: no active page (e.g. section landing) */}}
+    {{ $index := 0 }}
+
+    {{/* If this is a regular (single) page, find its index */}}
+    {{ if .IsPage }}
+      {{ $current := . }}
+      {{ range $i, $p := $pages }}
+        {{ if eq $p.RelPermalink $current.RelPermalink }}
+          {{ $index = add $i 1 }}
+        {{ end }}
+      {{ end }}
+    {{ end }}
+
+    <div class="my-progress-bar my-progress-bar--segmented">
+      {{ range $i, $p := $pages }}
+        {{ $segIndex := add $i 1 }}
+        {{ $isActive := and (gt $index 0) (le $segIndex $index) }}
+        <div
+          class="
+            my-progress-bar__segment
+            {{ if $isActive }} my-progress-bar__segment--active{{ end }}
+          "
+          aria-hidden="true"
+        ></div>
+      {{ end }}
+    </div>
+
+    {{/* Show label only when on a specific page; optional */}}
+    {{ if gt $index 0 }}
+      <p class="progress-label">
+        {{ $index }} of {{ $total }}
+        ({{ printf "%.0f" (mul (div (float $index) (float $total)) 100) }}%)
+      </p>
     {{ end }}
   {{ end }}
 {{ end }}

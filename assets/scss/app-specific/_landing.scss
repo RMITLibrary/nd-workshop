@@ -1,0 +1,43 @@
+.landing-nav .breadcrumbs {
+	margin-bottom: 1rem !important;
+}
+
+//section landing page - show image and text side by side
+.landing-intro {
+	img {
+		float: right;
+		margin-left: 1rem;
+		width: 7rem;
+		height: auto;
+	}
+
+	@include media-breakpoint-up(md) {  
+		display: flex;
+		align-items:end;
+		gap: 1.5rem;
+
+		margin-top: -6rem;	//This value is iffy. longer intros may fuck up
+
+		img {
+			float: none;
+			margin-left: 0;
+			width: 220px;
+			height: auto;
+			order: 2;
+		}
+	}
+}
+
+//usage "class=section-intro section-intro-short"
+.landing-intro-short {
+	@include media-breakpoint-up(md) {  
+		margin-top: -9rem;	
+	}
+}
+
+//usage "class=section-intro section-intro-long"
+.landing-intro-long {
+	@include media-breakpoint-up(md) {  
+		margin-top: -1rem;	
+	}
+}

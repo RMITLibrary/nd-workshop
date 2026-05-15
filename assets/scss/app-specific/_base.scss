@@ -1,0 +1,133 @@
+// Adjust padding due to progress bar
+@include media-breakpoint-up(md) {  
+	#page-content {
+		padding-top: 3.5rem;
+	}
+}
+
+/// class to set up simple content max width
+.content-856px-max {
+	max-width: 856px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+// set h1 heading at top of the page to margin top 0
+article h1:first-child {
+	margin-top: 0;
+}
+
+// Set last item of ocntent in atclie to margin bottom zero
+article:last-child {
+	margin-bottom: 0;
+}
+
+.attribution {
+	border-top: 1px solid $interface-grey;
+	padding-top: 0.5rem;
+}
+
+//safe space code
+.safe-space {
+	border: 1px solid $interface-grey;
+	padding: 0.5rem 1rem;
+	border-radius: 0.25rem;
+	text-align: center;
+
+	img {
+		display: block;
+		width: 200px;
+		height: auto;
+		margin: 0px auto;
+	}
+
+	@include media-breakpoint-up(md) {  
+		border: 0;
+		padding: 0;
+		border-radius: 0;
+		text-align: left;
+
+		display: flex;
+		gap: 1.5rem;
+		align-items: center;
+
+		width: 42rem;
+		margin: 0px auto;	//maybe change this???
+
+		img {
+			width: 140px;
+			height: auto;
+		}
+	}
+}
+
+//nd-two-col - simple two column layout. Float image right on mobile?
+
+.nd-two-col {
+	img {
+		float: right;
+		width: 8rem;
+	}
+
+	@include media-breakpoint-up(md) {  
+		display: flex;
+		gap: 2rem;
+		align-items: center;
+
+		margin: 2.5rem 0;
+
+		img {
+			float: none;
+			width: 180px;
+			height: auto;
+		}
+
+		h2, h3, h4, h5, h6 {
+			margin-top: 0;
+		}
+	}
+}
+
+.nd-two-col-top {
+	@include media-breakpoint-up(md) {  
+		align-items:start;
+	}
+}
+
+.nd-two-col-right {
+	@include media-breakpoint-up(md) {  
+		img {
+			order: 2;
+		}
+	}
+}
+
+.nd-two-col-img-md {
+	@include media-breakpoint-up(md) {  
+		img {
+			width: 270px;
+		}
+	}
+}
+
+/* <div class="nd-two-col">
+        <img src="/nd-workshop/images/time-management/org-exe-func@2x.png" alt="" />
+        <div class="nd-two-col-conttent">
+            <h2 class="h3">Executive function = your brain’s manager</h2>
+            <p>Your brain’s self-management system for planning, prioritising, and following through. For ND brains, this may work differently. Here are some general examples, which may or may not be true for you:</p>
+        </div>
+    </div> */
+
+
+/* 
+<!-- START safe space -->
+<div class="safe-space">
+    <img src="{{ "images/section-time-mgmt@2x.png" | relURL }}" alt="">
+    <div class="safe-space-content">
+        <p>This is a safe space, you can pause, skip or come back later. There’s no wrong way to do this.</p>
+        <p>If you feel stressed or overwhelmed at any stage you can access <a href="https://www.rmit.edu.au/up/student-support/student-wellbeing">RMIT Counselling and Wellbeing (optional link)</a>.</p>
+    </div>
+</div>
+<!-- END safe space-->
+
+*/

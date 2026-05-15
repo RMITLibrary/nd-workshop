@@ -1,0 +1,61 @@
+/* Container (wraps the segmented bar) */
+.my-progress {
+  width: 100%;
+  background-color: transparent; // no background; segments handle this
+  height: auto;
+  margin-bottom: 2rem;
+  position: relative;
+  overflow: visible;
+
+  .progress-label {
+    display: none; // if you want to hide by default
+  }
+}
+
+/* Segmented bar */
+.my-progress-bar {
+  width: 100%;
+  display: flex;
+  gap: 4px; // spacing between segments; adjust as needed
+  height: 6px;
+  background-color: transparent; // optional; segments are the visual
+}
+
+/* Each segment */
+.my-progress-bar__segment {
+  flex: 1 1 0;
+  height: 100%;
+  background-color: $underlay-selected; // "empty" segment colour
+  border-radius: 0; // or 9999px if you want pill-style segments
+}
+
+/* Filled / completed segments */
+.my-progress-bar__segment--active {
+  background-color: $headings-color;
+}
+
+.my-progress-bar__segment:first-child {
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+}
+
+.my-progress-bar__segment:last-child {
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+}
+
+/* Filled / completed segments */
+.my-progress-bar__segment--active {
+  background-color: $headings-color;
+}
+
+/* Dark mode */
+@include color-mode(dark) {
+  .my-progress-bar__segment {
+    background-color: $underlay-selected-dark;
+  }
+
+  .my-progress-bar__segment--active {
+    background-color: $link-color-dark;
+  }
+}

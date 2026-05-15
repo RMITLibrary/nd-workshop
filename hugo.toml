@@ -1,6 +1,6 @@
 baseURL = "https://rmitlibrary.github.io/nd-workshop/"
 locale = "en-AU"
-title = "ND Workshop Prototype"
+title = "Skills for neurodivergent students"
 
 [markup]
   [markup.goldmark]
