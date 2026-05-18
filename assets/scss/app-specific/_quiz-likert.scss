@@ -1,0 +1,74 @@
+.quiz-container {
+	max-width: 856px;
+	margin-bottom: 2.5rem;
+}
+
+
+.likert-question {
+	margin-bottom: 2rem;
+
+	label {
+		margin-top: 0;
+		margin-bottom: 0.5rem;
+	}
+
+	.form-range {
+		width: 100%;
+		margin: 0;
+	}
+
+	/* Range scale underneath */
+	.range-scale {
+		display: flex;
+		justify-content: space-between;
+		margin: 0 2px 0 2px;
+
+	}
+
+	/* Numbers */
+	.range-scale span {
+		text-align: center;
+	}
+}
+
+.progress-next-question {
+  position: relative;
+  width: 100%;         /* or whatever width you need */
+  min-height: 2.5rem;  /* at least the button height */
+
+  margin-top: 2.5rem;
+}
+
+/* Progress text centered */
+.progress-next-question > div {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); // centre both axes
+  text-align: center;
+}
+
+/* Button on the right */
+.progress-next-question .next-question {
+	position: absolute;
+	right: 0;
+	top: 0;
+	margin: 0;
+
+	@extend .btn-sm;
+
+	padding: 0.5rem 0.25rem 0.5rem 1rem;
+
+	&::after { 
+		@include carat;
+		flex-shrink: 0;
+		width: 32px;
+		height: 32px;
+		margin-left: 0.5rem;
+		transform: rotate(-90deg);
+
+		@include media-breakpoint-up(md) {
+			margin-left: 2.5rem;
+		}
+	}
+} 

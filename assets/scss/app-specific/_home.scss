@@ -1,9 +1,127 @@
+//full width banner for home page
+.nd-home-banner {
+	position: relative;
+	width: 100%; 
+
+	//h1 is initially placed below image
+	.nd-home-image {
+		position: relative;
+		width: 100%;
+		height: 220px;
+		background-image: url('/nd-workshop/images/header@2x.png');
+		background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat;
+		z-index:-2;
+	}
+
+	//match 100% container margins
+	h1 { 
+		margin: 1rem 0.75rem 0 0.75rem; 
+	}
+
+	//add width and centre for small breakpoints
+	@include media-breakpoint-up(sm) {
+		h1 { 
+			width: 516px;
+			margin: 1rem auto; 
+			margin-bottom: 0;
+		}
+	}
+
+	//increase iamge height for medium breakpoint, adjust margins for h1
+	@include media-breakpoint-up(md) {
+		.nd-home-image {
+			height: 300px;
+		}
+
+		h1 { 
+			width: 696px;
+			margin: 1rem auto; 
+			margin-bottom: 0;
+		}
+	}
+
+	//increase iamge height, entre h1
+	@include media-breakpoint-up(lg) {
+		.nd-home-image {
+			height: 400px;
+		}
+
+		h1 { 
+			text-align: center;
+		}
+	}
+
+	//h1 now sits on top of image, use aspect ratio to keep 3:1 ratio
+	@include media-breakpoint-up(xl) {
+		.nd-home-image {
+			// 470 / 1440 ≈ 0.3264 -> 32.64% 
+  			aspect-ratio: 1440 / 470;       // modern browsers
+			height: auto;
+		}
+
+		/* // fallback if you need it 
+		.no-aspect-ratio .nd-home-banner::before {
+		content: "";
+		display: block;
+		padding-top: 32.64%;
+		} */
+
+		//positon h1
+		h1 {
+			position: absolute;
+			top: 2.5rem;
+			left: 0;
+			width: 100%;
+			margin: 0;
+			color: $dark-grey;
+
+			/* Vertically: place in top half */
+			top: 25%;                    // “anchor” the baseline around 20% of banner height
+			transform: translateY(-50%); // centre the h1 around that top point
+
+			span {
+				display: block;
+				width: 400px;
+				margin: 0px auto;
+			}
+
+			.small-h1 {
+				font-size: 36px;
+			}
+		}
+	}
+
+	//adjust h1 font size
+	@include media-breakpoint-up(xxl) {
+
+		h1 {
+			font-size: 58px;
+
+			.small-h1 {
+				font-size: 44px;
+			}
+		}
+	}
+ }
+ 
+ //adjust page content padding if on home page (content has home page classs)
+ #page-content:has(.home-page) {
+  padding-top: 0rem;      
+  @include media-breakpoint-up(xl) {
+		padding-top: 1rem;  
+  }
+}
+
+//modules styles
 .home-page {
      .home-modules-title {
           text-align: center;
           margin: 3rem 0 1rem 0;
      }
 }
+
 
 .home-modules {
 

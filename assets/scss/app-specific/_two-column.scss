@@ -1,0 +1,82 @@
+//nd-two-col - simple two column layout. Float image right on mobile?
+
+.nd-two-col {
+	img {
+		float: right;
+		width: 8rem;
+	}
+
+	@include media-breakpoint-up(md) {  
+		display: flex;
+		gap: 2rem;
+		align-items: center;
+
+		margin: 2.5rem 0;
+
+		img {
+			float: none;
+			width: 180px;
+			height: auto;
+		}
+
+		h2, h3, h4, h5, h6 {
+			margin-top: 0;
+		}
+	}
+}
+
+.nd-two-col-top {
+	@include media-breakpoint-up(md) {  
+		align-items:start;
+	}
+}
+
+.nd-two-col-right {
+	@include media-breakpoint-up(md) {  
+		img {
+			order: 2;
+		}
+	}
+}
+
+.nd-two-col-img-md {
+	@include media-breakpoint-up(md) {  
+		img {
+			width: 270px;
+		}
+	}
+}
+
+//safe space code
+.safe-space {
+	border: 1px solid $interface-grey;
+	padding: 0.5rem 1rem;
+	border-radius: 0.25rem;
+	text-align: center;
+
+	img {
+		display: block;
+		width: 200px;
+		height: auto;
+		margin: 0px auto;
+	}
+
+	@include media-breakpoint-up(md) {  
+		border: 0;
+		padding: 0;
+		border-radius: 0;
+		text-align: left;
+
+		display: flex;
+		gap: 1.5rem;
+		align-items: center;
+
+		width: 42rem;
+		margin: 0px auto;
+
+		img {
+			width: 140px;
+			height: auto;
+		}
+	}
+}

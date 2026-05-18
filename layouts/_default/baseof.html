@@ -19,6 +19,9 @@
 <body>
 	{{ partial "header.html" . }}
 
+	{{/* Full-width hero/banner slot (optional, per template) */}}
+    {{ block "hero" . }}{{ end }}
+
 	<!-- START page-content -->
 	<div id="page-content">
 		<main class="container">
