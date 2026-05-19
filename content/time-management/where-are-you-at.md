@@ -3,23 +3,24 @@ title: "Where are you at?"
 weight: 1      # order within the Time management section
 ---
 <div class="content-856px-max">
-    <p class="lead">Before you can change how you manage your time, it helps to know what’s actually going on right now. This quick self‑assessment is not a “pass/fail” test. Think of it as holding up a mirror so you can see your patterns more clearly and decide what you’d like to tweak.</p>
-    <h2>Did you know?</h2>
+    <p class="lead">This is a short self-assessment to help you understand your current time management strengths and challenges. There are no right or wrong answers.</p>
+    <!--<h2>Did you know?</h2>
     <p>Many students think “good time managers” are just naturally disciplined. In reality:</p>
     <ul>
     <li>Most people struggle with procrastination, distraction, or over‑committing at some point.</li>
     <li>Neurodivergent students often have perfectly good intentions – it’s the systems around them that don’t fit their brains.</li>
     <li>Small changes (like clearer priorities, better breaks, or realistic scheduling) can make a bigger difference than “trying harder”.</li>
-    </ul>
+    </ul>-->
     <h2 class="title-icon quiz-icon">Self assessment quiz</h2>
     <!-- START quiz -->
     <div section="quiz" class="quiz-container">
-		<p>Rate each statement from 1 to 5, where 1 = Not at all like me and 5 = Very much like me.</p>
+		<p>Read each statement and rate how often it applies to you using the scale below. Add up your scores within each group of three questions to see where to focus.</p>
+		<p>1 = Never, 2 = Rarely, 3 = Sometimes, 4 = Often, 5 = Always</p>
 		<!-- START set 1 -->
 		<div id="set1" class="quiz-page">
 		<h3>Procrastination</h3>
 		<div class="likert-question">
-			<label for="set1-q1" class="form-label lead">Question 1</label>
+			<label for="set1-q1" class="form-label lead">1. How often do you delay starting important tasks until the last minute?</label>
 			<input type="range" class="form-range" min="1" max="5" step="1"
 				id="set1-q1" name="set1-q1">
 			<div class="range-scale" aria-hidden="true">
@@ -27,7 +28,7 @@ weight: 1      # order within the Time management section
 			</div>
 		</div>
 		<div class="likert-question">
-			<label for="set1-q2" class="form-label lead">Question 2</label>
+			<label for="set1-q2" class="form-label lead">2. How frequently do you find yourself avoiding tasks that seem difficult or overwhelming?</label>
 			<input type="range" class="form-range" min="1" max="5" step="1"
 				id="set1-q2" name="set1-q2">
 			<div class="range-scale" aria-hidden="true">
@@ -35,7 +36,7 @@ weight: 1      # order within the Time management section
 			</div>
 		</div>
 		<div class="likert-question">
-			<label for="set1-q3" class="form-label lead">Question 3</label>
+			<label for="set1-q3" class="form-label lead">3. How often do you end up rushing to complete assignments due to starting late?</label>
 			<input type="range" class="form-range" min="1" max="5" step="1"
 				id="set1-q3" name="set1-q3">
 			<div class="range-scale" aria-hidden="true">

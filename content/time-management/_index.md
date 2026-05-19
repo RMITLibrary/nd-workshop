@@ -68,8 +68,8 @@ weight: 1      # overall order of sections if you list them on the home page
 	<!-- START What this module contains -->
 	<h2>What this module contains</h2>
 	<ul class="link-list">
-		<li><a href="{{< relref "time-management/where-are-you-at/index.md" >}}">Where Are You At? - 3 minutes</a></li>
-		<li><a href="{{< relref "time-management/why-organisation-can-be-tricky/index.md" >}}">Why Organisation Can Be Tricky - 3 minutes</a></li>
+		<li><a href="{{< relref "time-management/where-are-you-at/index.md" >}}">Where are you at? - 3 minutes</a></li>
+		<li><a href="{{< relref "time-management/why-organisation-can-be-tricky/index.md" >}}">Why organisation can be tricky - 3 minutes</a></li>
 		<li><a href="{{< relref "time-management/prioritise-plan/index.md" >}}">Prioritise and plan - 5 minutes</a></li>
 	</ul>
 	<p>Note, timings are approximate, you may want to spend longer on some pages and speed through others, it’s up to you. Ok, let’s get started with a small piece of self assessment.</p>

@@ -47,7 +47,7 @@ weight: 2
     <div class="nd-two-col nd-two-col-top margin-top-xl">
         <img src="/nd-workshop/images/time-management/org-work-memory@2x.png" alt="" />
         <div class="nd-two-col-conttent">
-            <h2 class="h3">Working memory = your mental scratchpad</h3>
+            <h2 class="h3">Working memory = your mental scratchpad</h2>
             <p>It holds information for a short time while you use it.</p>
             <p>For some neurodivergent people, this scratchpad can be smaller or fill up quickly, so recent information (like instructions or what someone just said) can drop out. </p>
             <p>When working memory is overloaded, it can also be harder for that information to move into long‑term memory, so things that were clear at the time may be harder to recall later.
