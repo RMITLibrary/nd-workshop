@@ -76,5 +76,3 @@ weight: 1      # overall order of sections if you list them on the home page
 	<!-- END What this module contains -->
 	<p class="small attribution margin-top-md" id="my-attribution">Images on this page by <a href="https://rmit.edu.au/">RMIT</a>, licensed under <a href="https://creativecommons.org/licenses/by/4.0/">CC BY-NC 4.0</a></p>
 </div>
-
-<!-- safe space -->
