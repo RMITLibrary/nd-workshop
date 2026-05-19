@@ -75,31 +75,60 @@ document.addEventListener('DOMContentLoaded', function () {
   }
 
   function showResultForSet(setId, band) {
-    const resultSectionId = resultMap[setId];
-    if (!resultSectionId) {
-      return;
-    }
+	const resultSectionId = resultMap[setId];
+	if (!resultSectionId) {
+		return;
+	}
 
-    const section = document.getElementById(resultSectionId);
-    if (!section) {
-      return;
-    }
+	const section = document.getElementById(resultSectionId);
+	if (!section) {
+		return;
+	}
 
-    section.hidden = false;
+	section.hidden = false;
 
-    // Hide all ranges within this section
-    const ranges = section.querySelectorAll('.result-range');
-    ranges.forEach(function (rangeEl) {
-      rangeEl.hidden = true;
-    });
+	// ---- Add / update trim class on card-body ----
+	const cardBody = section.querySelector('.card-body');
+	if (cardBody) {
+		// Remove any existing trim classes
+		cardBody.classList.remove('trim-top-wrong', 'trim-top-neutral', 'trim-top-right');
 
-    // Show the range that matches the band
-    const selector = '.result-range[data-range="' + band + '"]';
-    const target = section.querySelector(selector);
-    if (target) {
-      target.hidden = false;
-    }
-  }
+		// Map band to trim class
+		let trimClass = '';
+		switch (band) {
+		case 'minimal':   // 3–6
+			trimClass = 'trim-top-right';
+			break;
+		case 'low':       // 7–9
+			trimClass = 'trim-top-right';
+			break;
+		case 'moderate':  // 10–12
+			trimClass = 'trim-top-neutral';
+			break;
+		case 'high':      // 13–15
+			trimClass = 'trim-top-wrong';
+			break;
+		}
+
+		if (trimClass) {
+		cardBody.classList.add(trimClass);
+		}
+	}
+	// ---------------------------------------------
+
+	// Hide all ranges within this section
+	const ranges = section.querySelectorAll('.result-range');
+	ranges.forEach(function (rangeEl) {
+		rangeEl.hidden = true;
+	});
+
+	// Show the range that matches the band
+	const selector = '.result-range[data-range="' + band + '"]';
+	const target = section.querySelector(selector);
+	if (target) {
+		target.hidden = false;
+	}
+	}
 
   // --- Retake quiz logic ---
 
@@ -117,10 +146,15 @@ document.addEventListener('DOMContentLoaded', function () {
     // Hide all result sections and their ranges
     const sectionIds = Object.values(resultMap);
     sectionIds.forEach(function (sectionId) {
-      const section = document.getElementById(sectionId);
-      if (!section) {
-        return;
-      }
+		const cardBody = section.querySelector('.card-body');
+		if (cardBody) {
+			cardBody.classList.remove('trim-top-wrong', 'trim-top-neutral', 'trim-top-right');
+		}
+		
+		const section = document.getElementById(sectionId);
+		if (!section) {
+			return;
+		}
 
       section.hidden = true;
 

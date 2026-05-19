@@ -1,9 +1,14 @@
 {{ define "main" }}
-<nav class="breadcrumbs">
-  {{ partial "breadcrumbs.html" . }}
-</nav>
-<article>
-  <h1>{{ .Title }}</h1>
-  <p>This section is not available yet. Please check back soon.</p>
-</article>
+<div class="content-856px-max">
+	<nav class="breadcrumbs">
+	{{ partial "breadcrumbs.html" . }}
+	</nav>
+	<article>
+	<h1>{{ .Title }}</h1>
+	<p>This section is not available yet. Please check back soon.</p>
+	</article>
+	<nav class="btn-nav-container content-856px-max" aria-label="Previous button">
+		<h2 class="btn-nav-prev"><a href="/nd-workshop">Home</a></h2>
+	</nav>
+</div>
 {{ end }}

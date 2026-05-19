@@ -19,57 +19,80 @@ weight: 3
 	<p>
 		From there, tasks fall into four groups:
 	</p>
-	<h3>1. Urgent, important – Do it now</h3>
-	<p>
-	Tasks that are both important and due very soon.
-	</p>
-	<ul>
-	<li>Due in the next 1–2 days</li>
-	<li>Needs short, focused work (about 15–25 minutes at a time)</li>
-	</ul>
-	<p>
-	<strong>Examples:</strong> a quiz closing tonight, a lab you haven’t started, an email to your teacher about tomorrow’s class.
-	</p>
-	<h3>2. Important, not urgent – Plan it</h3>
-	<p>
-	Tasks that really matter, but don’t have to be done today.
-	</p>
-	<ul>
-	<li>Big tasks or projects</li>
-	<li>Break them into small, clear steps and schedule them</li>
-	</ul>
-	<p>
-	<strong>Examples:</strong> a major assignment due in three weeks, revision for exams, planning group work.
-	</p>
-	<h3>3. Urgent, not important – Get it done, move on</h3>
-	<p>
-	Things that pop up and feel urgent, but don’t deserve lots of time or energy.
-	</p>
-	<ul>
-	<li>Quick admin and small chores</li>
-	<li>Set a time limit (around 5–10 minutes)</li>
-	<li>Aim for “good enough”, not perfect</li>
-	</ul>
-	<p>
-	<strong>Examples:</strong> replying to routine emails, uploading a file, simple form‑filling.
-	</p>
-	<h3>4. Not urgent, not important – Let it go</h3>
-	<p>
-	Tasks that don’t really matter right now.
-	</p>
-	<ul>
-	<li>Not needed at the moment</li>
-	<li>Put on a “maybe later” list, or drop them entirely</li>
-	</ul>
-	<p>
-	<strong>Examples:</strong> over‑organising notes, starting an extra side project mid‑semester, scrolling for “the perfect” study app.
-	</p>
-	<p style="background-color: #dcf162"><strong>CARDS HERE ????</strong></p>
+	<div class="my-grid ">
+		<!-- START card 1 -->
+		<div class="card ">
+			<div class="card-body trim-top-wrong">
+				<h3 class="card-title ">1. Urgent, important – do it now</h3>
+				<p>Tasks that are both important and due very soon.</p>
+				<ul>
+				<li>Due in the next 1–2 days</li>
+				<li>Needs short, focused work (about 15–25 minutes at a time)</li>
+				</ul>
+				<p>
+				<strong>Examples:</strong> a quiz closing tonight, a lab you haven’t started, an email to your teacher about tomorrow’s class.
+				</p>
+			</div>
+		</div>
+		<!-- END card 1 -->
+		<!-- START card 2 -->
+		<div class="card ">
+			<div class="card-body trim-top-neutral">
+				<h3 class="card-title ">2. Important, not urgent – plan it</h3>
+				<p>
+				Tasks that really matter, but don’t have to be done today.
+				</p>
+				<ul>
+				<li>Big tasks or projects</li>
+				<li>Break them into small, clear steps and schedule them</li>
+				</ul>
+				<p>
+				<strong>Examples:</strong> a major assignment due in three weeks, revision for exams, planning group work.
+				</p>
+			</div>
+		</div>
+		<!-- END card 2 -->
+		<!-- START card 3 -->
+		<div class="card ">
+			<div class="card-body trim-top-wrong">
+				<h3 class="card-title ">3. Urgent, not important – get it done, move on</h3>
+				<p>
+				Things that pop up and feel urgent, but don’t deserve lots of time or energy.
+				</p>
+				<ul>
+				<li>Quick admin and small chores</li>
+				<li>Set a time limit (around 5–10 minutes)</li>
+				<li>Aim for “good enough”, not perfect</li>
+				</ul>
+				<p>
+				<strong>Examples:</strong> replying to routine emails, uploading a file, simple form‑filling.
+				</p>
+			</div>
+		</div>
+		<!-- END card 3 -->
+		<!-- START card 4 -->
+		<div class="card ">
+			<div class="card-body trim-top-neutral">
+				<h3 class="card-title ">4. Not urgent, not important – let it go</h3>
+				<p>
+				Tasks that don’t really matter right now.
+				</p>
+				<ul>
+				<li>Not needed at the moment</li>
+				<li>Put on a “maybe later” list, or drop them entirely</li>
+				</ul>
+				<p>
+				<strong>Examples:</strong> over‑organising notes, starting an extra side project mid‑semester, scrolling for “the perfect” study app.
+				</p>
+			</div>
+		</div>
+		<!-- END card 4 -->
+	</div>
 	<!-- START dig deeper -->
     <div class="nd-two-col nd-two-col-right nd-two-col-img-md">
         <img src="/nd-workshop/images/dig-deeper@2x.png" alt="" />
         <div class="nd-two-col-content">
-			<h2>Suggested Tools</h2>
+			<h2>Suggested tools</h2>
             <p>There’s no single best planning system. The goal is to use tools that make tasks clearer, easier to start, and harder to forget. However, keep in mind that what works for one person doesn’t necessarily work for someone else and figuring out what works work for you can take some experimentation.</p>
             <p>Here we <strong>dig deeper</strong> and cover a few suggested planning tools to try out: Microsoft Planner, Todoist, and sticky notes.</p>
         </div>
@@ -80,7 +103,7 @@ weight: 3
 		<div class="accordion-item">
 			<h2 class="accordion-header" id="headingOne">
 			<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
-				1. Microsoft Planner: Big Picture Organisation
+				1. Microsoft Planner: big picture organisation
 			</button>
 			</h2>
 			<div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne">
@@ -117,7 +140,7 @@ weight: 3
 		<div class="accordion-item">
 			<h2 class="accordion-header" id="headingTwo">
 			<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-				2. Todoist: Daily Priorities &amp; aTask Reminders
+				2. Todoist: daily priorities &amp; task reminders
 			</button>
 			</h2>
 			<div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo">
@@ -161,7 +184,7 @@ weight: 3
 		<div class="accordion-item">
 			<h2 class="accordion-header" id="headingThree">
 			<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-				3. Sticky Notes: Visible, Tangible, Low Effort
+				3. Sticky notes: visible, tangible, low effort
 			</button>
 			</h2>
 			<div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree">
@@ -196,7 +219,7 @@ weight: 3
 		<div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour">
 			<div class="accordion-body">
 			<!-- START using tools together -->
-			<h3>You Don’t Have to Choose Just One</h3>
+			<h3>You don’t have to choose just one</h3>
 			<p>A simple system might look like this:</p>
 			<ul>
 				<li>Microsoft Planner → holds all tasks for the semester</li>
@@ -204,7 +227,7 @@ weight: 3
 				<li>Sticky notes → highlight your current focus</li>
 			</ul>
 			<p>You don’t need to keep everything perfectly synced. It’s okay if tools overlap or change over time.</p>
-			<h3>A Final Reminder</h3>
+			<h3>A Final reminder</h3>
 			<p>A planning system should support you, not make you feel guilty.</p>
 			<p>If a tool stops helping, you’re allowed to change it, simplify it, or stop using it altogether!</p>
 			<p>And if you want help setting up a system that works for your brain, an Academic Skills Advisor can help you tailor one that fits your needs.</p>
@@ -214,8 +237,8 @@ weight: 3
 		</div>
 	</div>
 	<!-- END accordions -->
-	<h2>A Final Reminder</h2>
+	<h2>A final reminder</h2>
 	<p>A planning system should support you, not make you feel guilty.</p>
 	<p>If a tool stops helping, you’re allowed to change it, simplify it, or stop using it altogether!</p>
-	<p>And if you want help setting up a system that works for your brain, an <a href="">Academic Skills Advisor</a> can help you tailor one that fits your needs.</p>
+	<p>And if you want help setting up a system that works for your brain, an <a href="https://www.rmit.edu.au/students/support-services/study-support/consultations">Academic Skills Advisor</a> can help you tailor one that fits your needs.</p>
 </div>

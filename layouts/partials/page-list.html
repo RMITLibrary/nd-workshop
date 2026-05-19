@@ -1,0 +1,7 @@
+<ul class="link-list">
+  {{ range .items }}
+    <li>
+      <a href="{{ .link }}">{{ .title }}{{ .time }}</a>
+    </li>
+  {{ end }}
+</ul>

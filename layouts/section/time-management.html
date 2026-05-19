@@ -1,0 +1,34 @@
+{{ define "main" }}
+<div class="content-856px-max">
+  <div class="my-progress">
+    {{ partial "progress.html" . }}
+  </div>
+
+  <nav>
+    {{ partial "breadcrumbs.html" . }}
+  </nav>
+</div>
+  {{/* Render the raw content from _index.md */}}
+  {{ $content := .Content }}
+
+  {{/* Build the list as template, not as a string */}}
+  {{ $list := slice }}
+  {{ range .Pages.ByWeight }}
+    {{ $time := "" }}
+    {{ with .Params.time }}
+      {{ $time = printf " - %v minutes" . }}
+    {{ end }}
+    {{ $list = $list | append (dict "link" .RelPermalink "title" .Title "time" $time) }}
+  {{ end }}
+
+  {{/* We’ll replace this marker in the content with the heading + list */}}
+  {{ $needle := "<h2>What this module contains</h2>" }}
+
+  {{/* Render the replacement via a template block */}}
+  {{ $replacement := (printf "%s\n%s" $needle (partial "page-list.html" (dict "items" $list))) }}
+
+  {{ $output := replace $content $needle $replacement }}
+
+  {{ $output | safeHTML }}
+
+{{ end }}

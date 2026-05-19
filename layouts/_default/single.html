@@ -62,7 +62,7 @@
       {{ else }}
         {{/* Prev goes to previous page in the ordered list */}}
         {{ $prev := index $pages (sub $currentIndex 1) }}
-        <h2 class="btn-nav-prev"><a href="{{ $prev.RelPermalink }}">{{ $prev.Title }}</a></h2>
+        <h2 class="btn-nav-prev"><span class="btn-nav-label"><a href="{{ $prev.RelPermalink }}">{{ $prev.Title }}</a></h2>
 
         {{/* Next goes to next page in the ordered list */}}
         {{ $next := index $pages (add $currentIndex 1) }}

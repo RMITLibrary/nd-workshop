@@ -67,11 +67,6 @@ weight: 1      # overall order of sections if you list them on the home page
 	<!-- END deep dive examople -->
 	<!-- START What this module contains -->
 	<h2>What this module contains</h2>
-	<ul class="link-list">
-		<li><a href="{{< relref "time-management/where-are-you-at/index.md" >}}">Where are you at? - 3 minutes</a></li>
-		<li><a href="{{< relref "time-management/why-organisation-can-be-tricky/index.md" >}}">Why organisation can be tricky - 3 minutes</a></li>
-		<li><a href="{{< relref "time-management/prioritise-plan/index.md" >}}">Prioritise and plan - 5 minutes</a></li>
-	</ul>
 	<p>Note, timings are approximate, you may want to spend longer on some pages and speed through others, it’s up to you. Ok, let’s get started with a small piece of self assessment.</p>
 	<!-- END What this module contains -->
 	<p class="small attribution margin-top-md" id="my-attribution">Images on this page by <a href="https://rmit.edu.au/">RMIT</a>, licensed under <a href="https://creativecommons.org/licenses/by/4.0/">CC BY-NC 4.0</a></p>

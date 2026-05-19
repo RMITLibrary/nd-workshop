@@ -72,3 +72,18 @@
 		}
 	}
 } 
+
+.result-set {
+	h3 {
+		padding-bottom: 0.5rem;
+		border-bottom: 1px solid $interface-grey;
+	}
+
+	h4 {
+		margin-top: 1.5rem;
+	}
+}
+
+#retake-quiz {
+	margin: 1.5rem auto;
+}

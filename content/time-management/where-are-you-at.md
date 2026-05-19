@@ -1,16 +1,10 @@
 ---
 title: "Where are you at?"
 weight: 1      # order within the Time management section
+time: 5
 ---
 <div class="content-856px-max">
     <p class="lead">This is a short self-assessment to help you understand your current time management strengths and challenges. There are no right or wrong answers.</p>
-    <!--<h2>Did you know?</h2>
-    <p>Many students think “good time managers” are just naturally disciplined. In reality:</p>
-    <ul>
-    <li>Most people struggle with procrastination, distraction, or over‑committing at some point.</li>
-    <li>Neurodivergent students often have perfectly good intentions – it’s the systems around them that don’t fit their brains.</li>
-    <li>Small changes (like clearer priorities, better breaks, or realistic scheduling) can make a bigger difference than “trying harder”.</li>
-    </ul>-->
     <h2 class="title-icon quiz-icon">Self assessment quiz</h2>
     <!-- START quiz -->
     <div section="quiz" class="quiz-container">
@@ -56,7 +50,7 @@ weight: 1      # order within the Time management section
 		<div id="set2" class="quiz-page" hidden>
 		<h3>Distraction</h3>
 		<div class="likert-question">
-			<label for="set2-q1" class="form-label lead">Question 1</label>
+			<label for="set2-q1" class="form-label lead">4. How frequently do you get distracted by social media while studying?</label>
 			<input type="range" class="form-range" min="1" max="5" step="1"
 				id="set2-q1" name="set2-q1">
 			<div class="range-scale" aria-hidden="true">
@@ -64,7 +58,7 @@ weight: 1      # order within the Time management section
 			</div>
 		</div>
 		<div class="likert-question">
-			<label for="set2-q2" class="form-label lead">Question 2</label>
+			<label for="set2-q2" class="form-label lead">5. How often do background noises or other activities interrupt your focus?</label>
 			<input type="range" class="form-range" min="1" max="5" step="1"
 				id="set2-q2" name="set2-q2">
 			<div class="range-scale" aria-hidden="true">
@@ -72,7 +66,7 @@ weight: 1      # order within the Time management section
 			</div>
 		</div>
 		<div class="likert-question">
-			<label for="set2-q3" class="form-label lead">Question 3</label>
+			<label for="set2-q3" class="form-label lead">6. How regularly do you check your phone or email during study sessions?</label>
 			<input type="range" class="form-range" min="1" max="5" step="1"
 				id="set2-q3" name="set2-q3">
 			<div class="range-scale" aria-hidden="true">
@@ -90,9 +84,9 @@ weight: 1      # order within the Time management section
 		<!-- END set 2 -->
 		<!-- START set 3 -->
 		<div id="set3" class="quiz-page" hidden>
-		<h3>Scheduling</h3>
+		<h3>Poor scheduling</h3>
 		<div class="likert-question">
-			<label for="set3-q1" class="form-label lead">Question 1</label>
+			<label for="set3-q1" class="form-label lead">7. How often do you skip planning your daily tasks?</label>
 			<input type="range" class="form-range" min="1" max="5" step="1"
 				id="set3-q1" name="set3-q1">
 			<div class="range-scale" aria-hidden="true">
@@ -100,7 +94,7 @@ weight: 1      # order within the Time management section
 			</div>
 		</div>
 		<div class="likert-question">
-			<label for="set3-q2" class="form-label lead">Question 2</label>
+			<label for="set3-q2" class="form-label lead">8. How frequently do unexpected tasks disrupt your planned schedule?</label>
 			<input type="range" class="form-range" min="1" max="5" step="1"
 				id="set3-q2" name="set3-q2">
 			<div class="range-scale" aria-hidden="true">
@@ -108,7 +102,7 @@ weight: 1      # order within the Time management section
 			</div>
 		</div>
 		<div class="likert-question">
-			<label for="set3-q3" class="form-label lead">Question 3</label>
+			<label for="set3-q3" class="form-label lead">9. How regularly do you feel overwhelmed because you haven't allocated your time properly?</label>
 			<input type="range" class="form-range" min="1" max="5" step="1"
 				id="set3-q3" name="set3-q3">
 			<div class="range-scale" aria-hidden="true">
@@ -128,7 +122,7 @@ weight: 1      # order within the Time management section
 		<div id="set4" class="quiz-page" hidden>
 		<h3>Over-committing</h3>
 		<div class="likert-question">
-			<label for="set4-q1" class="form-label lead">Question 1</label>
+			<label for="set4-q1" class="form-label lead">10. How often do you accept new tasks without considering your current workload?</label>
 			<input type="range" class="form-range" min="1" max="5" step="1"
 				id="set4-q1" name="set4-q1">
 			<div class="range-scale" aria-hidden="true">
@@ -136,7 +130,7 @@ weight: 1      # order within the Time management section
 			</div>
 		</div>
 		<div class="likert-question">
-			<label for="set4-q2" class="form-label lead">Question 2</label>
+			<label for="set4-q2" class="form-label lead">11. How frequently do you find yourself working on multiple tasks simultaneously, leading to stress?</label>
 			<input type="range" class="form-range" min="1" max="5" step="1"
 				id="set4-q2" name="set4-q2">
 			<div class="range-scale" aria-hidden="true">
@@ -144,7 +138,7 @@ weight: 1      # order within the Time management section
 			</div>
 		</div>
 		<div class="likert-question">
-			<label for="set4-q3" class="form-label lead">Question 3</label>
+			<label for="set4-q3" class="form-label lead">12. How often do you find it difficult to say no to additional responsibilities?</label>
 			<input type="range" class="form-range" min="1" max="5" step="1"
 				id="set4-q3" name="set4-q3">
 			<div class="range-scale" aria-hidden="true">
@@ -162,90 +156,113 @@ weight: 1      # order within the Time management section
 		<!-- END set 4 -->
 		<div id="results" hidden>
 			<h2>Your results</h2>
-			<!-- Procrastination results -->
-			<section id="result-procrastination" class="result-set" hidden>
-			<h3>Procrastination</h3>
-			<div class="result-range" data-range="minimal" hidden>
-				<h4>Minimal — this is a strength</h4>
-				<p>Placeholder text for Procrastination minimal score (3–6).</p>
+			<!-- START grid -->
+			<div class="my-grid">
+				<!-- START card -->
+				<div id="result-procrastination" hidden class="card result-set">
+					<div class="card-body">
+						<h3 class="card-title ">Procrastination</h3>
+						<div class="result-range" data-range="minimal" hidden>
+							<h4>Minimal — this is a strength</h4>
+							<p>Minimal procrastination. You manage your time effectively.</p>
+						</div>
+						<div class="result-range" data-range="low" hidden>
+							<h4>Low — you’re doing okay</h4>
+							<p>Low procrastination. Slight tendencies, but generally proactive.</p>
+						</div>
+						<div class="result-range" data-range="moderate" hidden>
+							<h4>Moderate — room to grow</h4>
+							<p>Moderate procrastination. Aim to improve your initiation of tasks.</p>
+						</div>
+						<div class="result-range" data-range="high" hidden>
+							<h4>High — focus area</h4>
+							<p>High procrastination. Consider strategies to start tasks earlier.</p>
+						</div>
+					</div>
+				</div>
+				<!-- END card -->
+				<!-- START card -->
+				<div id="result-distraction" hidden class="card result-set">
+					<div class="card-body">
+						<h3 class="card-title ">Distraction</h3>
+						<div class="result-range" data-range="minimal" hidden>
+							<h4>Minimal — this is a strength</h4>
+							<p>Rarely distracted. You maintain strong concentration skills.</p>
+						</div>
+						<div class="result-range" data-range="low" hidden>
+							<h4>Low — you’re doing okay</h4>
+							<p>Occasionally distracted. Minor distractions, but mostly focused.</p>
+						</div>
+						<div class="result-range" data-range="moderate" hidden>
+							<h4>Moderate — room to grow</h4>
+							<p>Moderately distracted. Work on maintaining focus during study times.</p>
+						</div>
+						<div class="result-range" data-range="high" hidden>
+							<h4>High — focus area</h4>
+							<p>Frequently distracted. Identify ways to minimise interruptions.</p>
+						</div>
+					</div>
+				</div>
+				<!-- END card -->
+				<!-- START card -->
+				<div id="result-scheduling" hidden class="card result-set">
+					<div class="card-body">
+						<h3 class="card-title ">Poor scheduling</h3>
+						<div class="result-range" data-range="minimal" hidden>
+							<h4>Minimal — this is a strength</h4>
+							<p>Effective scheduling. Your task management is well-structured.</p>
+						</div>
+						<div class="result-range" data-range="low" hidden>
+							<h4>Low — you’re doing okay</h4>
+							<p>Some scheduling issues. Generally organised, with room for improvement.</p>
+						</div>
+						<div class="result-range" data-range="moderate" hidden>
+							<h4>Moderate — room to grow</h4>
+							<p>Moderate scheduling issues. Improve your planning and allocation tactics.</p>
+						</div>
+						<div class="result-range" data-range="high" hidden>
+							<h4>High — focus area</h4>
+							<p>Poor scheduling. Develop a more structured plan for your tasks.</p>
+						</div>
+					</div>
+				</div>
+				<!-- END card -->
+				<!-- START card -->
+				<div id="result-overcommitting" hidden class="card result-set">
+					<div class="card-body">
+						<h3 class="card-title ">Over-committing</h3>
+						<div class="result-range" data-range="minimal" hidden>
+							<h4>Minimal — this is a strength</h4>
+							<p>Well-balanced commitments. You effectively manage your responsibilities.</p>
+						</div>
+						<div class="result-range" data-range="low" hidden>
+							<h4>Low — you’re doing okay</h4>
+							<p>Occasionally over-committed. Rarely take on too much but stay aware.</p>
+						</div>
+						<div class="result-range" data-range="moderate" hidden>
+							<h4>Moderate — room to grow</h4>
+							<p>Moderately over-committed. Balance your workload more effectively.</p>
+						</div>
+						<div class="result-range" data-range="high" hidden>
+							<h4>High — focus area</h4>
+							<p>Often over-committed. Consider prioritising and setting limits on commitments.</p>
+						</div>
+					</div>
+				</div>
+				<!-- END card -->
 			</div>
-			<div class="result-range" data-range="low" hidden>
-				<h4>Low — you’re doing okay</h4>
-				<p>Placeholder text for Procrastination low score (7–9).</p>
-			</div>
-			<div class="result-range" data-range="moderate" hidden>
-				<h4>Moderate — room to grow</h4>
-				<p>Placeholder text for Procrastination moderate score (10–12).</p>
-			</div>
-			<div class="result-range" data-range="high" hidden>
-				<h4>High — focus area</h4>
-				<p>Placeholder text for Procrastination high score (13–15).</p>
-			</div>
-			</section>
-			<!-- Distraction results -->
-			<section id="result-distraction" class="result-set" hidden>
-			<h3>Distraction</h3>
-			<div class="result-range" data-range="minimal" hidden>
-				<h4>Minimal — this is a strength</h4>
-				<p>Placeholder text for Distraction minimal score (3–6).</p>
-			</div>
-			<div class="result-range" data-range="low" hidden>
-				<h4>Low — you’re doing okay</h4>
-				<p>Placeholder text for Distraction low score (7–9).</p>
-			</div>
-			<div class="result-range" data-range="moderate" hidden>
-				<h4>Moderate — room to grow</h4>
-				<p>Placeholder text for Distraction moderate score (10–12).</p>
-			</div>
-			<div class="result-range" data-range="high" hidden>
-				<h4>High — focus area</h4>
-				<p>Placeholder text for Distraction high score (13–15).</p>
-			</div>
-			</section>
-			<!-- Scheduling results -->
-			<section id="result-scheduling" class="result-set" hidden>
-			<h3>Scheduling</h3>
-			<div class="result-range" data-range="minimal" hidden>
-				<h4>Minimal — this is a strength</h4>
-				<p>Placeholder text for Scheduling minimal score (3–6).</p>
-			</div>
-			<div class="result-range" data-range="low" hidden>
-				<h4>Low — you’re doing okay</h4>
-				<p>Placeholder text for Scheduling low score (7–9).</p>
-			</div>
-			<div class="result-range" data-range="moderate" hidden>
-				<h4>Moderate — room to grow</h4>
-				<p>Placeholder text for Scheduling moderate score (10–12).</p>
-			</div>
-			<div class="result-range" data-range="high" hidden>
-				<h4>High — focus area</h4>
-				<p>Placeholder text for Scheduling high score (13–15).</p>
-			</div>
-			</section>
-			<!-- Over-committing results -->
-			<section id="result-overcommitting" class="result-set" hidden>
-			<h3>Over-committing</h3>
-			<div class="result-range" data-range="minimal" hidden>
-				<h4>Minimal — this is a strength</h4>
-				<p>Placeholder text for Over-committing minimal score (3–6).</p>
-			</div>
-			<div class="result-range" data-range="low" hidden>
-				<h4>Low — you’re doing okay</h4>
-				<p>Placeholder text for Over-committing low score (7–9).</p>
-			</div>
-			<div class="result-range" data-range="moderate" hidden>
-				<h4>Moderate — room to grow</h4>
-				<p>Placeholder text for Over-committing moderate score (10–12).</p>
-			</div>
-			<div class="result-range" data-range="high" hidden>
-				<h4>High — focus area</h4>
-				<p>Placeholder text for Over-committing high score (13–15).</p>
-			</div>
-			</section>
+			<!-- END quiz -->
+			<p>Whichever dimension scored highest is probably worth paying the most attention to as you go through the rest of this module. That said, they’re all connected. Getting a handle on one tends to help the others too.</p>
 			<button id="retake-quiz" class="btn btn-secondary">Retake quiz</button>
 		</div>
 	</div>
+	<hr />
     <!-- END quiz -->
-    <hr />
-    <p>Cupcake ipsum dolor sit amet oat cake caramels danish danish. Candy canes lollipop: Cupcake ipsum dolor sit amet oat cake caramels danish danish. Candy canes lollipop: Cupcake ipsum dolor sit amet oat cake caramels danish danish. Candy canes lollipop:</p>
+    <h2>Did you know?</h2>
+    <p>Many students think “good time managers” are just naturally disciplined. In reality:</p>
+    <ul>
+    <li>Most people struggle with procrastination, distraction, or over‑committing at some point.</li>
+    <li>Neurodivergent students often have perfectly good intentions – it’s the systems around them that don’t fit their brains.</li>
+    <li>Small changes (like clearer priorities, better breaks, or realistic scheduling) can make a bigger difference than “trying harder”.</li>
+    </ul>
 </div>

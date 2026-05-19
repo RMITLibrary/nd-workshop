@@ -27,3 +27,10 @@ article:last-child {
 	padding-top: 0.5rem;
 }
 
+
+.btn-nav-prev, .btn-nav-next  {
+	@include media-breakpoint-up(md) {  
+		min-height: 94px;
+	}
+}
+
