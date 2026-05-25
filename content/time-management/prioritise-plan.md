@@ -227,10 +227,6 @@ weight: 3
 				<li>Sticky notes → highlight your current focus</li>
 			</ul>
 			<p>You don’t need to keep everything perfectly synced. It’s okay if tools overlap or change over time.</p>
-			<h3>A Final reminder</h3>
-			<p>A planning system should support you, not make you feel guilty.</p>
-			<p>If a tool stops helping, you’re allowed to change it, simplify it, or stop using it altogether!</p>
-			<p>And if you want help setting up a system that works for your brain, an Academic Skills Advisor can help you tailor one that fits your needs.</p>
 			<!-- END using tools together -->
 			</div>
 		</div>
