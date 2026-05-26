@@ -7,11 +7,10 @@ weight: 3
     <h2>The Eisenhower Matrix</h2>
     <p><strong>The Eisenhower Matrix</strong> is a simple tool that helps people sort their priorities. It shows us that some things do need attention now, while others can wait. Some tasks need our full effort, and others are fine being “good enough”, not perfect.</p>
     <p>For this course, we’ve adapted this tool into a <strong>Student Time Matrix</strong>.</p>
-	<h3>Student Time Matrix</h3>
-    <p><strong>Matrix image here</strong></p>
-	<p>
-		<strong>Student Time Matrix</strong> is based on two questions:
-	</p>
+	<h2>Student Time Matrix</h2>
+	<figure class="wide">
+		<img src="/nd-workshop/images/time-management/student-matrix@2x.png" alt="" />
+	</figure>
 	<ol>
 	<li><strong>How urgent is this?</strong> (Does it need attention now, or can it wait?)</li>
 	<li><strong>How important is this?</strong> (Does it really matter for my goals, studies, or wellbeing?)</li>
