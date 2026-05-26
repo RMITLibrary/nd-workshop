@@ -11,6 +11,7 @@ weight: 3
 	<figure class="wide">
 		<img src="/nd-workshop/images/time-management/student-matrix@2x.png" alt="" />
 	</figure>
+	<p>The Student Time Matrix is based on two questions:</p>
 	<ol>
 	<li><strong>How urgent is this?</strong> (Does it need attention now, or can it wait?)</li>
 	<li><strong>How important is this?</strong> (Does it really matter for my goals, studies, or wellbeing?)</li>

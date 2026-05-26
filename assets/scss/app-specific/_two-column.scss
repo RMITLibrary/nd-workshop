@@ -47,6 +47,14 @@
 	}
 }
 
+.nd-two-col-img-lg {
+	@include media-breakpoint-up(md) {  
+		img {
+			width: 340px;
+		}
+	}
+}
+
 //safe space code
 .safe-space {
 	border: 1px solid $interface-grey;

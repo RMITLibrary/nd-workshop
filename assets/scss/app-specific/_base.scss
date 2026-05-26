@@ -27,6 +27,10 @@ article:last-child {
 	padding-top: 0.5rem;
 }
 
+.inline-icon {
+	width: 2rem;
+}
+
 
 .btn-nav-prev, .btn-nav-next  {
 	@include media-breakpoint-up(md) {  
