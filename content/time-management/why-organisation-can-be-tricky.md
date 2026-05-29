@@ -72,6 +72,7 @@ Cognitive load = your brain’s bandwidth</p>
     <div class="nd-two-col nd-two-col-right nd-two-col-img-md">
         <img src="/nd-workshop/images/dig-deeper@2x.png" alt="" />
         <div class="nd-two-col-conttent">
+            <h2>Dig Deeper</h2>
             <p class="lead">Keen to learn more? Let’s dig deeper into executive function, working memory and cognitive load.</p>
             <p class="lead">Already know enough? Feel free to skip this section.</p>
         </div>
@@ -80,11 +81,11 @@ Cognitive load = your brain’s bandwidth</p>
     <!-- START accodions -->
     <div class="accordion" id="accordionExample">
         <div class="accordion-item">
-            <h2 class="accordion-header" id="headingOne">
+            <h3 class="accordion-header" id="headingOne">
             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
-                Executive function — let's go deeper
+                Executive function
             </button>
-            </h2>
+            </h3>
             <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne">
             <div class="accordion-body">
                 <!-- START Executive function content -->
@@ -100,7 +101,7 @@ Cognitive load = your brain’s bandwidth</p>
 					<li>Self-monitoring – noticing when something isn't working and adjusting</li>
 				</ul>
 				<p>These don't operate in isolation – when one is struggling, the others tend to feel it too.</p>
-				<h3>Why does this make uni so hard?</h3>
+				<h4>Why does this make uni so hard?</h4>
 				<p>University is basically a full-time executive function workout, with way less structure than school provided. Multiple deadlines, constant subject-switching, admin, new environments – all at once. If your brain already finds some of these skills tricky, that's a lot to navigate.</p>
 				<p>Different neurotypes tend to struggle with different parts of it:</p>
 				<ul>
@@ -131,13 +132,13 @@ Cognitive load = your brain’s bandwidth</p>
             </div>
         </div>
         <div class="accordion-item">
-            <h2 class="accordion-header" id="headingTwo">
+            <h3 class="accordion-header" id="headingTwo">
             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
 				<!-- START working memory -->
-                Working memory — let's go deeper
+                Working memory
 				<!-- END working memory -->
             </button>
-            </h2>
+            </h3>
             <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo">
             <div class="accordion-body">
                 <!-- START working memory -->
@@ -164,7 +165,7 @@ Cognitive load = your brain’s bandwidth</p>
 				<p>
 				This is why "I understood it in the lecture but can't remember any of it now" is such a common experience.
 				</p>
-				<h3>Externalising isn't a crutch</h3>
+				<h4>Externalising isn't a crutch</h4>
 				<p>
 				Writing things down, setting alarms, using apps, keeping lists — this is just offloading to a more reliable system.
 				</p>
@@ -179,15 +180,14 @@ Cognitive load = your brain’s bandwidth</p>
             </div>
         </div>
         <div class="accordion-item">
-            <h2 class="accordion-header" id="headingThree">
+            <h3 class="accordion-header" id="headingThree">
             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                Cognitive load — let's go deeper
+                Cognitive load
             </button>
-            </h2>
+            </h3>
             <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree">
             <div class="accordion-body">
                 <!-- START cognitive load -->
-				<h3>Cognitive load — let's go deeper</h3>
 				<p>
 				Cognitive load is how much your brain is dealing with at any given moment. There are three parts to it:
 				</p>
@@ -205,11 +205,11 @@ Cognitive load = your brain’s bandwidth</p>
 				<p>
 				The goal is to reduce the extraneous load so you've got capacity for the germane load. Simple in theory, harder in practice. But not impossible.
 				</p>
-				<h3>University is high load by default</h3>
+				<h4>University is high load by default</h4>
 				<p>
 				Understanding how university works takes real effort even before you've opened a textbook — new systems, unwritten social rules, different platforms, complex assignments. And for many neurodivergent students, sensory stuff adds to this too — a noisy room, fluorescent lighting, a crowded hallway. These aren't minor inconveniences; they're active drains on bandwidth.
 				</p>
-				<h3>"Just try harder" doesn't help</h3>
+				<h4>"Just try harder" doesn't help</h4>
 				<p>
 				Pushing harder when you're overloaded doesn't reduce the load — it adds to it. What actually helps is cutting down the stuff that's eating your bandwidth unnecessarily, so you've got more left for the things that matter. We'll get into how to do that later.
 				</p>

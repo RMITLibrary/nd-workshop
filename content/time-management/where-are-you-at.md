@@ -259,10 +259,7 @@ time: 5
 	<hr />
     <!-- END quiz -->
     <h2>Did you know?</h2>
-    <p>Many students think “good time managers” are just naturally disciplined. In reality:</p>
-    <ul>
-    <li>Most people struggle with procrastination, distraction, or over‑committing at some point.</li>
-    <li>Neurodivergent students often have perfectly good intentions – it’s the systems around them that don’t fit their brains.</li>
-    <li>Small changes (like clearer priorities, better breaks, or realistic scheduling) can make a bigger difference than “trying harder”.</li>
-    </ul>
+    <p>Struggling with time management is not a sign of laziness.</p>
+    <p>For many neurodivergent students, the issue is not motivation — common systems and expectations often do not match how their brains work.</p>
+	<p>Small changes can make a big difference.</p>
 </div>

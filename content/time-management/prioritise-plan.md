@@ -92,7 +92,7 @@ weight: 3
     <div class="nd-two-col nd-two-col-right nd-two-col-img-md">
         <img src="/nd-workshop/images/dig-deeper@2x.png" alt="" />
         <div class="nd-two-col-content">
-			<h2>Suggested tools</h2>
+			<h2>Deep dive - Suggested tools</h2>
             <p>There’s no single best planning system. The goal is to use tools that make tasks clearer, easier to start, and harder to forget. However, keep in mind that what works for one person doesn’t necessarily work for someone else and figuring out what works work for you can take some experimentation.</p>
             <p>Here we <strong>dig deeper</strong> and cover a few suggested planning tools to try out: Microsoft Planner, Todoist, and sticky notes.</p>
         </div>

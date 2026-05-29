@@ -38,28 +38,45 @@ weight: 1      # overall order of sections if you list them on the home page
 		</div>
 	</div>
 	<!-- END safe space-->
+    <!-- START what to expect -->
+    <h2>What to expect from this module</h2>
+    <ul>
+        <li>First, complete a short unmarked quiz to reflect on your current time management habits.</li>
+        <li>Next, explore why time management can be challenging, particularly for neurodivergent students.</li>
+        <li>Then, learn practical time management strategies and tools.</li>
+        <li>Finally, take away simple strategies you can put into practice straight away and find out where to seek additional support if needed.</li>
+    </ul>
+	<p>You can work through the module from start to finish, or jump to the sections most relevant to you.</p>
+    <!-- END what to expoect -->
     <!-- START How this works -->
-    <h2>How this module works</h2>
+    <h2>Module features</h2>
     <p>Everything presented in this module is optional. Feel free to browse and pick out the content and advice that works best for you. </p>
     <ul>
         <li>Any quizzes are not marked or assessed.</li>
-        <li>All links are purely optional, you won’t miss anything important if you don’t click on them.</li>
-        <li>Feel free to take breaks whenever you feel like it. There are a couple of brain break pages to help with this along the way.</li>
-		<li>A dark mode is available under the top right settings menu. Look for the gear icon.</li>
-		<li>Some sections feature more detailed, deep dive content hidden in accordions. These are purely optional but may help to provide additional context and explanation.</li>
-	</ul>
+        <li>All links are optional — you will not miss any important information if you choose not to open them.</li>
+        <li>Feel free to take breaks whenever you need to. A brain break page is included throughout the module to help with this.</li>
+		<li>Dark mode is available in the settings menu at the top right of the screen (look for the gear icon).</li>
+    </ul>
+	<div class="nd-two-col nd-two-col-right nd-two-col-img-md">
+        <img src="/nd-workshop/images/dig-deeper@2x.png" alt="" />
+        <div class="nd-two-col-content">
+			<h3>Deep Dive</h3>
+            <p>Some sections include optional “Deep Dive” content hidden in accordions. These provide extra context and explanation if you would like more detail. Deep Dive sections are marked with the heading “Deep Dive” and an image of a dog digging a hole.</p>
+            <p>Here's an example:</p>
+        </div>
+    </div>
     <!-- END How this works -->
 	<!-- START deep dive examople -->
 	<div class="accordion" id="accordionExample">
 		<div class="accordion-item">
 			<h3 class="accordion-header" id="headingOne">
 			<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
-				Deep dive example
+				Have you ever wondered where the term “neurodivergent” came from?
 			</button>
 			</h3>
 			<div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne">
 			<div class="accordion-body">
-				First item content goes here
+				The term “neurodivergent” was first used in the 1990s as part of the neurodiversity movement. It describes people whose brains work differently from what society considers “typical”, including people with ADHD, autism, dyslexia, and other neurological differences. The neurodiversity movement points out that these are not deficits; rather, they are natural variations in the way humans think, learn, and experience the world.
 			</div>
 			</div>
 		</div>
