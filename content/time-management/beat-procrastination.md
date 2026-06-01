@@ -1,6 +1,6 @@
 ---
 title: "Beat procrastination"
-weight: 6
+weight: 7
 ---
 <div class="content-856px-max">
     <p class="lead">There are heaps of techniques that can help beat procrastination. Here are just a few — give them a try and see if any work for you. You might even like to combine two or more to create your own procrastination beating technique.</p>

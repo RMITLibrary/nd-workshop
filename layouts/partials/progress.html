@@ -1,58 +1,81 @@
-<!-- {{/* Get the ordered list of regular pages in this section (same as pager) */}}
-{{ $section := .CurrentSection }}
-{{ $current := . }}
+{{/*
+  Segmented progress bar for a section
+  - Pages with `excludeFromProgress: true` are not shown as segments and
+    are not counted in totals.
+  - When you're on an excluded ("brain break") page, the progress bar
+    reflects the nearest included page (previous, otherwise next).
+*/}}
 
-{{ if $section }}
-  {{ $pages := $section.RegularPages.ByWeight }}
-  {{ $total := len $pages }}
-
-  {{ if gt $total 0 }}
-    {{/* Find the 1-based index of the current page within this list */}}
-    {{ $index := 0 }}
-    {{ range $i, $p := $pages }}
-      {{ if eq $p.RelPermalink $current.RelPermalink }}
-        {{ $index = add $i 1 }}
-      {{ end }}
-    {{ end }}
-
-    {{/* Guard: if we didn't find the current page, don't render progress */}}
-    {{ if gt $index 0 }}
-      {{ $percent := mul (div (float $index) (float $total)) 100 }}
-
-      <div class="my-progress-bar">
-		<div
-			class="my-progress-bar__inner"
-			style="width: {{ printf "%.0f" $percent }}%;"
-		></div>
-		</div>
-		<p class="progress-label">{{ $index }} of {{ $total }} ({{ printf "%.0f" $percent }}%)</p>
-    {{ end }}
-  {{ end }}
-{{ end }} -->
-
-{{/* Determine the section and pages */}}
+{{/* Determine the section */}}
 {{ $section := .CurrentSection }}
 {{ if not $section }}
-  {{/* On a section landing page, .CurrentSection might be nil; use . */}}
   {{ if .IsSection }}
     {{ $section = . }}
   {{ end }}
 {{ end }}
 
 {{ if $section }}
-  {{ $pages := $section.RegularPages.ByWeight }}
+  {{ $allPages := $section.RegularPages.ByWeight }}
+  {{/* Pages that do count towards progress */}}
+  {{ $pages := where $allPages "Params.excludeFromProgress" "ne" true }}
   {{ $total := len $pages }}
 
   {{ if gt $total 0 }}
-    {{/* Default: no active page (e.g. section landing) */}}
+    {{/* Default: no active page */}}
     {{ $index := 0 }}
 
-    {{/* If this is a regular (single) page, find its index */}}
     {{ if .IsPage }}
       {{ $current := . }}
+
+      {{/* First, try to find exact match among included pages */}}
       {{ range $i, $p := $pages }}
         {{ if eq $p.RelPermalink $current.RelPermalink }}
           {{ $index = add $i 1 }}
+        {{ end }}
+      {{ end }}
+
+      {{/* If not found, we might be on an excluded page ("brain break") */}}
+      {{ if eq $index 0 }}
+        {{/* Find the nearest included neighbour */}}
+        {{ $foundIndex := 0 }}
+        {{ range $i, $p := $allPages }}
+          {{ if eq $p.RelPermalink $current.RelPermalink }}
+            {{/* Look backwards for previous included page */}}
+            {{ $prevIndex := sub $i 1 }}
+            {{ $done := false }}
+
+            {{ if ge $prevIndex 0 }}
+              {{ $prevPage := index $allPages $prevIndex }}
+              {{ if not (eq $prevPage.Params.excludeFromProgress true) }}
+                {{/* map this to its index within $pages */}}
+                {{ range $j, $inc := $pages }}
+                  {{ if eq $inc.RelPermalink $prevPage.RelPermalink }}
+                    {{ $foundIndex = add $j 1 }}
+                  {{ end }}
+                {{ end }}
+                {{ $done = true }}
+              {{ end }}
+            {{ end }}
+
+            {{/* If no previous included, look forwards */}}
+            {{ if not $done }}
+              {{ $nextIndex := add $i 1 }}
+              {{ if lt $nextIndex (len $allPages) }}
+                {{ $nextPage := index $allPages $nextIndex }}
+                {{ if not (eq $nextPage.Params.excludeFromProgress true) }}
+                  {{ range $j, $inc := $pages }}
+                    {{ if eq $inc.RelPermalink $nextPage.RelPermalink }}
+                      {{ $foundIndex = add $j 1 }}
+                    {{ end }}
+                  {{ end }}
+                {{ end }}
+              {{ end }}
+            {{ end }}
+          {{ end }}
+        {{ end }}
+
+        {{ if gt $foundIndex 0 }}
+          {{ $index = $foundIndex }}
         {{ end }}
       {{ end }}
     {{ end }}
@@ -71,7 +94,6 @@
       {{ end }}
     </div>
 
-    {{/* Show label only when on a specific page; optional */}}
     {{ if gt $index 0 }}
       <p class="progress-label">
         {{ $index }} of {{ $total }}

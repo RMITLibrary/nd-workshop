@@ -13,13 +13,14 @@
 
   {{/* Build the list as template, not as a string */}}
   {{ $list := slice }}
-  {{ range .Pages.ByWeight }}
-    {{ $time := "" }}
-    {{ with .Params.time }}
-      {{ $time = printf " - %v minutes" . }}
-    {{ end }}
-    {{ $list = $list | append (dict "link" .RelPermalink "title" .Title "time" $time) }}
-  {{ end }}
+  {{/* ⬇⬇⬇ Filter out brain break / excludeFromProgress pages here */}}
+	{{ range where .Pages.ByWeight "Params.excludeFromProgress" "ne" true }}
+		{{ $time := "" }}
+		{{ with .Params.time }}
+			{{ $time = printf " - %v minutes" . }}
+		{{ end }}
+		{{ $list = $list | append (dict "link" .RelPermalink "title" .Title "time" $time) }}
+	{{ end }}
 
   {{/* We’ll replace this marker in the content with the heading + list */}}
   {{ $needle := "<h2>What this module contains</h2>" }}

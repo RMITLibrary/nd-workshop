@@ -1,5 +1,7 @@
+{{ $items := where .items "excludeFromProgress" "ne" true }}
+
 <ul class="link-list">
-  {{ range .items }}
+  {{ range $items }}
     <li>
       <a href="{{ .link }}">{{ .title }}{{ .time }}</a>
     </li>

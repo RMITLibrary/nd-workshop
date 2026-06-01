@@ -1,6 +1,6 @@
 ---
 title: "Key takeaways and what's next"
-weight: 8
+weight: 9
 ---
 <div class="content-856px-max"> 
 	<p class="lead">Congratulations on working through this module, however worked best for you! To finish, here are some final key takeaways and a brief overview of the other modules that you might check out next.</p>
@@ -12,11 +12,19 @@ weight: 8
 		<li>Motivation can be supported through strategies such as creating urgency, making tasks more enjoyable, gamifying progress, and using body doubling.</li>
 		<li>Progress is about finding strategies that work for your brain, not achieving perfection.</li>
 	</ul>
-	<h2>What’s next:</h2>
-	<ul>
-		<li>Workshop 4: Master Group Work — link to register for the in-person workshop or access online version</li>
-		<li>Workshop 8: Level Up your Academic Toolkit (Memory &amp; Focus) extends today’s content.</li>
-	</ul>
+	<h2 class="center">What’s next:</h2>
+	<div class="home-modules">	
+		<a href="https://www.google.com">
+			<img src="/nd-workshop/images/home/%20home-mod-4.png" alt="">
+			<h3 class="h4 link-large">Master group work</h3>
+			<p>Develop skills for collaborating effectively, communicating clearly, and navigating group projects.</p>
+		</a>
+		<a href="https://www.google.com">
+			<img src="/nd-workshop/images/home/%20home-mod-8.png" alt="">
+			<h3 class="h4 link-large">Memory and focus</h3>
+			<p>Strengthen your concentration and memory with strategies designed for real study situations.</p>
+		</a>
+	</div>
 	<!-- <h2>Tools round-up</h2>
 	<div class="my-grid ">
 		<div class="card ">
