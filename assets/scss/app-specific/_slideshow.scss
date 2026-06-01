@@ -1,0 +1,452 @@
+//For testing purposes
+.my-container {
+	padding: 12px;
+
+	@include media-breakpoint-up(md) {
+		padding: 0;
+		max-width: 58.5rem;
+		margin: auto;
+	}
+}
+
+// Slideshow container
+.slideshow {
+	max-width: 58.5rem;
+	position: relative;
+	margin: auto;
+
+	overflow: hidden;
+
+	border-radius: 0.25rem;
+	border: 1px solid $interface-grey;
+
+	@include media-breakpoint-up(md) {
+		//padding: 1.5rem 1.5rem 0.5rem 1.5rem;
+	}
+}
+
+// 3 modes:
+// class="slideshow" 						- normal slideshow
+// class="slideshow hotspot-text-below"		- hotspot with text below
+// class="slideshow hotspot-text-cover"		- hotspot text covers image on large screens
+
+.my-slide {
+	// Hide the slides by default. first slide is shown via javascript
+	display: none;
+	position: relative;
+
+	padding: 1rem 0.75rem 0 0.75rem;
+
+	@include media-breakpoint-up(md) {
+		padding: 1.5rem 1.5rem 0 1.5rem;
+	}
+
+	
+	.btn-close {
+		display: none;
+	}
+
+	// set first content element's margin to zero
+	.slide-content > :first-child {
+		margin-top: 0;
+
+		&:focus-visible {
+			@include element-focus('light');
+		}
+	}
+
+	// set last content element's margin to zero
+	.slide-content > :last-child {
+		margin-bottom: 0;
+	}	
+}
+
+//slide nav
+
+.slide-nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+	border-top: 1px solid $interface-grey;
+
+	padding-top: 0.25rem;
+	margin: 2rem 0.75rem 0.2rem 0.75rem;
+
+	@include media-breakpoint-up(md) {
+		margin: 2rem 1.5rem 0.5rem 1.5rem;
+	}
+
+	//reorder elements to place numbers in the middle
+	.progress-numbers {
+		color: $accent-color;
+		order: 1;
+
+		@include type-small;
+		font-weight: bold;
+	}
+
+	.prev, .next {
+		border: 0;
+		border-radius: 0.25rem;
+		background-color: transparent;
+
+		width: 2rem;
+		height: 2rem;
+
+		padding: 0;
+		transform: rotate(-90deg);
+
+		@include default-focus('light');
+
+		&:before {
+			@include carat; 	
+		}
+
+		&:hover {
+			border: 1px solid $link-hover-color;
+		}
+	}
+
+	.prev {
+		padding: 0;
+		transform: rotate(90deg);
+	}
+
+	.next {
+		order: 2;
+	}
+}
+
+
+//hotsopt-cover
+.hotspot-text-cover {
+
+	
+
+	//these changes only occur at medium breakpoints (768px) and above
+	@include media-breakpoint-up(md) {
+
+		.my-slide {
+			position: absolute;
+			top: 1rem;	//positioning determined by hotspot location and js
+			left: 1rem;
+
+			border: 1px solid $interface-grey;
+			border-radius: 0.25rem;
+			background-color: $body-bg;
+
+			width: 352px;	
+			
+			padding: 0;
+
+			box-shadow: -2px 17px 25px -8px rgba(0,0,0,0.4);
+			-webkit-box-shadow: -2px 17px 25px -8px rgba(0,0,0,0.4);
+			-moz-box-shadow: -2px 17px 25px -8px rgba(0,0,0,0.4);
+
+			.btn-close {
+				display: block;
+				position: absolute;
+
+				top: 12px;
+				right: 12px;
+
+				@include default-focus('light');
+			}
+		}
+
+		.slide-content {
+			overflow-y: auto;
+
+			max-height: 400px;	//height should be determind via js based on height of image
+			padding: 1rem;
+			padding-right: 3rem; // Additional space for scroll bar
+		}
+
+		//hide slide nav in this mode
+		.slide-nav {
+			@include visually-hidden;
+		}
+
+		//make type smaller due to small size of slide box
+		@include type-small;
+
+		p, ul, ol, li {
+			@include type-small;
+		}
+
+		p.lead {
+			@include type-default;
+			font-weight: 500;
+		}
+
+		small, .small { font-size: 0.8125rem; }
+
+		h1 { font-size: 1.75rem;}
+		h2 { font-size: 1.56rem; }
+		h3 { font-size: 1.25rem; }
+		h4 { font-size: 1.125rem; }
+		h5, h6 { font-size: 1rem; }
+	}
+
+	@include media-breakpoint-up(lg) {
+		.my-slide { width: 384px; }
+	}
+}
+
+//dots etc.
+.hotspot-container, .hotspot-container-light, .plotter {
+	position: relative;
+	
+
+	img {
+		width: 100%;
+		height: auto;
+		outline: 0;
+	}
+
+	.dot {
+		position: absolute;
+		width: 1.5rem;
+		height: 1.5rem;
+		top: 0;
+		left: 0;
+		transform: translate(-50%, -50%);
+
+		border-radius: 50%;
+		cursor: pointer;
+
+		color: $white;
+		background-color: $rmit-blue;
+		border: 1.5px solid $white;
+
+		text-align: center;
+		font-weight: 500;
+		font-size: 14px;
+		line-height: 1;
+
+		box-shadow: 1px 4px 3px -2px rgba(0,0,0,0.44);
+		-webkit-box-shadow: 1px 4px 3px -2px rgba(0,0,0,0.44);
+		-moz-box-shadow: 1px 4px 3px -2px rgba(0,0,0,0.44);
+
+		@include default-focus('light');
+
+		//increase size on medium screens
+		@include media-breakpoint-up(md) {
+			width: 2rem;
+			height: 2rem;
+
+			font-size: 16px;
+			border-width: 2px;
+
+			box-shadow: 1px 6px 5px -2px rgba(0,0,0,0.44);
+			-webkit-box-shadow: 1px 6px 5px -2px rgba(0,0,0,0.44);
+			-moz-box-shadow: 1px 6px 5px -2px rgba(0,0,0,0.44);
+		}
+
+		&:hover, &:focus-visible {
+			background-color: $blue-hover;
+		}
+
+	}
+
+	.active {
+		color: $rmit-blue;
+		background-color: $white;
+		border-color: $rmit-blue;
+
+		&:hover, &:focus-visible {
+			background-color: $white;
+		}
+	}
+}
+
+.hotspot-light {
+	.dot {
+		color: $rmit-blue;
+		background-color: $white;
+		border-color: $rmit-blue;
+
+		&:hover, &:focus-visible {
+			background-color: $underlay-grey;
+		}
+	}
+
+	.active {
+		color: $white;
+		background-color: $rmit-blue;
+		border-color: $white;
+
+		&:hover, &:focus-visible {
+			background-color: $rmit-blue;
+		}
+	}
+}
+
+/* START Plotter */
+
+.plotter {
+
+	#image-container {
+        position: relative;
+        width: 856px;
+        overflow: hidden;
+        border: 1px solid #ccc;
+
+		margin: 0px auto;
+		margin-top: 32px;
+	}
+
+	#image-container img {
+		width: 100%;
+		display: block;
+	}
+
+	#image-container #img-placeholder {
+		width: 100%;
+		height: 482px;
+		background-color: $underlay-grey;
+	}
+
+	.controls1, .controls2 {
+		//border-top: 1px solid $interface-grey;
+		margin-top: 16px;
+
+		display: flex;
+		align-items: center;
+		gap: 0.5rem;
+
+		//width: 856px;
+		label {
+			width: 8rem;
+		}
+
+		input {
+			height: 45px;
+			font-size: 18px;
+		}
+
+		.btn {
+			flex-shrink: 0;
+		}
+	}
+
+	#markup {
+		width: 100%;
+		margin-top: 40px;
+		margin-bottom: 16px;
+	}
+
+	.controls2 {
+		width: 856px;
+		margin: 0px auto;
+		margin-top: 16px;
+		justify-content: space-between;
+
+		select {
+			width: 320px;
+			height: 45px;
+			font-size: 18px;
+		}
+
+		div {
+			display: flex;
+			gap: 16px;
+		}
+	}
+
+}
+
+#submit-title {
+		margin-top: 16px;
+	}
+
+
+/* END Plotter */
+
+// Dark mode, this needs to be tested
+@include color-mode(dark) {
+
+	.my-slide {
+		// set first content element's margin to zero //:nth-child(2)
+		.slide-content > :first-child {
+			&:focus-visible {
+				@include element-focus('dark');
+			}
+		}	
+	}
+
+	.hotspot-text-cover {
+		//these changes only occur at medium breakpoints (768px) and above
+		@include media-breakpoint-up(md) {
+			.my-slide {
+				background-color: $body-bg-dark;
+			}
+		}
+	}
+
+	.slide-nav {
+
+		.prev, .next {
+			@include default-focus('dark');
+
+			&:before {
+				@include carat-dark; 	
+			}
+	
+			&:hover {
+				border: 1px solid $link-hover-color-dark;
+			}
+		}
+		
+		.btn-nav-prev a::before, .btn-nav-next a::after { 
+			@include carat-dark;
+		}
+
+		.progress-numbers {
+			color: $accent-color-dark;
+			order: 1;
+	
+			@include type-small;
+			font-weight: bold;
+		}
+
+	}
+}
+
+/* Dots temp  */
+
+#dot1 {
+	left: 30%;
+	top: 20%;
+}
+
+#dot2 {
+	left: 30%;
+	top: calc(100% - 32px);
+}
+
+#dot3 {
+	left: calc(100% - 32px);
+	top: 60%;
+}
+
+#dot4 {
+	left: 50%;
+	top: 86%;
+}
+
+#dot5 {
+	left: 60%;
+	top: 70%;
+}
+
+#dot6 {
+	left: 60%;
+	top: 5%;
+}
+
+#dot7 {
+	left: 60%;
+	top: 90%;
+}
