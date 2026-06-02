@@ -13,7 +13,7 @@ weight: 5
 	The Assignment Planner removes the “where do I even start?” problem by giving you a clear sequence of steps. This can be especially useful if planning and prioritising don’t come naturally or feel overwhelming.
 	</p>
 	<div class="nd-two-col nd-two-col-img-lg nd-two-col-right">
-		<img src="/nd-workshop/images/time-management/assignment-plan-01.png" alt="" />
+		<img src="/nd-workshop/images/time-management/assignment-plan-01.png" alt="" aria-labelledby="my-attribution" />
 		<div class="margin-top-zero">
 			<h4>Best for:</h4>
 			<ul>
@@ -43,29 +43,29 @@ weight: 5
 					<li>Select if it’s a group assignment or not</li>
 					<li>Put in a start date (with buffer time, as recommended above) and end date (you might add another buffer time here, so 1–2 days before the actual due date)
 					<figure class="wide">
-						<img src="/nd-workshop/images/time-management/assignment-plan-02.png" alt="Assignment planner from with assignment type, start date and end date filled in." />
+						<img src="/nd-workshop/images/time-management/assignment-plan-02.png" alt="Assignment planner form with assignment type, start date and end date filled in." aria-labelledby="my-attribution" />
 					</figure>
 					</li>
 					<li>Click “Create assignment plan”</li>
 					<li>You will see two view options: Task view and Calendar view
 						<figure class="wide">
-							<img src="/nd-workshop/images/time-management/assignment-plan-03.png" alt="Tasks displayed in a table" />
+							<img src="/nd-workshop/images/time-management/assignment-plan-03.png" alt="Tasks displayed in a table" aria-labelledby="my-attribution" />
 						</figure>
 						<figure class="wide">
-							<img src="/nd-workshop/images/time-management/assignment-plan-04.png" alt="Tasks displayed in a calendar" />
+							<img src="/nd-workshop/images/time-management/assignment-plan-04.png" alt="Tasks displayed in a calendar" aria-labelledby="my-attribution" />
 						</figure>
 					</li>
 					<li>Scroll down and you will see the options to “save plan to PDF” and “Export plan to calendar”</li>
 					<li>To export, we recommend choosing “Multiday view” then click “Export”. This will save an .ics file to your computer</li>
 					<li>To now import the .ics file, go to Microsoft Outlook Calendar and click “Add calendar”
 						<figure class="img-width-sm">
-							<img src="/nd-workshop/images/time-management/assignment-plan-outlook-01.png" alt="Microsoft outlook calendar view" />
+							<img src="/nd-workshop/images/time-management/assignment-plan-outlook-01.png" alt="Microsoft outlook calendar view" aria-labelledby="my-attribution" />
 						</figure>
 					</li>
 					<li>Then choose “upload from file” and choose the .ics file where it was saved (usually automatically in the Downloads folder)</li>
 					<li>Select the calendar you want to use in the drop-down list (e.g., your RMIT student calendar) and click “Import”. You should now see the recommended assignment stages appear in your calendar where you put the start date. Also, you can now edit each of the stages to change the names, date ranges and to add notes as needed. Tip: Change the status of the events from “Busy” to “Free” so the events don’t block out your calendar. 
 						<figure class="wide">
-							<img src="/nd-workshop/images/time-management/assignment-plan-outlook-02.png" alt="Microsoft outlook meeting detail view" />
+							<img src="/nd-workshop/images/time-management/assignment-plan-outlook-02.png" alt="Microsoft outlook meeting detail view" aria-labelledby="my-attribution" />
 						</figure>
 					</li>
 				</ol>
@@ -95,7 +95,7 @@ weight: 5
 	</li>
 	<li>Click the magic wand button <img src="/nd-workshop/images/time-management/goblin-magic-wand.png" alt="" class="inline-icon" /> and let Magic To‑Do break it into <strong>small, concrete steps</strong>.</li>
 	<figure class="wide">
-		<img src="/nd-workshop/images/time-management/goblin-screen.png" alt='Goblin Magic To-Do steps for "Study for exam".' />
+		<img src="/nd-workshop/images/time-management/goblin-screen.png" alt='Goblin Magic To-Do steps for "Study for exam".' aria-labelledby="my-attribution" />
 	</figure>
 	<li>
 		Adjust the breakdown:
@@ -113,7 +113,7 @@ weight: 5
 	<h2>3. All-Assignment Planning Template</h2>
 	<p>Something the tools above don’t do is allow you to assess and see all your assignments together. This “big picture” perspective is useful to plan your semester and assess how you’re going to balance your time across all your courses and assessments. It also allows you to track your progress, include reminders about things like asking your tutor clarification questions, and prioritise by looking at which assignments are more important, more difficult and so on. </p>
 	<p>	The template is available as <a href="">Word doc</a> and as an <a href="">Excel spreadsheet</a>  (which gives you more options to filter and sort).
-	<figure class="wide">
+	<figure class="wide" aria-labelledby="my-attribution">
 		<img src="/nd-workshop/images/time-management/all-assignment-template.png" alt='Excel spreadsheet showing the all assignment template.' />
 	</figure>
 	<h2>Using the Tools Together</h2>
@@ -140,4 +140,5 @@ weight: 5
 	<p>
 	If you’d like help using these tools in a way that works for <em>you</em>, an <a href="https://www.rmit.edu.au/students/support-services/study-support/consultations">Academic Skills Advisor</a> can talk through strategies and adapt them to your needs.
 	</p>
+	<p class="small margin-top-md border-top" id="my-attribution">Images on this page by <a href="https://rmit.edu.au/">RMIT</a>, licensed under <a href="https://creativecommons.org/licenses/by/4.0/">CC BY-NC 4.0</a></p>
 </div>

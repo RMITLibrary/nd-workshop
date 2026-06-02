@@ -207,4 +207,5 @@ Like many study strategies, it can take some experimenting to find the level of 
 		</div>
 	</div>
 <!-- END Gamify -->
+	<p class="small margin-top-md" id="my-attribution">Images on this page by <a href="https://rmit.edu.au/">RMIT</a>, licensed under <a href="https://creativecommons.org/licenses/by/4.0/">CC BY-NC 4.0</a></p>
 </div>

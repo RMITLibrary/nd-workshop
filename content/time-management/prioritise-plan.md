@@ -8,7 +8,7 @@ weight: 3
     <p><strong>The Eisenhower Matrix</strong> is a simple tool that helps people sort their priorities. It shows us that some things do need attention now, while others can wait. Some tasks need our full effort, and others are fine being “good enough”, not perfect.</p>
     <p>For this course, we’ve adapted this tool into a <strong>Student Time Matrix</strong>.</p>
 	<h2>Student Time Matrix</h2>
-	<figure class="wide">
+	<figure class="wide" aria-labelledby="my-attribution">
 		<img src="/nd-workshop/images/time-management/student-matrix@2x.png" alt="" />
 	</figure>
 	<p>The Student Time Matrix is based on two questions:</p>
@@ -90,7 +90,7 @@ weight: 3
 	</div>
 	<!-- START dig deeper -->
     <div class="nd-two-col nd-two-col-right nd-two-col-img-md">
-        <img src="/nd-workshop/images/dig-deeper@2x.png" alt="" />
+        <img src="/nd-workshop/images/dig-deeper@2x.png" alt="Dog digging a hole" aria-labelledby="my-attribution" />
         <div class="nd-two-col-content">
 			<h2>Deep dive - Suggested tools</h2>
             <p>There’s no single best planning system. The goal is to use tools that make tasks clearer, easier to start, and harder to forget. However, keep in mind that what works for one person doesn’t necessarily work for someone else and figuring out what works work for you can take some experimentation.</p>
@@ -237,4 +237,5 @@ weight: 3
 	<p>A planning system should support you, not make you feel guilty.</p>
 	<p>If a tool stops helping, you’re allowed to change it, simplify it, or stop using it altogether!</p>
 	<p>And if you want help setting up a system that works for your brain, an <a href="https://www.rmit.edu.au/students/support-services/study-support/consultations">Academic Skills Advisor</a> can help you tailor one that fits your needs.</p>
+	<p class="small margin-top-md border-top" id="my-attribution">Images on this page by <a href="https://rmit.edu.au/">RMIT</a>, licensed under <a href="https://creativecommons.org/licenses/by/4.0/">CC BY-NC 4.0</a></p>
 </div>

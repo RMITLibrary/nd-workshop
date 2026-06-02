@@ -73,6 +73,30 @@
 	}
 } 
 
+/* Button on the right */
+.progress-next-question .prev-question {
+	position: absolute;
+	top: 0;
+	margin: 0;
+
+	@extend .btn-sm;
+
+	padding: 0.5rem 1rem 0.5rem 0.25rem;
+
+	&::before { 
+		@include carat;
+		flex-shrink: 0;
+		width: 32px;
+		height: 32px;
+		margin-right: 0.5rem;
+		transform: rotate(90deg);
+
+		@include media-breakpoint-up(md) {
+			margin-right: 1.5rem;
+		}
+	}
+} 
+
 .result-set {
 	h3 {
 		padding-bottom: 0.5rem;

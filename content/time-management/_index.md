@@ -58,7 +58,7 @@ weight: 1      # overall order of sections if you list them on the home page
 		<li>Dark mode is available in the settings menu at the top right of the screen (look for the gear icon).</li>
     </ul>
 	<div class="nd-two-col nd-two-col-right nd-two-col-img-md">
-        <img src="/nd-workshop/images/dig-deeper@2x.png" alt="" />
+        <img src="/nd-workshop/images/dig-deeper@2x.png" alt="Dog digging a hole" aria-labelledby="my-attribution" />
         <div class="nd-two-col-content">
 			<h3>Deep Dive</h3>
             <p>Some sections include optional “Deep Dive” content hidden in accordions. These provide extra context and explanation if you would like more detail. Deep Dive sections are marked with the heading “Deep Dive” and an image of a dog digging a hole.</p>

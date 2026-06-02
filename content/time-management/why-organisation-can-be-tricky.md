@@ -70,7 +70,7 @@ Cognitive load = your brain’s bandwidth</p>
     <p>Later in this course, we’ll share practical strategies and tools to help you manage your time, tasks, and study in ways that work for your brain.</p>
     <!-- START dig deeper -->
     <div class="nd-two-col nd-two-col-right nd-two-col-img-md">
-        <img src="/nd-workshop/images/dig-deeper@2x.png" alt="" />
+        <img src="/nd-workshop/images/dig-deeper@2x.png"  alt="Dog digging a hole" aria-labelledby="my-attribution"  />
         <div class="nd-two-col-conttent">
             <h2>Dig Deeper</h2>
             <p class="lead">Keen to learn more? Let’s dig deeper into executive function, working memory and cognitive load.</p>

@@ -168,5 +168,6 @@ weight: 10
 				</ul>
 			</div>
 		</div>
+	<p class="small margin-top-md border-top" id="my-attribution">Images on this page by <a href="https://rmit.edu.au/">RMIT</a>, licensed under <a href="https://creativecommons.org/licenses/by/4.0/">CC BY-NC 4.0</a></p>
 </div>
 <script src="/nd-workshop/js/slideshow.js?ver=1.1"></script>

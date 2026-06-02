@@ -19,7 +19,7 @@ weight: 8
         <li>How can you be flexible and kind to yourself if a system or strategy doesn’t work?</li>
     </ul>
     <!-- START build your system -->
-    <div class="build-system-frame">
+    <div class="build-system-frame margin-top-lg">
         <div class="heading">
             <h2>Building your system</h2>
             <p>Answer three questions and get a personalised plan</p>
@@ -78,9 +78,10 @@ weight: 8
                         </label>
                     </div>
                 </div>
-                <button class="btn btn-default next-question" type="submit">
-                    Next <span class="visually-hidden">question</span>
-                </button>
+				<div class="progress-next-question">
+					<button class="btn btn-default next-question">
+					Next <span class="visually-hidden">question</span></button>
+				</div>
             </fieldset>
         </form>
         <!-- END question 1 -->
@@ -89,7 +90,7 @@ weight: 8
             <fieldset>
                 <p class="lead">
                     2. Select two or more techniques that could help you with
-                    <span id="build-q2-question-highlight">making priorities</span>:
+                    <span id="build-q2-question-highlight" class="nowrap">making priorities</span>:
                 </p>
                 <div class="option-container">
                     <div class="form-check">
@@ -153,9 +154,10 @@ weight: 8
                         </label>
                     </div>
                 </div>
-                <button class="btn btn-default next-question" type="submit">
-                    Next <span class="visually-hidden">question</span>
-                </button>
+                <div class="progress-next-question">
+					<button class="btn btn-default next-question">
+					Next <span class="visually-hidden">question</span></button>
+				</div>
             </fieldset>
         </form>
         <!-- END question 2-->
@@ -166,9 +168,10 @@ weight: 8
                 <div class="option-container">
                     <!-- JS will inject radio options here based on Q2 selections -->
                 </div>
-                <button class="btn btn-default next-question" type="submit">
-                    Next <span class="visually-hidden">question</span>
-                </button>
+                <div class="progress-next-question">
+					<button class="btn btn-default next-question">
+					Next <span class="visually-hidden">question</span></button>
+				</div>
             </fieldset>
         </form>
         <!-- END question 3 -->
@@ -240,7 +243,7 @@ weight: 8
 			<!-- END tools-externalising -->
             <!-- START info-pomodoro -->
 			<div id="info-pomodoro" class="info-technique">
-				<h3><div class="little-heading">Things to remember about</div> pomodoro technique</h3>
+				<h3><div class="little-heading">Things to remember about</div> The pomodoro technique</h3>
 				<ul>
 				<li>Remove distractions from your study area.</li>
 				<li>Set yourself one small goal for the each interval. For example, read one article, write one paragraph, etc.</li>
@@ -254,7 +257,7 @@ weight: 8
 			<!-- END info-pomodoro -->
 			<!-- START info-body-doubling -->
 			<div id="info-body-doubling" class="info-technique">
-				<h3><div class="little-heading">Things to remember about</div> body doubling</h3>
+				<h3><div class="little-heading">Things to remember about</div> Body doubling</h3>
 				<ul>
 				<li>Try studying in the same room as a friend, with both of you working on your own tasks.</li>
 				<li>You can also try body doubling in a public space like a library or a cafe.</li>
@@ -265,7 +268,7 @@ weight: 8
 			<!-- END info-body-doubling -->
 			<!-- START info-prioritisation -->
 			<div id="info-prioritisation" class="info-technique">
-			<h3><div class="little-heading">Things to remember about</div> prioritisation</h3>
+			<h3><div class="little-heading">Things to remember about</div> Prioritisation</h3>
 			<p>We have adapted the Eisenhow Matrix into a matrix called the Student time matrix. It can help you to decide which tasks to:</p>
 			<ul>
 			<li><strong>Do now</strong> because they are urgent and important.</li>
@@ -285,7 +288,7 @@ weight: 8
 			<!-- END info-prioritisation -->
 			<!-- START info-create-urgency -->
 			<div id="info-create-urgency" class="info-technique">
-			<h3><div class="little-heading">Things to remember about</div> the creating urgency technique</h3>
+			<h3><div class="little-heading">Things to remember about</div> Creating urgency</h3>
 			<p>If you are the type of person who needs a deadline to help you get started, you can try setting your own deadlines rather than waiting for assessment due dates. To do this:</p>
 			<ul>
 			<li>Break you assessments down into smaller tasks. For example, find literature, do background reading, write first draft.</li>
@@ -296,7 +299,7 @@ weight: 8
 			<!-- END info-create-urgency -->
 			<!-- START info-5-minute-rule -->
 			<div id="info-5-minute-rule" class="info-technique">
-			<h3><div class="little-heading">Things to remember about</div> the 5-minute rule</h3>
+			<h3><div class="little-heading">Things to remember about</div> The 5-minute rule</h3>
 			<ul>
 			<li>Select a task you are having trouble getting started on. Make sure it’s something small.</li>
 			<li>Remove distractions from your study area.</li>
@@ -309,7 +312,7 @@ weight: 8
 			<!-- END info-5-minute-rule -->
 			<!-- START info-make-it-pleasant -->
 			<div id="info-make-it-pleasant" class="info-technique">
-			<h3><div class="little-heading">Things to remember about</div> the make it pleasant technique</h3>
+			<h3><div class="little-heading">Things to remember about</div> The make it pleasant technique</h3>
 			<p>Pair tasks that you have been avoiding or that you don't enjoy very much with things that you do enjoy. For example:</p>
 			<ul>
 			<li>Take your laptop to a park to read an academic articles.</li>
@@ -324,7 +327,7 @@ weight: 8
 			<!-- END info-make-it-pleasant -->
 			<!-- START info-gamify-it -->
 			<div id="info-gamify-it" class="info-technique">
-			<h3><div class="little-heading">Things to remember about</div> the gamify it technique</h3>
+			<h3><div class="little-heading">Things to remember about</div> The gamify it technique</h3>
 			<p>If you the sort of person who loves a challenge, then gamifying your studies could work for you. Here are some things you could try:</p>
 			<ul>
 			<li>Progress bar: Create a visual progress bar and colour in sections as you complete study tasks. For example, divide the bar into ten sections and colour in one section each time you complete a task such as reading an article, watching a lecture or writing a paragraph.</li>
@@ -337,7 +340,7 @@ weight: 8
 			<!-- END info-gamify-it -->
 			<!-- START info-break-down-assessments -->
 			<div id="info-break-down-assessments" class="info-technique">
-			<h3><div class="little-heading">Things to remember about</div> breaking down assessments</h3>
+			<h3><div class="little-heading">Things to remember about</div> Breaking down assessments</h3>
 			<p>Breaking your tasks down into small chunks can make things seem less daunting. It can also help you to priorities particular tasks.</p>
 			<p>Assignment Planner can help you to:</p>
 			<ul>
@@ -355,7 +358,7 @@ weight: 8
 			<!-- END info-break-down-assessments -->
 			<!-- START info-schedule-timeblock -->
 			<div id="info-schedule-timeblock" class="info-technique">
-			<h3><div class="little-heading">Things to remember about</div> scheduling and timeblocking</h3>
+			<h3><div class="little-heading">Things to remember about</div> Scheduling and timeblocking</h3>
 			<ul>
 			<li>You can use any online calendar, including Outlook.</li>
 			<li>Start by adding fixed commitments such as classes and work shifts. You can set these to repeat each week.</li>
@@ -371,7 +374,7 @@ weight: 8
 			<!-- END info-schedule-timeblock -->
 			<!-- START info-externalising -->
 			<div id="info-externalising" class="info-technique">
-			<h3><div class="little-heading">Things to remember about</div> externalising</h3>
+			<h3><div class="little-heading">Things to remember about</div> Externalising</h3>
 			<p>Getting thoughts and taks out of your head and onto an app or piece of paper can help to free up your brain for other information.</p>
 			<p>Sticky notes are great for this. They are great for:</p>
 			<ul>
@@ -390,9 +393,13 @@ weight: 8
             <p class="be-kind-rewind lead">
                 Remember to be patient with yourself. Finding the right study technique can take time and experimentation.
             </p>
-            <button class="btn btn-default prev-question">
-                Restart
-            </button>
+			<div class="progress-next-question">
+				<button class="btn btn-default prev-question">
+                	Restart
+            	</button>
+				<button class="btn btn-default next-question">
+					Next <span class="visually-hidden">question</span></button>
+				</div>
         </div>
         <!-- END plan -->
     </div>

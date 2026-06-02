@@ -1,14 +1,123 @@
 .build-system-frame {
+	position: relative;
 	border: 1px solid $interface-grey;
 	border-radius: 4px;
-	padding: 32px 40px;
+	padding: 16px 24px;
 
 	.heading {
-		//background-color: $interface-grey;
 
+		p { 
+			margin-top: 4px;
+			margin-bottom: 0;
+		}
 	}
 
 	h2 {
 		margin: 0;
+	}
+
+	.form-check {
+		margin-bottom: 1rem;
+		display: flex;
+	}
+
+	/* Increase spacing between radio and label text */
+	.form-check-input + .form-check-label {
+		margin-left: 0.75rem; /* adjust to taste */
+	}
+
+
+	.progress-next-question {
+		margin-top: 1rem;
+	}
+
+	#build-q2-question-highlight {
+		background-color: $underlay-selected;
+		border-radius: 4px;
+		padding: 2px 6px;
+	}
+
+	@include media-breakpoint-up(sm) { 
+		padding: 32px 40px;
+
+		.heading {
+			position: relative;
+			padding-left: 92px; /* 72px icon + some spacing */
+			min-height: 72px;
+
+			p { 
+				margin-top: 4px;
+				margin-bottom: 0;
+			}
+		}
+
+		/* The 72px square */
+		.heading::before {
+			content: "";
+			position: absolute;
+			left: 0;
+			top: 50%;
+			width: 72px;
+			height: 72px;
+			transform: translateY(-50%);
+			background-color: #e0e0e0; /* placeholder colour */
+			border-radius: 8px;        /* remove if you want perfect square corners */
+			/* or use a background-image instead of colour: */
+			/* background: url(/path/to/your-icon.svg) center/cover no-repeat; */
+		}
+
+		p.lead {
+			margin-bottom: 1.5rem;
+		}
+
+		.option-container {
+			columns: 2;
+		}
+
+		#build-q3 .option-container {
+			columns: 1;
+		}
+	}
+
+	#plan {
+		margin-top: 1.5rem;
+		border-top: 1px solid $interface-grey;
+
+		h3 {
+			margin-top: 1.5rem;
+		}
+
+		.info-technique {
+			margin-top: 1.5rem;
+			border-top: 1px solid $interface-grey;
+		}
+
+		.little-heading {
+			@extend small;
+			font-family: $font-family-sans-serif;
+			margin-bottom: 0.5rem;
+			color: $body-color;
+		}
+
+		.be-kind-rewind {
+			margin-top: 1.5rem;
+			border-top: 1px solid $interface-grey;
+			padding-top: 1.5rem;
+		}
+
+	}
+}
+
+@include color-mode(dark) {
+	//focus dark mode
+	.ask-the-library a { @include default-focus('dark'); }
+
+	.build-system-frame {
+		#plan {
+			.little-heading {
+				@extend small;
+				color: $body-color-dark;
+			}
+		}
 	}
 }
