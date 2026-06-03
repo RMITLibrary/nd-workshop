@@ -5,11 +5,16 @@ time: 5
 ---
 <div class="content-856px-max">
     <p class="lead">This is a short self-assessment to help you understand your current time management strengths and challenges. There are no right or wrong answers.</p>
-    <h2 class="title-icon quiz-icon">Self assessment quiz</h2>
     <!-- START quiz -->
     <div section="quiz" class="quiz-container">
-		<p>Read each statement and rate how often it applies to you using the scale below. Add up your scores within each group of three questions to see where to focus.</p>
+		<div class="nd-two-col nd-two-col-right nd-two-col-img-md">
+			<img src="/nd-workshop/images/time-management/where-you-at.png" alt="" />
+			<div class="nd-two-col-content">
+				<h2 class="title-icon quiz-icon">Self assessment quiz</h2>
+				<p>Read each statement and rate how often it applies to you using the scale below. Add up your scores within each group of three questions to see where to focus.</p>
 		<p>1 = Never, 2 = Rarely, 3 = Sometimes, 4 = Often, 5 = Always</p>
+			</div>
+		</div>
 		<!-- START set 1 -->
 		<div id="set1" class="quiz-page">
 		<h3>Procrastination</h3>
@@ -262,5 +267,6 @@ time: 5
     <p>Struggling with time management is not a sign of laziness.</p>
     <p>For many neurodivergent students, the issue is not motivation — common systems and expectations often do not match how their brains work.</p>
 	<p>Small changes can make a big difference.</p>
+	<p class="small margin-top-md border-top" id="my-attribution">Images on this page by <a href="https://rmit.edu.au/">RMIT</a>, licensed under <a href="https://creativecommons.org/licenses/by/4.0/">CC BY-NC 4.0</a></p>
 </div>
 <script src="/nd-workshop/js/quiz-results-end.js?ver=1.2"></script>

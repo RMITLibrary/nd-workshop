@@ -111,3 +111,22 @@
 #retake-quiz {
 	margin: 1.5rem auto;
 }
+
+@include color-mode(dark) {
+	/* Range control  */
+
+	/* WebKit (Chrome, Edge, Safari) */
+	.form-range::-webkit-slider-thumb {
+		background: $link-color-dark;          /* thumb colour */
+	}
+
+	/* Firefox */
+	.form-range::-moz-range-thumb {
+		background: $link-color-dark; 
+	}
+
+	/* IE/old Edge (if you care) */
+	.form-range::-ms-thumb {
+		background: $link-color-dark; 
+	}
+}

@@ -9,7 +9,7 @@ weight: 3
     <p>For this course, we’ve adapted this tool into a <strong>Student Time Matrix</strong>.</p>
 	<h2>Student Time Matrix</h2>
 	<figure class="wide" aria-labelledby="my-attribution">
-		<img src="/nd-workshop/images/time-management/student-matrix@2x.png" alt="" />
+		<img src="/nd-workshop/images/time-management/student-matrix.png" alt="Student time matrix showing four quadrants: Do now, Plan it, Get it done, move on, Let it go" />
 	</figure>
 	<p>The Student Time Matrix is based on two questions:</p>
 	<ol>

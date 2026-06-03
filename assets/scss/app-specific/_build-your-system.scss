@@ -42,7 +42,9 @@
 
 		.heading {
 			position: relative;
-			padding-left: 92px; /* 72px icon + some spacing */
+			padding-left: 88px; /* 72px icon + some spacing */
+			margin-bottom: 8px;
+
 			min-height: 72px;
 
 			p { 
@@ -60,10 +62,10 @@
 			width: 72px;
 			height: 72px;
 			transform: translateY(-50%);
-			background-color: #e0e0e0; /* placeholder colour */
-			border-radius: 8px;        /* remove if you want perfect square corners */
-			/* or use a background-image instead of colour: */
-			/* background: url(/path/to/your-icon.svg) center/cover no-repeat; */
+			
+			background-image: url(/nd-workshop/images/time-management/build-system-icon@2x.png);
+			background-size: cover;
+			background-repeat: no-repeat; 
 		}
 
 		p.lead {

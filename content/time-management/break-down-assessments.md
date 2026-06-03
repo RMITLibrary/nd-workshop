@@ -112,7 +112,7 @@ weight: 5
 	<hr />
 	<h2>3. All-Assignment Planning Template</h2>
 	<p>Something the tools above don’t do is allow you to assess and see all your assignments together. This “big picture” perspective is useful to plan your semester and assess how you’re going to balance your time across all your courses and assessments. It also allows you to track your progress, include reminders about things like asking your tutor clarification questions, and prioritise by looking at which assignments are more important, more difficult and so on. </p>
-	<p>	The template is available as <a href="">Word doc</a> and as an <a href="">Excel spreadsheet</a>  (which gives you more options to filter and sort).
+	<p>	The template is available as <a href="/nd-workshop/docs/all-assignment-planner.docx">Word doc</a> and as an <a href="/nd-workshop/docs/all-assignment-planner.xlsx">Excel spreadsheet</a>  (which gives you more options to filter and sort).
 	<figure class="wide" aria-labelledby="my-attribution">
 		<img src="/nd-workshop/images/time-management/all-assignment-template.png" alt='Excel spreadsheet showing the all assignment template.' />
 	</figure>

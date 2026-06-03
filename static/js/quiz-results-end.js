@@ -146,18 +146,15 @@ document.addEventListener('DOMContentLoaded', function () {
     // Hide all result sections and their ranges
     const sectionIds = Object.values(resultMap);
     sectionIds.forEach(function (sectionId) {
-		const cardBody = section.querySelector('.card-body');
-		if (cardBody) {
-			cardBody.classList.remove('trim-top-wrong', 'trim-top-neutral', 'trim-top-right');
-		}
-		
-		const section = document.getElementById(sectionId);
-		if (!section) {
-			return;
-		}
+      const section = document.getElementById(sectionId);
+      if (!section) return;
+
+      const cardBody = section.querySelector('.card-body');
+      if (cardBody) {
+        cardBody.classList.remove('trim-top-wrong', 'trim-top-neutral', 'trim-top-right');
+      }
 
       section.hidden = true;
-
       const ranges = section.querySelectorAll('.result-range');
       ranges.forEach(function (rangeEl) {
         rangeEl.hidden = true;
