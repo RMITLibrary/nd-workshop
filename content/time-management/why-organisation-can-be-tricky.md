@@ -1,9 +1,9 @@
 ---
-title: "Why Organisation can be tricky"
+title: "Why organisation can be tricky"
 weight: 2
 ---
 <div class="content-856px-max">
-    <p class="lead">Organisation can feel really hard, especially if you’re neurodivergent, because the brain systems that handle planning, memory, and juggling tasks often work differently. This section explains what’s going on under the hood and points you to practical strategies that can actually help.</p>
+    <p class="lead">Organisation can feel really hard, especially if you’re neurodivergent, because the brain systems that handle planning, memory, and juggling tasks often work differently. The topics here cover executive functioning, time awareness, prioritisation, working memory, and cognitive load. </p>
     <!-- START two col -->
     <div class="nd-two-col">
         <img src="/nd-workshop/images/time-management/org-exe-func@2x.png" alt="" />
@@ -50,8 +50,7 @@ weight: 2
             <h2 class="h3">Working memory = your mental scratchpad</h2>
             <p>It holds information for a short time while you use it.</p>
             <p>For some neurodivergent people, this scratchpad can be smaller or fill up quickly, so recent information (like instructions or what someone just said) can drop out. </p>
-            <p>When working memory is overloaded, it can also be harder for that information to move into long‑term memory, so things that were clear at the time may be harder to recall later.
-Cognitive load = your brain’s bandwidth</p>
+            <p>When working memory is overloaded, it can also be harder for that information to move into long‑term memory, so things that were clear at the time may be harder to recall later.</p>
         </div>
     </div>
     <!-- END two col -->
@@ -66,7 +65,7 @@ Cognitive load = your brain’s bandwidth</p>
     </div>
     <!-- END two col -->
     <hr />
-    <p>If you struggle with organisation, it’s not because you’re lazy or broken. Your brain has real, structural reasons for finding this stuff hard. And we'll discuss strategies that actually help. In the Deep Dive section, you can learn more about how these brain processes work.</p>
+    <p>If you struggle with organisation, it’s not because you’re lazy or broken. Your brain has real, structural reasons for finding this stuff hard. In the Deep Dive section, you can learn more about how these brain processes work.</p>
     <p>Later in this course, we’ll share practical strategies and tools to help you manage your time, tasks, and study in ways that work for your brain.</p>
     <!-- START dig deeper -->
     <div class="nd-two-col nd-two-col-right nd-two-col-img-md">
@@ -102,7 +101,7 @@ Cognitive load = your brain’s bandwidth</p>
 				</ul>
 				<p>These don't operate in isolation – when one is struggling, the others tend to feel it too.</p>
 				<h4>Why does this make uni so hard?</h4>
-				<p>University is basically a full-time executive function workout, with way less structure than school provided. Multiple deadlines, constant subject-switching, admin, new environments – all at once. If your brain already finds some of these skills tricky, that's a lot to navigate.</p>
+				<p>University is basically a full-time executive function workout with way less structure than school provided. Multiple deadlines, constant subject-switching, admin, new environments – all at once. If your brain already finds some of these skills tricky, that's a lot to navigate.</p>
 				<p>Different neurotypes tend to struggle with different parts of it:</p>
 				<ul>
 				<li>
@@ -124,8 +123,8 @@ Cognitive load = your brain’s bandwidth</p>
 				</ul>
 				<p>These aren't clear-cut – every brain is different. But understanding your own patterns is a good starting point for finding strategies that actually work for you.</p>
 				<h3>The knowing-doing gap</h3>
-				<p>Knowing what you need to do and actually being able to do it are two completely different things. You can have the assignment open, know it's due Friday, genuinely want to start - and still just... not start.</p>
-				<p>That's not laziness. That's a gap between intention and action, and it's an executive function thing - specifically around task initiation and self-regulation.</p>
+				<p>Knowing what you need to do and actually being able to do it are two completely different things. You can have the assignment open, know it's due Friday, genuinely want to start - but just can't start.</p>
+				<p>That's not laziness. That's a gap between intention and action, and it's an executive function thing &mdash; specifically around task initiation and self-regulation.</p>
 				<p>This is why "just try harder" doesn't really work. The strategies that actually help are the ones that reduce the load on your brain - external reminders, smaller starting points, less friction. We'll get into all of that later in the course.</p>
                 <!-- END Executive function content -->
             </div>
@@ -173,7 +172,7 @@ Cognitive load = your brain’s bandwidth</p>
 				Pilots and surgeons use checklists — not because they can't remember, but because working memory is unreliable for everyone under pressure, and the stakes are too high to wing it. The same logic applies to your assignment deadlines.
 				</p>
 				<p>
-				If something is out of your head and written down somewhere you'll actually see it, your brain doesn't have to hold onto it. That frees up space for the actual thinking.
+				If something is out of your head and written down somewhere you'll actually see it, your brain doesn't have to hold onto it. That frees up space for actual thinking.
 				</p>
 				<!-- END working memory -->
             </div>
