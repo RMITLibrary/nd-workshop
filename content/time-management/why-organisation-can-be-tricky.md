@@ -26,7 +26,7 @@ weight: 2
         <tbody>
             <tr>
                 <th>Initiating tasks</th>
-                <td>Knows an assignment is important but feels “stuck at the start” and can’t begin.</td>
+                <td>Knows an assignment is important but feels “stuck at start” and can’t begin.</td>
                 <td>Can usually just “push through” the resistance and get started.</td>
             </tr>
             <tr>
@@ -90,14 +90,14 @@ weight: 2
                 <!-- START Executive function content -->
 				<p>Executive function isn't really one thing. It's more like a collection of skills your brain uses to manage yourself and get stuff done:</p>
 				<ul>
-					<li>Planning – breaking something big into actual steps</li>
-					<li>Task initiation – actually getting started (often the hardest part)</li>
-					<li>Working memory – keeping track of things while you're mid-task</li>
-					<li>Flexible thinking – adapting when plans change or something isn't working</li>
-					<li>Impulse control – pausing before you act or react</li>
-					<li>Emotional regulation – not letting frustration or overwhelm completely derail you</li>
-					<li>Organisation – knowing what's due, where things are, what comes next</li>
-					<li>Self-monitoring – noticing when something isn't working and adjusting</li>
+					<li><strong>Planning:</strong> breaking something big into actual steps</li>
+					<li><strong>Task initiation:</strong> actually getting started (often the hardest part)</li>
+					<li><strong>Working memory:</strong> keeping track of things while you're mid-task</li>
+					<li><strong>Flexible thinking:</strong> adapting when plans change or something isn't working</li>
+					<li><strong>Impulse control:</strong> pausing before you act or react</li>
+					<li><strong>Emotional regulation:</strong> not letting frustration or overwhelm completely derail you</li>
+					<li><strong>Organisation:</strong> knowing what's due, where things are, what comes next</li>
+					<li><strong>Self-monitoring:</strong> noticing when something isn't working and adjusting</li>
 				</ul>
 				<p>These don't operate in isolation – when one is struggling, the others tend to feel it too.</p>
 				<h4>Why does this make uni so hard?</h4>
@@ -105,19 +105,19 @@ weight: 2
 				<p>Different neurotypes tend to struggle with different parts of it:</p>
 				<ul>
 				<li>
-					ADHD – often affects task initiation, time sense, impulse control, and the emotional side of tasks.
+					<strong>ADHD:</strong> often affects task initiation, time sense, impulse control, and the emotional side of tasks.
 					It can also be inconsistent &mdash; working really well in high-interest moments, and much less reliably in others.
 				</li>
 				<li>
-					Autism – being autistic can mean having executive function differences too, often particularly around flexible
+					<strong>Autism:</strong> being autistic can mean having executive function differences too, often particularly around flexible
 					thinking and navigating unclear or changing expectations.
 				</li>
 				<li>
-					Dyslexia – because reading and decoding takes more effort, the brain can end up leaning heavily on working memory
+					<strong>Dyslexia:</strong> because reading and decoding takes more effort, the brain can end up leaning heavily on working memory
 					to compensate. So things like listening and taking notes at the same time can be genuinely exhausting, not just a bit tricky.
 				</li>
 				<li>
-					AuDHD (autistic and ADHD) &mdash; often means experiencing a mix of the above, sometimes in ways that interact with or
+					<strong>AuDHD (autistic and ADHD):</strong> often means experiencing a mix of the above, sometimes in ways that interact with or
 					amplify each other.
 				</li>
 				</ul>
