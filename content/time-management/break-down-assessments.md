@@ -10,7 +10,7 @@ weight: 5
 	<h3>1. RMIT Assignment Planner: step by step assignment support</h3>
 	<h4>Why it helps:</h4>
 	<p>
-	The Assignment Planner removes the “where do I even start?” problem by giving you a clear sequence of steps. This can be especially useful if planning and prioritising don’t come naturally or feel overwhelming.
+	The <a href="https://learninglab.rmit.edu.au/AssignmentPlanner/">Assignment Planner</a> removes the “where do I even start?” problem by giving you a clear sequence of steps. This can be especially useful if planning and prioritising don’t come naturally or feel overwhelming.
 	</p>
 	<div class="nd-two-col nd-two-col-img-lg nd-two-col-right">
 		<img src="/nd-workshop/images/time-management/assignment-plan-01.png" alt="" aria-labelledby="my-attribution" />
@@ -76,7 +76,7 @@ weight: 5
 	<h3>2. Goblin Tools – Magic To‑Do</h3>
 	<h4>Why it helps:</h4>
 	<p>
-	<a href="https://goblin.tools/ToDo" target="_blank">Magic To‑Do (opens in a new tab)</a> is useful for externalising thinking. Instead of holding all the steps in your head, the tool does the breaking‑down for you, which can reduce cognitive load and anxiety.
+	<a href="https://goblin.tools/ToDo">Magic To‑Do</a> is useful for externalising thinking. Instead of holding all the steps in your head, the tool does the breaking‑down for you, which can reduce cognitive load and anxiety.
 	</p>
 	<h4>Best for:</h4>
 	<ul>
@@ -93,7 +93,7 @@ weight: 5
 		<li>“Study for exam”</li>
 		</ul>
 	</li>
-	<li>Click the magic wand button <img src="/nd-workshop/images/time-management/goblin-magic-wand.png" alt="" class="inline-icon" /> and let Magic To‑Do break it into <strong>small, concrete steps</strong>.</li>
+	<li>Click the magic wand button <img src="/nd-workshop/images/time-management/goblin-magic-wand.png" alt="" class="inline-icon" />. Magic To-Do will break it into <strong>small, concrete steps</strong>.</li>
 	<figure class="wide">
 		<img src="/nd-workshop/images/time-management/goblin-screen.png" alt='Goblin Magic To-Do steps for "Study for exam".' aria-labelledby="my-attribution" />
 	</figure>
@@ -132,7 +132,7 @@ weight: 5
 	</ul>
 	<h2>A Final Reminder</h2>
 	<p>
-	You don’t need to use these tools perfectly, or all the time. If something stops helping, you’re allowed to change it, pause it, or move on to something else.
+	You don’t need to use these tools perfectly, or all the time. If something stops helping, you can change it, pause it, or move on to something else.
 	</p>
 	<p>
 	Planning tools are supports, not tests of organisation or motivation.

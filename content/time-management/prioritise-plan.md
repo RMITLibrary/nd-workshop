@@ -44,7 +44,7 @@ weight: 3
 				</p>
 				<ul>
 				<li>Big tasks or projects</li>
-				<li>Break them into small, clear steps and schedule them</li>
+				<li>Break them into small, clear steps and schedule them.</li>
 				</ul>
 				<p>
 				<strong>Examples:</strong> a major assignment due in three weeks, revision for exams, planning group work.
@@ -65,7 +65,7 @@ weight: 3
 				<li>Aim for “good enough”, not perfect</li>
 				</ul>
 				<p>
-				<strong>Examples:</strong> replying to routine emails, uploading a file, simple form‑filling.
+				<strong>Examples:</strong> replying to routine emails, uploading a file, sfilling in a form.
 				</p>
 			</div>
 		</div>
@@ -79,7 +79,7 @@ weight: 3
 				</p>
 				<ul>
 				<li>Not needed at the moment</li>
-				<li>Put on a “maybe later” list, or drop them entirely</li>
+				<li>Put on a “maybe later” list, or drop them entirely.</li>
 				</ul>
 				<p>
 				<strong>Examples:</strong> over‑organising notes, starting an extra side project mid‑semester, scrolling for “the perfect” study app.
@@ -92,8 +92,8 @@ weight: 3
     <div class="nd-two-col nd-two-col-right nd-two-col-img-md">
         <img src="/nd-workshop/images/dig-deeper@2x.png" alt="Dog digging a hole" aria-labelledby="my-attribution" />
         <div class="nd-two-col-content">
-			<h2>Deep dive - Suggested tools</h2>
-            <p>There’s no single best planning system. The goal is to use tools that make tasks clearer, easier to start, and harder to forget. However, keep in mind that what works for one person doesn’t necessarily work for someone else and figuring out what works work for you can take some experimentation.</p>
+			<h2>Dig deeper</h2>
+            <p>There’s no single best planning system. The goal is to use tools that make tasks clearer, easier to start, and harder to forget. However, keep in mind that figuring out what works for you can take some experimentation.</p>
             <p>Here we <strong>dig deeper</strong> and cover a few suggested planning tools to try out: Microsoft Planner, Todoist, and sticky notes.</p>
         </div>
     </div>
@@ -115,6 +115,10 @@ weight: 3
 				<li>Group projects</li>
 				<li>Tracking progress over time</li>
 				</ul>
+				<p><strong>Why it helps:</strong><br>
+				Planner reduces overwhelm and cognitive overload by keeping all tasks in one place and showing progress visually. You don’t have to remember everything because Planner remembers for you.
+				</p>
+				<p>Check out this <a href="">video</a> for a step-by-step guide on how to use Planner for university studies.</p>
 				<p><strong>How to use it effectively:</strong></p>
 				<ul>
 				<li>Create one <strong>Plan per subject</strong>.</li>
@@ -129,10 +133,6 @@ weight: 3
 				<li>Break assignments into <strong>small, concrete steps</strong> (e.g., “find 3 sources” instead of “start assignment”).</li>
 				<li>Add <strong>due dates</strong> for tasks.</li>
 				</ul>
-				<p><strong>Why it helps:</strong><br>
-				Planner reduces overwhelm and cognitive overload by keeping all tasks in one place and showing progress visually. You don’t have to remember everything because Planner remembers for you.
-				</p>
-				<p>Check out this <a href="">video</a> for a step-by-step guide on how to use Planner for university studies.</p>
 				<!-- END planner content -->
 			</div>
 			</div>
@@ -219,7 +219,7 @@ weight: 3
 		<div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour">
 			<div class="accordion-body">
 			<!-- START using tools together -->
-			<h3>You don’t have to choose just one</h3>
+			<p>You don’t have to choose just one.</p>
 			<p>A simple system might look like this:</p>
 			<ul>
 				<li>Microsoft Planner → holds all tasks for the semester</li>
