@@ -106,7 +106,7 @@ weight: 2
 				<ul>
 				<li>
 					ADHD – often affects task initiation, time sense, impulse control, and the emotional side of tasks.
-					It can also be inconsistent – working really well in high-interest moments, and much less reliably in others.
+					It can also be inconsistent &mdash; working really well in high-interest moments, and much less reliably in others.
 				</li>
 				<li>
 					Autism – being autistic can mean having executive function differences too, often particularly around flexible
@@ -117,15 +117,15 @@ weight: 2
 					to compensate. So things like listening and taking notes at the same time can be genuinely exhausting, not just a bit tricky.
 				</li>
 				<li>
-					AuDHD (autistic and ADHD) – often means experiencing a mix of the above, sometimes in ways that interact with or
+					AuDHD (autistic and ADHD) &mdash; often means experiencing a mix of the above, sometimes in ways that interact with or
 					amplify each other.
 				</li>
 				</ul>
-				<p>These aren't clear-cut – every brain is different. But understanding your own patterns is a good starting point for finding strategies that actually work for you.</p>
+				<p>These aren't clear-cut &mdash; every brain is different. But understanding your own patterns is a good starting point for finding strategies that actually work for you.</p>
 				<h3>The knowing-doing gap</h3>
-				<p>Knowing what you need to do and actually being able to do it are two completely different things. You can have the assignment open, know it's due Friday, genuinely want to start - but just can't start.</p>
+				<p>Knowing what you need to do and actually being able to do it are two completely different things. You can have the assignment open, know it's due Friday, genuinely want to start &mdash; but just can't start.</p>
 				<p>That's not laziness. That's a gap between intention and action, and it's an executive function thing &mdash; specifically around task initiation and self-regulation.</p>
-				<p>This is why "just try harder" doesn't really work. The strategies that actually help are the ones that reduce the load on your brain - external reminders, smaller starting points, less friction. We'll get into all of that later in the course.</p>
+				<p>This is why "just try harder" doesn't really work. The strategies that actually help are the ones that reduce the load on your brain &mdash; external reminders, smaller starting points, less friction. We'll get into all of that later in the course.</p>
                 <!-- END Executive function content -->
             </div>
             </div>
@@ -142,7 +142,7 @@ weight: 2
             <div class="accordion-body">
                 <!-- START working memory -->
 				<p>
-				Working memory is basically your brain's temporary storage — it holds whatever you're actively working with right now. Think of it like RAM, not a hard drive. It's not where things live long-term, it's where things live while you're using them.
+				Working memory is basically your brain's temporary storage &mdash; it holds whatever you're actively working with right now. Think of it like RAM, not a hard drive. It's not where things live long-term, it's where things live while you're using them.
 				</p>
 				<p>
 				Most people can hold around 4–7 pieces of information at once. For a lot of neurodivergent people, that can be closer to 2–4.
@@ -159,17 +159,17 @@ weight: 2
 				<li>Reading a sentence and still remembering the start of it by the end</li>
 				</ul>
 				<p>
-				When working memory is stretched, it also gets harder for information to move into long-term memory — so things that felt clear in the moment can be harder to recall later.
+				When working memory is stretched, it also gets harder for information to move into long-term memory &mdash; so things that felt clear in the moment can be harder to recall later.
 				</p>
 				<p>
 				This is why "I understood it in the lecture but can't remember any of it now" is such a common experience.
 				</p>
 				<h4>Externalising isn't a crutch</h4>
 				<p>
-				Writing things down, setting alarms, using apps, keeping lists — this is just offloading to a more reliable system.
+				Writing things down, setting alarms, using apps, keeping lists &mdash; this is just offloading to a more reliable system.
 				</p>
 				<p>
-				Pilots and surgeons use checklists — not because they can't remember, but because working memory is unreliable for everyone under pressure, and the stakes are too high to wing it. The same logic applies to your assignment deadlines.
+				Pilots and surgeons use checklists &mdash; not because they can't remember, but because working memory is unreliable for everyone under pressure, and the stakes are too high to wing it. The same logic applies to your assignment deadlines.
 				</p>
 				<p>
 				If something is out of your head and written down somewhere you'll actually see it, your brain doesn't have to hold onto it. That frees up space for actual thinking.
@@ -192,13 +192,13 @@ weight: 2
 				</p>
 				<ul>
 				<li>
-					<strong>Intrinsic load</strong> — the difficulty of the task itself. Learning a new concept, working through a complex argument, figuring out a method you've never used before. This is the load you can't really avoid — it's just part of learning.
+					<strong>Intrinsic load</strong> &mdash; the difficulty of the task itself. Learning a new concept, working through a complex argument, figuring out a method you've never used before. This is the load you can't really avoid &mdash; it's just part of learning.
 				</li>
 				<li>
-					<strong>Extraneous load</strong> — the extra stuff that gets in the way. Confusing instructions, noisy environments, platforms that take forever to navigate. This is the load that doesn't actually help you learn anything.
+					<strong>Extraneous load</strong> &mdash; the extra stuff that gets in the way. Confusing instructions, noisy environments, platforms that take forever to navigate. This is the load that doesn't actually help you learn anything.
 				</li>
 				<li>
-					<strong>Germane load</strong> — the good stuff. The mental effort that goes into actually making sense of something and filing it away properly. This is what you want to protect.
+					<strong>Germane load</strong> &mdash; the good stuff. The mental effort that goes into actually making sense of something and filing it away properly. This is what you want to protect.
 				</li>
 				</ul>
 				<p>
@@ -206,11 +206,11 @@ weight: 2
 				</p>
 				<h4>University is high load by default</h4>
 				<p>
-				Understanding how university works takes real effort even before you've opened a textbook — new systems, unwritten social rules, different platforms, complex assignments. And for many neurodivergent students, sensory stuff adds to this too — a noisy room, fluorescent lighting, a crowded hallway. These aren't minor inconveniences; they're active drains on bandwidth.
+				Understanding how university works takes real effort even before you've opened a textbook &mdash; new systems, unwritten social rules, different platforms, complex assignments. And for many neurodivergent students, sensory stuff adds to this too &mdash; a noisy room, fluorescent lighting, a crowded hallway. These aren't minor inconveniences; they're active drains on bandwidth.
 				</p>
 				<h4>"Just try harder" doesn't help</h4>
 				<p>
-				Pushing harder when you're overloaded doesn't reduce the load — it adds to it. What actually helps is cutting down the stuff that's eating your bandwidth unnecessarily, so you've got more left for the things that matter. We'll get into how to do that later.
+				Pushing harder when you're overloaded doesn't reduce the load &mdash; it adds to it. What actually helps is cutting down the stuff that's eating your bandwidth unnecessarily, so you've got more left for the things that matter. We'll get into how to do that later.
 				</p>
 				<!-- END cognitive load -->
             </div>
