@@ -22,12 +22,12 @@ weight: 3
 	<div class="my-grid ">
 		<!-- START card 1 -->
 		<div class="card ">
-			<div class="card-body trim-top-wrong">
+			<div class="card-body trim-top-right">
 				<h3 class="card-title ">1. Urgent, important – do it now</h3>
 				<p>Tasks that are both important and due very soon.</p>
 				<ul>
 				<li>Due in the next 1–2 days</li>
-				<li>Needs short, focused work (about 15–25 minutes at a time)</li>
+				<li>Needs short, focused work (about 15–25 minutes at a time).</li>
 				</ul>
 				<p>
 				<strong>Examples:</strong> a quiz closing tonight, a lab you haven’t started, an email to your teacher about tomorrow’s class.
@@ -54,7 +54,7 @@ weight: 3
 		<!-- END card 2 -->
 		<!-- START card 3 -->
 		<div class="card ">
-			<div class="card-body trim-top-wrong">
+			<div class="card-body trim-top-right">
 				<h3 class="card-title ">3. Urgent, not important – get it done, move on</h3>
 				<p>
 				Things that pop up and feel urgent, but don’t deserve lots of time or energy.
@@ -62,10 +62,10 @@ weight: 3
 				<ul>
 				<li>Quick admin and small chores</li>
 				<li>Set a time limit (around 5–10 minutes)</li>
-				<li>Aim for “good enough”, not perfect</li>
+				<li>Aim for “good enough”, not perfect<./li>
 				</ul>
 				<p>
-				<strong>Examples:</strong> replying to routine emails, uploading a file, sfilling in a form.
+				<strong>Examples:</strong> replying to routine emails, uploading a file, filling in a form.
 				</p>
 			</div>
 		</div>
@@ -109,15 +109,15 @@ weight: 3
 			<div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne">
 			<div class="accordion-body">
 				<!-- START planner content -->
+				<p><strong>Why it helps:</strong><br>
+				Planner reduces overwhelm and cognitive overload by keeping all tasks in one place and showing progress visually. You don’t have to remember everything because Planner remembers for you.
+				</p>
 				<p><strong>Best for:</strong></p>
 				<ul>
 				<li>Seeing <em>everything</em> you need to do for a subject</li>
 				<li>Group projects</li>
 				<li>Tracking progress over time</li>
 				</ul>
-				<p><strong>Why it helps:</strong><br>
-				Planner reduces overwhelm and cognitive overload by keeping all tasks in one place and showing progress visually. You don’t have to remember everything because Planner remembers for you.
-				</p>
 				<p>Check out this <a href="">video</a> for a step-by-step guide on how to use Planner for university studies.</p>
 				<p><strong>How to use it effectively:</strong></p>
 				<ul>
