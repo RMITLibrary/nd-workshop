@@ -4,6 +4,11 @@ document.addEventListener('DOMContentLoaded', function () {
   const resultsContainer = document.getElementById('results');
   const retakeButton = document.getElementById('retake-quiz');
 
+  //enable bs tool tops
+  const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
+const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
+
+
   // Map set IDs to result section IDs
   const resultMap = {
     set1: 'result-procrastination',
