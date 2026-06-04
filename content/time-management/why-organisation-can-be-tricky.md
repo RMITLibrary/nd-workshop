@@ -192,13 +192,13 @@ weight: 2
 				</p>
 				<ul>
 				<li>
-					<strong>Intrinsic load</strong> &mdash; the difficulty of the task itself. Learning a new concept, working through a complex argument, figuring out a method you've never used before. This is the load you can't really avoid &mdash; it's just part of learning.
+					<strong>Intrinsic load</strong>: the difficulty of the task itself. Learning a new concept, working through a complex argument, figuring out a method you've never used before. This is the load you can't really avoid &mdash; it's just part of learning.
 				</li>
 				<li>
-					<strong>Extraneous load</strong> &mdash; the extra stuff that gets in the way. Confusing instructions, noisy environments, platforms that take forever to navigate. This is the load that doesn't actually help you learn anything.
+					<strong>Extraneous load</strong>: the extra stuff that gets in the way. Confusing instructions, noisy environments, platforms that take forever to navigate. This is the load that doesn't actually help you learn anything.
 				</li>
 				<li>
-					<strong>Germane load</strong> &mdash; the good stuff. The mental effort that goes into actually making sense of something and filing it away properly. This is what you want to protect.
+					<strong>Germane load</strong>: the good stuff. The mental effort that goes into actually making sense of something and filing it away properly. This is what you want to protect.
 				</li>
 				</ul>
 				<p>
