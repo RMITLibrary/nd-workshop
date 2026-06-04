@@ -62,7 +62,7 @@ weight: 3
 				<ul>
 				<li>Quick admin and small chores</li>
 				<li>Set a time limit (around 5–10 minutes)</li>
-				<li>Aim for “good enough”, not perfect<./li>
+				<li>Aim for “good enough”, not perfect.</li>
 				</ul>
 				<p>
 				<strong>Examples:</strong> replying to routine emails, uploading a file, filling in a form.
