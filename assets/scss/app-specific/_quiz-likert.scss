@@ -17,17 +17,41 @@
 		margin: 0;
 	}
 
-	/* Range scale underneath */
 	.range-scale {
-		display: flex;
-		justify-content: space-between;
-		margin: 0 2px 0 2px;
-
+	margin: 0 2px;
 	}
 
-	/* Numbers */
-	.range-scale span {
-		text-align: center;
+	.range-scale-numbers,
+	.range-scale-labels {
+	display: flex;
+	justify-content: space-between;
+	}
+
+	.range-scale-labels {
+	overflow: hidden;
+	max-height: 0;
+	opacity: 0;
+	transition:
+		max-height 0.25s ease-out,
+		opacity 0.25s ease-out;
+	}
+
+	/* Expanded row */
+	.range-scale-labels.is-active {
+	max-height: 1.5em; /* adjust as needed */
+	opacity: 1;
+	}
+
+	.range-scale-labels span {
+	white-space: nowrap;
+	text-align: center;
+	opacity: 0;
+	transition: opacity 0.2s ease-out;
+	}
+
+	/* Visible labels */
+	.range-scale-labels span.is-visible {
+	opacity: 1;
 	}
 }
 

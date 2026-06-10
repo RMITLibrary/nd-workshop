@@ -22,24 +22,39 @@ time: 5
 			<label for="set1-q1" class="form-label lead">1. How often do you delay starting important tasks until the last minute?</label>
 			<input type="range" class="form-range" min="1" max="5" step="1"
 				id="set1-q1" name="set1-q1">
-			<div class="range-scale" aria-hidden="true">
-			<span>1</span><span>2</span><span>3</span><span>4</span><span>5</span>
+			<div class="range-scale">
+				<div class="range-scale-numbers" aria-hidden="true">
+					<span>1</span><span>2</span><span>3</span><span>4</span><span>5</span>
+				</div>
+				<div class="range-scale-labels" aria-hidden="true">
+					<span></span><span></span><span></span><span></span><span></span>
+				</div>
 			</div>
 		</div>
 		<div class="likert-question">
 			<label for="set1-q2" class="form-label lead">2. How frequently do you find yourself avoiding tasks that seem difficult or overwhelming?</label>
 			<input type="range" class="form-range" min="1" max="5" step="1"
 				id="set1-q2" name="set1-q2">
-			<div class="range-scale" aria-hidden="true">
-			<span>1</span><span>2</span><span>3</span><span>4</span><span>5</span>
+			<div class="range-scale">
+				<div class="range-scale-numbers" aria-hidden="true">
+					<span>1</span><span>2</span><span>3</span><span>4</span><span>5</span>
+				</div>
+				<div class="range-scale-labels" aria-hidden="true">
+					<span></span><span></span><span></span><span></span><span></span>
+				</div>
 			</div>
 		</div>
 		<div class="likert-question">
 			<label for="set1-q3" class="form-label lead">3. How often do you end up rushing to complete assignments due to starting late?</label>
 			<input type="range" class="form-range" min="1" max="5" step="1"
 				id="set1-q3" name="set1-q3">
-			<div class="range-scale" aria-hidden="true">
-			<span>1</span><span>2</span><span>3</span><span>4</span><span>5</span>
+			<div class="range-scale">
+				<div class="range-scale-numbers" aria-hidden="true">
+					<span>1</span><span>2</span><span>3</span><span>4</span><span>5</span>
+				</div>
+				<div class="range-scale-labels" aria-hidden="true">
+					<span></span><span></span><span></span><span></span><span></span>
+				</div>
 			</div>
 		</div>
 		<div class="progress-next-question">
@@ -58,24 +73,39 @@ time: 5
 			<label for="set2-q1" class="form-label lead">4. How frequently do you get distracted by social media while studying?</label>
 			<input type="range" class="form-range" min="1" max="5" step="1"
 				id="set2-q1" name="set2-q1">
-			<div class="range-scale" aria-hidden="true">
-			<span>1</span><span>2</span><span>3</span><span>4</span><span>5</span>
+			<div class="range-scale">
+				<div class="range-scale-numbers" aria-hidden="true">
+					<span>1</span><span>2</span><span>3</span><span>4</span><span>5</span>
+				</div>
+				<div class="range-scale-labels" aria-hidden="true">
+					<span></span><span></span><span></span><span></span><span></span>
+				</div>
 			</div>
 		</div>
 		<div class="likert-question">
 			<label for="set2-q2" class="form-label lead">5. How often do background noises or other activities interrupt your focus?</label>
 			<input type="range" class="form-range" min="1" max="5" step="1"
 				id="set2-q2" name="set2-q2">
-			<div class="range-scale" aria-hidden="true">
-			<span>1</span><span>2</span><span>3</span><span>4</span><span>5</span>
+			<div class="range-scale">
+				<div class="range-scale-numbers" aria-hidden="true">
+					<span>1</span><span>2</span><span>3</span><span>4</span><span>5</span>
+				</div>
+				<div class="range-scale-labels" aria-hidden="true">
+					<span></span><span></span><span></span><span></span><span></span>
+				</div>
 			</div>
 		</div>
 		<div class="likert-question">
 			<label for="set2-q3" class="form-label lead">6. How regularly do you check your phone or email during study sessions?</label>
 			<input type="range" class="form-range" min="1" max="5" step="1"
 				id="set2-q3" name="set2-q3">
-			<div class="range-scale" aria-hidden="true">
-			<span>1</span><span>2</span><span>3</span><span>4</span><span>5</span>
+			<div class="range-scale">
+				<div class="range-scale-numbers" aria-hidden="true">
+					<span>1</span><span>2</span><span>3</span><span>4</span><span>5</span>
+				</div>
+				<div class="range-scale-labels" aria-hidden="true">
+					<span></span><span></span><span></span><span></span><span></span>
+				</div>
 			</div>
 		</div>
 		<div class="progress-next-question">
@@ -94,24 +124,39 @@ time: 5
 			<label for="set3-q1" class="form-label lead">7. How often do you skip planning your daily tasks?</label>
 			<input type="range" class="form-range" min="1" max="5" step="1"
 				id="set3-q1" name="set3-q1">
-			<div class="range-scale" aria-hidden="true">
-			<span>1</span><span>2</span><span>3</span><span>4</span><span>5</span>
+			<div class="range-scale">
+				<div class="range-scale-numbers" aria-hidden="true">
+					<span>1</span><span>2</span><span>3</span><span>4</span><span>5</span>
+				</div>
+				<div class="range-scale-labels" aria-hidden="true">
+					<span></span><span></span><span></span><span></span><span></span>
+				</div>
 			</div>
 		</div>
 		<div class="likert-question">
 			<label for="set3-q2" class="form-label lead">8. How frequently do unexpected tasks disrupt your planned schedule?</label>
 			<input type="range" class="form-range" min="1" max="5" step="1"
 				id="set3-q2" name="set3-q2">
-			<div class="range-scale" aria-hidden="true">
-			<span>1</span><span>2</span><span>3</span><span>4</span><span>5</span>
+			<div class="range-scale">
+				<div class="range-scale-numbers" aria-hidden="true">
+					<span>1</span><span>2</span><span>3</span><span>4</span><span>5</span>
+				</div>
+				<div class="range-scale-labels" aria-hidden="true">
+					<span></span><span></span><span></span><span></span><span></span>
+				</div>
 			</div>
 		</div>
 		<div class="likert-question">
 			<label for="set3-q3" class="form-label lead">9. How regularly do you feel overwhelmed because you haven't allocated your time properly?</label>
 			<input type="range" class="form-range" min="1" max="5" step="1"
 				id="set3-q3" name="set3-q3">
-			<div class="range-scale" aria-hidden="true">
-			<span>1</span><span>2</span><span>3</span><span>4</span><span>5</span>
+			<div class="range-scale">
+				<div class="range-scale-numbers" aria-hidden="true">
+					<span>1</span><span>2</span><span>3</span><span>4</span><span>5</span>
+				</div>
+				<div class="range-scale-labels" aria-hidden="true">
+					<span></span><span></span><span></span><span></span><span></span>
+				</div>
 			</div>
 		</div>
 		<div class="progress-next-question">
@@ -130,24 +175,39 @@ time: 5
 			<label for="set4-q1" class="form-label lead">10. How often do you accept new tasks without considering your current workload?</label>
 			<input type="range" class="form-range" min="1" max="5" step="1"
 				id="set4-q1" name="set4-q1">
-			<div class="range-scale" aria-hidden="true">
-			<span>1</span><span>2</span><span>3</span><span>4</span><span>5</span>
+			<div class="range-scale">
+				<div class="range-scale-numbers" aria-hidden="true">
+					<span>1</span><span>2</span><span>3</span><span>4</span><span>5</span>
+				</div>
+				<div class="range-scale-labels" aria-hidden="true">
+					<span></span><span></span><span></span><span></span><span></span>
+				</div>
 			</div>
 		</div>
 		<div class="likert-question">
 			<label for="set4-q2" class="form-label lead">11. How frequently do you find yourself working on multiple tasks simultaneously, leading to stress?</label>
 			<input type="range" class="form-range" min="1" max="5" step="1"
 				id="set4-q2" name="set4-q2">
-			<div class="range-scale" aria-hidden="true">
-			<span>1</span><span>2</span><span>3</span><span>4</span><span>5</span>
+			<div class="range-scale">
+				<div class="range-scale-numbers" aria-hidden="true">
+					<span>1</span><span>2</span><span>3</span><span>4</span><span>5</span>
+				</div>
+				<div class="range-scale-labels" aria-hidden="true">
+					<span></span><span></span><span></span><span></span><span></span>
+				</div>
 			</div>
 		</div>
 		<div class="likert-question">
 			<label for="set4-q3" class="form-label lead">12. How often do you find it difficult to say no to additional responsibilities?</label>
 			<input type="range" class="form-range" min="1" max="5" step="1"
 				id="set4-q3" name="set4-q3">
-			<div class="range-scale" aria-hidden="true">
-			<span>1</span><span>2</span><span>3</span><span>4</span><span>5</span>
+			<div class="range-scale">
+				<div class="range-scale-numbers" aria-hidden="true">
+					<span>1</span><span>2</span><span>3</span><span>4</span><span>5</span>
+				</div>
+				<div class="range-scale-labels" aria-hidden="true">
+					<span></span><span></span><span></span><span></span><span></span>
+				</div>
 			</div>
 		</div>
 		<div class="progress-next-question">

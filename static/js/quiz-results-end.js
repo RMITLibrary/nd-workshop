@@ -182,6 +182,79 @@ const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstra
     input.value = 3;
   });
 
+    // Verbose labels for the ends
+    const startLabel = 'Never';
+  const endLabel   = 'Always';
+
+  function clearRow(row) {
+    row.querySelectorAll('span').forEach(span => {
+      span.textContent = '';
+      span.classList.remove('is-visible');
+    });
+  }
+
+  function resetAllScaleLabels() {
+    const allRows = document.querySelectorAll('.range-scale-labels');
+    allRows.forEach(row => {
+      // If already inactive, just clear immediately
+      if (!row.classList.contains('is-active')) {
+        clearRow(row);
+        return;
+      }
+
+      // Remove active state to trigger transition
+      row.classList.remove('is-active');
+
+      // After transition ends, clear labels (once)
+      const onTransitionEnd = (e) => {
+        if (e.propertyName !== 'max-height') return; // avoid multiple triggers
+        clearRow(row);
+        row.removeEventListener('transitionend', onTransitionEnd);
+      };
+      row.addEventListener('transitionend', onTransitionEnd);
+    });
+  }
+
+  function showLabelsForSlider(slider) {
+    const question = slider.closest('.likert-question');
+    if (!question) return;
+    const labelsRow = question.querySelector('.range-scale-labels');
+    if (!labelsRow) return;
+
+    // Collapse any other active rows (they'll fade out, then clear)
+    resetAllScaleLabels();
+
+    const spans = labelsRow.querySelectorAll('span');
+    if (spans.length === 5) {
+      spans[0].textContent = startLabel;
+      spans[4].textContent = endLabel;
+      spans[0].classList.add('is-visible');
+      spans[4].classList.add('is-visible');
+      labelsRow.classList.add('is-active');
+    }
+  }
+
+  const likertSliders = document.querySelectorAll('.form-range');
+  likertSliders.forEach(slider => {
+    slider.addEventListener('mouseenter', () => showLabelsForSlider(slider));
+    slider.addEventListener('focus', () => showLabelsForSlider(slider));
+  });
+
+  const questions = document.querySelectorAll('.likert-question');
+  questions.forEach(q => {
+    q.addEventListener('mouseleave', resetAllScaleLabels);
+
+    // Optional: collapse when focus leaves the whole question
+    q.addEventListener('focusout', () => {
+      if (!q.contains(document.activeElement)) {
+        resetAllScaleLabels();
+      }
+    });
+  });
+
+  // Initial state
+  resetAllScaleLabels();
+
   // Show first page on load
   showPage(0);
 });
