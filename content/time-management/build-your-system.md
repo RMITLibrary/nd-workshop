@@ -5,7 +5,7 @@ weight: 8
 <div class="content-856px-max">
     <p class="lead">This section offers you a way to reflect on the advice and learning from the whole module and personalise it, either on your own or by using the questionnaire tool below.</p>
     <p>Here are some reflection prompts to think through what stood out to you as most helpful in this module.</p>
-    <h2>Understanding Yourself</h2>
+    <h2>Understanding yourself</h2>
     <ul>
         <li>What did you learn about how your brain works that felt accurate or validating?</li>
         <li>Which concepts (e.g. executive function, working memory, cognitive load) resonated most with you? Why?</li>
