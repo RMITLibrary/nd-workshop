@@ -26,32 +26,4 @@ weight: 9
 		</a>
 	</div>
 	<p class="small margin-top-md border-top" id="my-attribution">Images on this page by <a href="https://rmit.edu.au/">RMIT</a>, licensed under <a href="https://creativecommons.org/licenses/by/4.0/">CC BY-NC 4.0</a></p>
-	<!-- <h2>Tools round-up</h2>
-	<div class="my-grid ">
-		<div class="card ">
-			<div class="card-body trim-top-right">
-				<h3 class="card-title ">Low-tech & apps</h3>
-				<ul>
-					<li>Todoist</li>
-					<li>Microsoft To Do</li>
-					<li>Google/Outlook Calendar</li>
-					<li>Forest App</li>
-					<li>physical planner/bullet journal</li>
-					<li>visual timers</li>
-					<li>sticky notes</li>
-				</ul>
-			</div>
-		</div>
-		<div class="card ">
-			<div class="card-body trim-top-right">
-				<h3 class="card-title ">AI powered</h3>
-				<ul>
-					<li>Goblin Tools (Magic To-Do)</li>
-					<li>VAL (RMIT’s AI assistant)</li>
-					<li>Tiimo (visual schedule)</li>
-					<li>Anki (spaced repetition)</li>
-				</ul>
-			</div>
-		</div>
-	</div>-->	
 </div>

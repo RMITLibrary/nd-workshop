@@ -60,6 +60,18 @@
 	}
 }
 
+.nd-img-float {
+	max-width: 10rem;
+	margin: 0px auto;
+	display: block;
+
+	@include media-breakpoint-up(md) {  
+		float: right;
+		width: 8rem;
+		margin-left: 1rem;
+	}
+}
+
 //safe space code
 .safe-space {
 	border: 1px solid $interface-grey;

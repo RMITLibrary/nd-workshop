@@ -244,6 +244,7 @@ weight: 8
             <!-- START info-pomodoro -->
 			<div id="info-pomodoro" class="info-technique">
 				<h3><div class="little-heading">Things to remember about</div> The pomodoro technique</h3>
+				<img src="/nd-workshop/images/time-management/procrast-tomato@2x.png" alt="" class="nd-img-float" />
 				<ul>
 				<li>Remove distractions from your study area.</li>
 				<li>Set yourself one small goal for the each interval. For example, read one article, write one paragraph, etc.</li>
@@ -258,6 +259,7 @@ weight: 8
 			<!-- START info-body-doubling -->
 			<div id="info-body-doubling" class="info-technique">
 				<h3><div class="little-heading">Things to remember about</div> Body doubling</h3>
+				<img src="/nd-workshop/images/time-management/procrast-body-doubling@2x.png" alt="" class="nd-img-float" />
 				<ul>
 				<li>Try studying in the same room as a friend, with both of you working on your own tasks.</li>
 				<li>You can also try body doubling in a public space like a library or a cafe.</li>
@@ -289,6 +291,7 @@ weight: 8
 			<!-- START info-create-urgency -->
 			<div id="info-create-urgency" class="info-technique">
 			<h3><div class="little-heading">Things to remember about</div> Creating urgency</h3>
+			<img src="/nd-workshop/images/time-management/procrast-urgency@2x.png" alt="" class="nd-img-float" />
 			<p>If you are the type of person who needs a deadline to help you get started, you can try setting your own deadlines rather than waiting for assessment due dates. To do this:</p>
 			<ul>
 			<li>Break you assessments down into smaller tasks. For example, find literature, do background reading, write first draft.</li>
@@ -300,6 +303,7 @@ weight: 8
 			<!-- START info-5-minute-rule -->
 			<div id="info-5-minute-rule" class="info-technique">
 			<h3><div class="little-heading">Things to remember about</div> The 5-minute rule</h3>
+			<img src="/nd-workshop/images/time-management/procrast-five-minute@2x.png" alt="" class="nd-img-float" />
 			<ul>
 			<li>Select a task you are having trouble getting started on. Make sure it’s something small.</li>
 			<li>Remove distractions from your study area.</li>
@@ -313,6 +317,7 @@ weight: 8
 			<!-- START info-make-it-pleasant -->
 			<div id="info-make-it-pleasant" class="info-technique">
 			<h3><div class="little-heading">Things to remember about</div> The make it pleasant technique</h3>
+			<img src="/nd-workshop/images/time-management/procrast-pleasant@2x.png" alt="" class="nd-img-float" />
 			<p>Pair tasks that you have been avoiding or that you don't enjoy very much with things that you do enjoy. For example:</p>
 			<ul>
 			<li>Take your laptop to a park to read an academic articles.</li>
@@ -328,6 +333,7 @@ weight: 8
 			<!-- START info-gamify-it -->
 			<div id="info-gamify-it" class="info-technique">
 			<h3><div class="little-heading">Things to remember about</div> The gamify it technique</h3>
+			<img src="/nd-workshop/images/time-management/procrast-gamify@2x.png" alt="" class="nd-img-float" />
 			<p>If you the sort of person who loves a challenge, then gamifying your studies could work for you. Here are some things you could try:</p>
 			<ul>
 			<li>Progress bar: Create a visual progress bar and colour in sections as you complete study tasks. For example, divide the bar into ten sections and colour in one section each time you complete a task such as reading an article, watching a lecture or writing a paragraph.</li>
@@ -403,5 +409,6 @@ weight: 8
         <!-- END plan -->
     </div>
     <!-- END build your system -->
+	<p class="small margin-top-md" id="my-attribution">Images on this page by <a href="https://rmit.edu.au/">RMIT</a>, licensed under <a href="https://creativecommons.org/licenses/by/4.0/">CC BY-NC 4.0</a></p>
 </div>
 <script src="/nd-workshop/js/build-your-system.js?ver=1.3"></script>

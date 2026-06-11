@@ -147,27 +147,51 @@ weight: 10
 	</div>
 	<!-- END slideshow -->   
 	<h2 class="margin-top-xl">RMIT Study and Assessment Tools</h2>
-	<ul>
-		<li><a href="https://learninglab.rmit.edu.au/">RMIT Learning Lab</a>: Resources to build your academic skills.</li>
+	<div class="my-grid margin-top-md">
+			<div><h3 class="margin-top-xs"><a href="https://learninglab.rmit.edu.au/" class="link-large margin-top-zero">RMIT Learning Lab</a></h3>
+			<p>Resources to build your academic skills.</p></div>
+			<div><h3 class="margin-top-xs"><a href="https://www.lib.rmit.edu.au/easy-cite/" class="link-large margin-top-zero">Easy Cite</a></h3>
+			<p> An easy-to-use referencing guide.</p></div>
+			<div><h3 class="margin-top-xs"><a href="https://rmit.instructure.com/courses/136341" class="link-large margin-top-zero">Generative AI for Students at RMIT</a></h3>
+			<p>A course to help you use generative AI effectively and ethically in your studies.</p></div>
+			<div><h3 class="margin-top-xs"><a href="https://rmit-catalog.rmit.edu.au/browse/catalog/rmit-library/courses/skills-for-success" class="link-large margin-top-zero">Skills for Success</a></h3>
+			<p> A course designed to help you build key skills for success at university.</p></div>
+			<div><h3 class="margin-top-xs"><a href="https://learninglab.rmit.edu.au/AssignmentPlanner/" class="link-large margin-top-zero">RMIT Assignment Planner</a></h3>
+			<p>Get a step-by-step plan with tips and advice for completing your presentations and written assignments.</p></div>
+			<div><h3 class="margin-top-xs"><a href="https://val.rmit.edu.au/" class="link-large margin-top-zero">VAL</a></h3>
+			<p>RMIT’s virtual assistant for learning, providing fast support to students and staff anytime.</p></div>
+	</div>
+	<hr />
+	<!-- <ul>
+		<li><a href="https://learninglab.rmit.edu.au/">RMIT Learning Lab</a>: </li>
 		<li><a href="https://www.lib.rmit.edu.au/easy-cite/">Easy Cite</a>: An easy-to-use referencing guide.</li>
 		<li><a href="https://rmit.instructure.com/courses/136341">Generative AI for Students at RMIT</a></li>
 		<li><a href="https://rmit-catalog.rmit.edu.au/browse/catalog/rmit-library/courses/skills-for-success">Skills for Success</a>: A course designed to help you build key skills for success at university.</li>
 		<li><a href="https://learninglab.rmit.edu.au/AssignmentPlanner/">RMIT Assignment Planner</a>: Get a step-by-step plan with tips and advice for completing your presentations and written assignments.</li>
 		<li><a href="https://val.rmit.edu.au/">VAL:</a> RMIT’s virtual assistant for learning, providing fast support to students and staff anytime.</li>
-	</ul> 
-		<div class="card margin-top-lg">
+	</ul>  -->
+	<h2>Tools round-up</h2>
+	<ul class="link-large-list-2col">
+		<li><a href="https://goblin.tools/" class="link-large">Goblin Tools</a></li> 
+		<li><a href="https://www.todoist.com/" class="link-large">Todoist</a></li> 
+		<li><a href="https://www.focusmate.com/" class="link-large">Focusmate</a></li> 
+		<li><a href="https://forestapp.cc/" class="link-large">Forest</a></li> 
+		<li><a href="https://apps.ankiweb.net/" class="link-large">Anki</a></li> 
+		<li><a href="https://www.tiimoapp.com/" class="link-large">Tiimo</a></li> 
+	</ul>
+		<!-- <div class="card margin-top-lg">
 			<div class="card-body ">
 				<h2 class="card-title ">Tools round-up</h2>
 				<ul>
-					<li><a href="https://goblin.tools/">Goblin Tools</a></li> 
-					<li><a href="https://www.todoist.com/">Todoist</a></li> 
-					<li><a href="https://www.focusmate.com/">Focusmate</a></li> 
-					<li><a href="https://forestapp.cc/">Forest</a></li> 
-					<li><a href="https://apps.ankiweb.net/">Anki</a></li> 
-					<li><a href="https://www.tiimoapp.com/">Tiimo</a></li> 
+					<li><a href="https://goblin.tools/" class="link-large">Goblin Tools</a></li> 
+					<li><a href="https://www.todoist.com/" class="link-large">Todoist</a></li> 
+					<li><a href="https://www.focusmate.com/" class="link-large">Focusmate</a></li> 
+					<li><a href="https://forestapp.cc/" class="link-large">Forest</a></li> 
+					<li><a href="https://apps.ankiweb.net/" class="link-large">Anki</a></li> 
+					<li><a href="https://www.tiimoapp.com/" class="link-large">Tiimo</a></li> 
 				</ul>
 			</div>
-		</div>
+		</div> -->
 	<p class="small margin-top-md border-top" id="my-attribution">Images on this page by <a href="https://rmit.edu.au/">RMIT</a>, licensed under <a href="https://creativecommons.org/licenses/by/4.0/">CC BY-NC 4.0</a></p>
 </div>
 <script src="/nd-workshop/js/slideshow.js?ver=1.1"></script>

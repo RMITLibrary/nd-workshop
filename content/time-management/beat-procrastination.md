@@ -51,20 +51,14 @@ weight: 7
 		</h3>
 			<div id="body-how-it-works-3001" class="accordion-collapse collapse" aria-labelledby="head-how-it-works-4929">
 				<div class="accordion-body">
-					<div class="img-text align-items-top "><figure aria-labelledby="my-attribution">
-					<img decoding="async" src="https://rmiteduau.sharepoint.com/:i:/r/sites/DigitalLearning/Shared%20Documents/General/_Current%20Projects/User%20Testing/09%20Neurodivergent%20testing/05-content/prototype-images/body-doubling.png?csf=1&#038;web=1&#038;e=bfbS7X" alt="An example image" loading="lazy" />
-					</figure>
-					<div class="content-text">
-					Body doubling can be done in different ways. You might:</p>
+				<p>Body doubling can be done in different ways. You might:</p>
 					<ul>
 					<li>study in the same room as a friend</li>
 					<li>join a virtual study session</li>
 					<li>use online “study with me” videos (there are lots on YouTube)</li>
 					<li>work in a public space such as a library or café.</li>
 					</ul>
-					</div>
-				</div>
-				Body doubling can also help with everyday tasks. For example, some people find it easier to make a difficult phone call, organise paperwork, or clean their room when another person is nearby.<br />
+				<p>Body doubling can also help with everyday tasks. For example, some people find it easier to make a difficult phone call, organise paperwork, or clean their room when another person is nearby.</p>
 				</div>
 			</div>
 		</div>

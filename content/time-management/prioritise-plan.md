@@ -133,6 +133,9 @@ weight: 3
 				<li>Break assignments into <strong>small, concrete steps</strong> (e.g., “find 3 sources” instead of “start assignment”).</li>
 				<li>Add <strong>due dates</strong> for tasks.</li>
 				</ul>
+				<figure class="wide" aria-labelledby="my-attribution">
+					<img src="/nd-workshop/images/time-management/planner.png" alt="Essay planner board with To do, In progress, Waiting on feedback and Done columns" />
+				</figure>
 				<!-- END planner content -->
 			</div>
 			</div>
