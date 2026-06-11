@@ -3,8 +3,13 @@ title: "Break down assessments"
 weight: 5
 ---
 <div class="content-856px-max">
-	<p class="lead">Task initiation can be a specific challenge for many neurodivergent people. The main strategy that can help with this is called “task chunking”, which basically refers to breaking tasks down into smaller tasks so that it feels more manageable.<p>
-	<p>You can do this for most types of assessments, including essays, reports, and presentations. It is possible to do this manually; however, we highly recommend giving some tools a try, as described in the next section.</p>
+	<div class="nd-two-col nd-two-col-img-md nd-two-col-right">
+		<img src="/nd-workshop/images/time-management/break-down@2x.png" alt="" aria-labelledby="my-attribution" />
+		<div>
+			<p class="lead margin-top-zero">Task initiation can be a specific challenge for many neurodivergent people. The main strategy that can help with this is called “task chunking”, which basically refers to breaking tasks down into smaller tasks so that it feels more manageable.<p>
+			<p>You can do this for most types of assessments, including essays, reports, and presentations. It is possible to do this manually; however, we highly recommend giving some tools a try, as described in the next section.</p>
+		</div>
+	</div>
 	<h2>Assessment planning: suggested tools</h2>
 	<p>Not all assignment planning tools work the same way. Some tools are better for seeing the whole assignment, while others help with getting started when tasks feel vague or overwhelming. RMIT’s <strong>Assignment Planner</strong> and Goblin Tools’ <strong>Magic To Do</strong> can be especially helpful when used together.</p>
 	<p>We also have an assignment planning template you might try that helps with organising all your assessments together across a semester.</p>

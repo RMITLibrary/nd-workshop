@@ -130,7 +130,7 @@
 
 	 @include media-breakpoint-up(md) {
 		display: grid;
-		grid-template-columns: repeat(auto-fill, minmax(306px, 1fr));
+		grid-template-columns: repeat(auto-fit, minmax(306px, 1fr));
 		gap: 2rem 1.5rem;
 		max-width: 696px;
 	 }
@@ -143,6 +143,9 @@
 		width: 100%;
 		text-decoration: none;
 		margin: 0;
+		padding: 1rem;
+		border: 1px solid $interface-grey;
+		border-radius: 4px;
 
 		.h4 {
 			margin-top: 1rem;
@@ -164,7 +167,6 @@
 		}
 
 		@include media-breakpoint-up(md) {
-			margin: 0 1rem 0 1rem;
 
 			.h4 {
 				height: 3rem;
@@ -193,4 +195,10 @@
                text-decoration: underline;
           }
      }
+}
+
+.modules-2-up {
+	 @include media-breakpoint-up(xl) {
+		max-width: 696px;
+	 }
 }

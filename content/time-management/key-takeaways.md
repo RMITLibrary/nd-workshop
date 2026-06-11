@@ -12,8 +12,8 @@ weight: 9
 		<li>Motivation can be supported through strategies such as creating urgency, making tasks more enjoyable, gamifying progress, and using body doubling.</li>
 		<li>Progress is about finding strategies that work for your brain, not achieving perfection.</li>
 	</ul>
-	<h2 class="center">What’s next:</h2>
-	<div class="home-modules">	
+	<h2 class="centre">What’s next:</h2>
+	<div class="home-modules modules-2-up">	
 		<a href="https://www.google.com">
 			<img src="/nd-workshop/images/home/%20home-mod-4.png" alt="">
 			<h3 class="h4 link-large">Master group work</h3>
