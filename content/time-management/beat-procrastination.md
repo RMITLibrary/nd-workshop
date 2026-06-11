@@ -3,7 +3,7 @@ title: "Beat procrastination"
 weight: 7
 ---
 <div class="content-856px-max">
-    <p class="lead">There are heaps of techniques that can help beat procrastination. Here are just a few — give them a try and see if any work for you. You might even like to combine two or more to create your own procrastination beating technique.</p>
+    <p class="lead">There are many techniques that can help beat procrastination. Here are just a few — give them a try and see if any work for you. You might even like to combine two or more to create your own procrastination beating technique.</p>
 	<!-- START Pomodoro -->
 	<div class="nd-two-col nd-two-col-right margin-bottom-zero">
 		<img src="/nd-workshop/images/time-management/procrast-tomato@2x.png" alt="" />
@@ -86,7 +86,7 @@ weight: 7
 			<div id="body-how-it-works-2184" class="accordion-collapse collapse" aria-labelledby="head-how-it-works-9731">
 				<div class="accordion-body">
 					<ul>
-						<li>Select a task you are having trouble getting started on. Make sure it’s something small- don’t set yourself the goal of “finishing Assignment 2”, for example. Something achievable like “write one paragraph” is much better.</li>
+						<li>Select a task you are having trouble getting started on. Make sure it’s something small &mdash; don’t set yourself the goal of “finishing Assignment 2”, for example. Something achievable like “write one paragraph” is much better.</li>
 						<li>Set a timer for 5-minutes. Before you start the timer, remove distractions from your study area.</li>
 						<li>When the time starts, you start.</li>
 						<li>Study for five minutes without stopping.</li>

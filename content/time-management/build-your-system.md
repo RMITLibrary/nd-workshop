@@ -397,8 +397,7 @@ weight: 8
 				<button class="btn btn-default prev-question">
                 	Restart
             	</button>
-				<button class="btn btn-default next-question">
-					Next <span class="visually-hidden">question</span></button>
+				<button class="btn btn-default">Download Plan (PDF)</button>
 				</div>
         </div>
         <!-- END plan -->

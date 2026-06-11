@@ -176,7 +176,7 @@ weight: 3
 				<li>Use <strong>priority flags or labels</strong> sparingly (for “urgent” or “low energy” tasks).</li>
 				<li>Set <strong>reminders</strong>, especially for tasks you tend to forget.</li>
 				</ul>
-				<p>Check out the Todoist guide for students here for more information.</p>
+				<p>Check out the <a href="https://www.todoist.com/inspiration/todoist-guide-for-students">Todoist guide for students</a> for more information.</p>
 				<!-- END todoist -->
 			</div>
 			</div>

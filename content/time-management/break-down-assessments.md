@@ -64,7 +64,7 @@ weight: 5
 						</figure>
 					</li>
 					<li>Then choose “upload from file” and choose the .ics file where it was saved (usually automatically in the Downloads folder)</li>
-					<li>Select the calendar you want to use in the drop-down list (e.g., your RMIT student calendar) and click “Import”. You should now see the recommended assignment stages appear in your calendar where you put the start date. Also, you can now edit each of the stages to change the names, date ranges and to add notes as needed. Tip: Change the status of the events from “Busy” to “Free” so the events don’t block out your calendar. 
+					<li>Select the calendar you want to use in the drop-down list (e.g., your RMIT student calendar) and click “Import”. You should now see the recommended assignment stages appear in your calendar where you put the start date. Also, you can now edit each of the stages to change the names, date ranges and to add notes as needed. <br /><br /><strong>Tip:</strong> Change the status of the events from “Busy” to “Free” so the events don’t block out your calendar. 
 						<figure class="wide">
 							<img src="/nd-workshop/images/time-management/assignment-plan-outlook-02.png" alt="Microsoft outlook meeting detail view" aria-labelledby="my-attribution" />
 						</figure>
