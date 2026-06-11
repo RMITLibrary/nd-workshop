@@ -32,7 +32,7 @@ weight: 2
             <tr>
                 <th>Time sense (time blindness)</th>
                 <td>A task feels like it will take “forever” or “no time at all”, making it hard to plan; often underestimates how long study or travel will take</td>
-                <td>Has a more reliable sense of “this will take about 30 minutes”.</td>
+                <td>Has a more reliable sense of time e.g. "This will take about 30 minutes".</td>
             </tr>
             <tr>
                 <th>Prioritisation</th>
@@ -195,14 +195,14 @@ weight: 2
 					<strong>Intrinsic load</strong>: the difficulty of the task itself. Learning a new concept, working through a complex argument, figuring out a method you've never used before. This is the load you can't really avoid &mdash; it's just part of learning.
 				</li>
 				<li>
-					<strong>Extraneous load</strong>: the extra stuff that gets in the way. Confusing instructions, noisy environments, platforms that take forever to navigate. This is the load that doesn't actually help you learn anything.
+					<strong>Extra load</strong>: the extra stuff that gets in the way. Confusing instructions, noisy environments, platforms that take forever to navigate. This is the load that doesn't actually help you learn anything.
 				</li>
 				<li>
-					<strong>Germane load</strong>: the good stuff. The mental effort that goes into actually making sense of something and filing it away properly. This is what you want to protect.
+					<strong>Relevant load</strong>: the good stuff. The mental effort that goes into actually making sense of something and filing it away properly. This is what you want to protect.
 				</li>
 				</ul>
 				<p>
-				The goal is to reduce the extraneous load so you've got capacity for the germane load. Simple in theory, harder in practice. But not impossible.
+				The goal is to reduce the extra load so you've got capacity for the relevant load. Simple in theory, harder in practice. But not impossible.
 				</p>
 				<h4>University is high load by default</h4>
 				<p>

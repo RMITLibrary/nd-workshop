@@ -42,7 +42,7 @@ weight: 1      # overall order of sections if you list them on the home page
     <h2>What to expect from this module</h2>
     <ul>
         <li>First, complete a short unmarked quiz to reflect on your current time management habits.</li>
-        <li>Next, explore why time management can be challenging, particularly for neurodivergent students.</li>
+        <li>Next, explore why time management can be challenging for neurodivergent students.</li>
         <li>Then, learn practical time management strategies and tools.</li>
         <li>Finally, take away simple strategies you can put into practice straight away and find out where to seek additional support if needed.</li>
     </ul>
