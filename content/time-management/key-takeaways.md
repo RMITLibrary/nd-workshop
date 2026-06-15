@@ -14,13 +14,13 @@ weight: 9
 	</ul>
 	<h2 class="centre">What’s next:</h2>
 	<div class="home-modules modules-2-up">	
-		<a href="https://www.google.com">
-			<img src="/nd-workshop/images/home/%20home-mod-4.png" alt="">
+		<a href="/nd-workshop/master-group-work">
+			<img src="/nd-workshop/images/home/home-mod-4.png" alt="">
 			<h3 class="h4 link-large">Master group work</h3>
 			<p>Develop skills for collaborating effectively, communicating clearly, and navigating group projects.</p>
 		</a>
-		<a href="https://www.google.com">
-			<img src="/nd-workshop/images/home/%20home-mod-8.png" alt="">
+		<a href="/nd-workshop/memory-focus">
+			<img src="/nd-workshop/images/home/home-mod-8.png" alt="">
 			<h3 class="h4 link-large">Memory and focus</h3>
 			<p>Strengthen your concentration and memory with strategies designed for real study situations.</p>
 		</a>

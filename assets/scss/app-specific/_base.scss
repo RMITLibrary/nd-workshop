@@ -61,3 +61,20 @@ article:last-child {
 .centre {
 	text-align: center;
 }
+
+//Image stuff - sort it out
+// Dark mode
+@include color-mode(dark) {
+
+	//design system adds background to figure img
+	main img {
+        filter: brightness(0.9) contrast(0.9);	//drop the contrast in dark mode to reduce eye strain.
+		background-color: transparent;		
+    }
+
+	.footer-container {
+		img {
+			filter: brightness(0.9) contrast(0.9);	//drop the contrast in dark mode to reduce eye strain.
+		}
+	}
+}

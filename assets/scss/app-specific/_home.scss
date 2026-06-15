@@ -202,3 +202,24 @@
 		max-width: 696px;
 	 }
 }
+
+@include color-mode(dark) {
+	.nd-home-banner {
+
+		.nd-home-image {
+			filter: brightness(0.9) contrast(0.9);	//drop the contrast in dark mode to reduce eye strain.
+		}
+	}
+}
+
+@include color-mode(dark) {
+	.home-modules {
+		p {
+			color: $body-color-dark;
+		}
+
+		.h4 {
+			color: $link-color-dark;
+		}
+	}
+}
