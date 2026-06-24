@@ -12,6 +12,15 @@
   }
 }
 
+/* Sticky progress */
+/* .my-progress {
+    @include media-breakpoint-up(md) { 
+        position: sticky;
+        top: 1.5rem;  
+    }
+} */
+
+
 /* Segmented bar */
 .my-progress-bar {
   width: 100%;
