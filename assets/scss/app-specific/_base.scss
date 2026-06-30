@@ -62,6 +62,10 @@ article:last-child {
 	text-align: center;
 }
 
+.transcript .accordion-body {
+	text-align: left;
+}
+
 //Image stuff - sort it out
 // Dark mode
 @include color-mode(dark) {
