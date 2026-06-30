@@ -19,3 +19,11 @@
 .top-navigation .col {
 	position: relative;
 }
+
+
+/* Header (already 56px high) */
+.top-navigation {
+  position: sticky;   // or fixed, if you prefer
+  top: 0;
+  z-index: 1100;
+}

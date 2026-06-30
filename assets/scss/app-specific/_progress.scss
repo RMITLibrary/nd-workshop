@@ -4,7 +4,7 @@
   background-color: transparent; // no background; segments handle this
   height: auto;
   margin-bottom: 2rem;
-  position: relative;
+  //position: relative;
   overflow: visible;
 
   .progress-label {
@@ -68,3 +68,25 @@
     background-color: $link-color-dark;
   }
 }
+
+
+
+// Progress bar just under the header 
+/* .my-progress {
+  width: 100%;
+  background-color: transparent;
+
+  position: fixed;
+  left: 0;
+  top: 128px;         // sits directly under the header
+  z-index: 1050;
+
+  .progress-label {
+    display: none;
+  }
+} */
+
+// Push the page content down so it doesn’t sit behind header + bar 
+/* #page-content {
+  padding-top: 56px // header  + 40px  progress bar height (example);
+} */

@@ -118,7 +118,7 @@ weight: 3
 				<li>Group projects</li>
 				<li>Tracking progress over time</li>
 				</ul>
-				<p>Check out this <a href="">video</a> for a step-by-step guide on how to use Planner for university studies.</p>
+				<p>Check out this <a href="https://www.youtube.com/watch?v=JP32D3_netQ">video</a> for a step-by-step guide on how to use Planner for university studies.</p>
 				<p><strong>How to use it effectively:</strong></p>
 				<ul>
 				<li>Create one <strong>Plan per subject</strong>.</li>

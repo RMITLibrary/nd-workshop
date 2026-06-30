@@ -34,7 +34,7 @@ weight: 1      # overall order of sections if you list them on the home page
 		<img src="/nd-workshop/images/safe-space@2x.png" alt="">
 		<div class="safe-space-content">
 			<p>This is a safe space, you can pause, skip or come back later. There’s no wrong way to do this.</p>
-			<p>If you feel stressed or overwhelmed at any stage you can access <a href="https://www.rmit.edu.au/up/student-support/student-wellbeing">RMIT Counselling and Wellbeing (optional link)</a>.</p>
+			<p>If you feel stressed or overwhelmed at any stage you can access <a href="https://www.rmit.edu.au/up/student-support/student-wellbeing">RMIT Counselling and Wellbeing</a>.</p>
 		</div>
 	</div>
 	<!-- END safe space-->
@@ -54,7 +54,7 @@ weight: 1      # overall order of sections if you list them on the home page
     <ul>
         <li>Any quizzes are not marked or assessed.</li>
         <li>All links are optional — you will not miss any important information if you choose not to open them.</li>
-        <li>Feel free to take breaks whenever you need to. A brain break page is included throughout the module to help with this.</li>
+        <li>Feel free to take breaks whenever you need to. A brain break page is included within the module to help with this.</li>
 		<li>Dark mode is available in the settings menu at the top right of the screen (look for the gear icon).</li>
     </ul>
 	<div class="nd-two-col nd-two-col-right nd-two-col-img-md">
@@ -84,6 +84,7 @@ weight: 1      # overall order of sections if you list them on the home page
 	<!-- END deep dive examople -->
 	<!-- START What this module contains -->
 	<h2>What this module contains</h2>
+	<p>This module should take between <strong>30–40 minutes</strong> to complete.</p>
 	<p>Note, timings are approximate, you may want to spend longer on some pages and speed through others, it’s up to you. Ok, let’s get started with a small piece of self assessment.</p>
 	<!-- END What this module contains -->
 </div>

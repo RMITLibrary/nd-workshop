@@ -1,7 +1,6 @@
 ---
 title: "Where are you at?"
 weight: 1  
-time: 5
 ---
 <div class="content-856px-max">
     <p class="lead">This is a short self-assessment to help you understand your current time management strengths and challenges. There are no right or wrong answers.</p>
