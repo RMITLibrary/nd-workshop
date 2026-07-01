@@ -66,6 +66,14 @@ article:last-child {
 	text-align: left;
 }
 
+.btn-nav-container {
+	//At a large breakpoint, remove seperator line
+    @include media-breakpoint-down(xl) {
+        padding-bottom: 0;
+        border-bottom: solid 0px $interface-grey;
+    }
+}
+
 //Image stuff - sort it out
 // Dark mode
 @include color-mode(dark) {

@@ -6,7 +6,7 @@ weight: 3
     <p class="lead"> Do you ever feel like every task has to be done right now? Many students feel this way — it’s not just a neurodivergent thing. When everything feels urgent, it’s hard to know where to start.</p>
     <h2>The Eisenhower Matrix</h2>
     <p><strong>The Eisenhower Matrix</strong> is a simple tool that helps people sort their priorities. It shows us that some things do need attention now, while others can wait. Some tasks need our full effort, and others are fine being “good enough”, not perfect.</p>
-    <p>For this course, we’ve adapted this tool into a <strong>Student Time Matrix</strong>.</p>
+    <p>For this module, we’ve adapted this tool into a <strong>Student Time Matrix</strong>.</p>
 	<h2>Student Time Matrix</h2>
 	<figure class="wide" aria-labelledby="my-attribution">
 		<img src="/nd-workshop/images/time-management/student-matrix.png" alt="Student time matrix showing four quadrants: Do now, Plan it, Get it done, move on, Let it go" />
@@ -114,20 +114,22 @@ weight: 3
 				</p>
 				<p><strong>Best for:</strong></p>
 				<ul>
-				<li>Seeing <em>everything</em> you need to do for a subject</li>
-				<li>Group projects</li>
-				<li>Tracking progress over time</li>
+				<li>Seeing <em>everything</em> you need to do for a subject.</li>
+				<li>Group projects.</li>
+				<li>Tracking progress over time.</li>
 				</ul>
-				<p>Check out this <a href="https://www.youtube.com/watch?v=JP32D3_netQ">video</a> for a step-by-step guide on how to use Planner for university studies.</p>
+				<p>
+				Check out this <a href="https://www.youtube.com/watch?v=JP32D3_netQ">step-by-step video guide on using Microsoft Planner for your university studies</a>.
+				</p>
 				<p><strong>How to use it effectively:</strong></p>
 				<ul>
-				<li>Create one <strong>Plan per subject</strong>.</li>
+				<li>Create <strong>one plan per subject</strong>.</li>
 				<li>Use <strong>buckets</strong> like:
 					<ul>
-					<li>To do</li>
-					<li>In progress</li>
-					<li>Waiting on feedback</li>
-					<li>Done</li>
+					<li>to do</li>
+					<li>in progress</li>
+					<li>waiting on feedback</li>
+					<li>done.</li>
 					</ul>
 				</li>
 				<li>Break assignments into <strong>small, concrete steps</strong> (e.g., “find 3 sources” instead of “start assignment”).</li>
@@ -154,26 +156,26 @@ weight: 3
 				</p>
 				<p><strong>Best for:</strong></p>
 				<ul>
-				<li>What you need to do <em>today</em> or <em>this week</em></li>
-				<li>Tasks that need reminders</li>
-				<li>Keeping things short and actionable</li>
+				<li>what you need to do <em>today</em> or <em>this week</em></li>
+				<li>tasks that need reminders</li>
+				<li>keeping things short and actionable.</li>
 				</ul>
 				<p><strong>How to use it effectively:</strong></p>
 				<ul>
 				<li>Use <strong>one main task list</strong> to avoid over sorting. For example:
 					<ul>
-					<li>Watch Week 4 lecture recording</li>
-					<li>Read tutorial questions</li>
-					<li>Write 150 words for sociology essay</li>
-					<li>Check LMS announcements</li>
-					<li>Email tutor about assignment question</li>
-					<li>Prepare notes for Friday tutorial</li>
+					<li>watch Week 4 lecture recording</li>
+					<li>read tutorial questions</li>
+					<li>write 150 words for sociology essay</li>
+					<li>check LMS announcements</li>
+					<li>email tutor about assignment question</li>
+					<li>prepare notes for Friday tutorial.</li>
 					</ul>
 				</li>
 				<li>Write tasks as actions:
 					<ul>
-					<li><strong>Watch</strong> lecture recording</li>
-					<li><strong>Write</strong> 150 words</li>
+					<li><strong>watch</strong> lecture recording</li>
+					<li><strong>write</strong> 150 words.</li>
 					</ul>
 				</li>
 				<li>Use <strong>priority flags or labels</strong> sparingly (for “urgent” or “low energy” tasks).</li>
@@ -207,7 +209,7 @@ weight: 3
 				<li>Limit yourself to <strong>3–5 sticky notes at a time</strong>.</li>
 				<li>Put them somewhere visible (e.g., desk, laptop, wall).</li>
 				<li>Use <strong>one task per note</strong>.</li>
-				<li>Remove or cross off notes once done as this visual marker of completion matters and helps with motivation.</li>
+				<li>Remove or cross-off notes once you've done them. This visual marker of completion matters and helps with motivation.</li>
 				</ul>
 				<!-- END sticky notes -->
 			</div>
@@ -216,7 +218,7 @@ weight: 3
 		<div class="accordion-item">
 		<h2 class="accordion-header" id="headingFour">
 			<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-			4. Using the Tools Together
+			4. Using the tools together
 			</button>
 		</h2>
 		<div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour">
@@ -239,6 +241,5 @@ weight: 3
 	<h2>A final reminder</h2>
 	<p>A planning system should support you, not make you feel guilty.</p>
 	<p>If a tool stops helping, you’re allowed to change it, simplify it, or stop using it altogether!</p>
-	<p>And if you want help setting up a system that works for your brain, an <a href="https://www.rmit.edu.au/students/support-services/study-support/consultations">Academic Skills Advisor</a> can help you tailor one that fits your needs.</p>
-	<p class="small margin-top-md border-top" id="my-attribution">Images on this page by <a href="https://rmit.edu.au/">RMIT</a>, licensed under <a href="https://creativecommons.org/licenses/by/4.0/">CC BY-NC 4.0</a></p>
+	<p>If you want help setting up a system that works for your brain, an <a href="https://www.rmit.edu.au/students/support-services/study-support/consultations">Academic Skills Advisor</a> can help you tailor one that fits your needs.</p>
 </div>

@@ -1,15 +1,19 @@
 .quiz-container {
 	max-width: 856px;
+	border: 1px solid $interface-grey;
+	border-radius: 4px;
+	padding: 0px 24px 32px 24px;
 	margin-bottom: 2.5rem;
 }
 
 
 .likert-question {
-	margin-bottom: 2rem;
+	margin-bottom: 2.5rem;
 
 	label {
 		margin-top: 0;
 		margin-bottom: 0.5rem;
+		text-wrap-style: pretty;
 	}
 
 	.form-range {
@@ -21,6 +25,7 @@
 	margin: 0 2px;
 	}
 
+	
 	.range-scale-numbers,
 	.range-scale-labels {
 	display: flex;
@@ -53,6 +58,39 @@
 	.range-scale-labels span.is-visible {
 	opacity: 1;
 	}
+
+	/* Comment out to show old scale */
+	.range-scale-numbers {
+		display: none;
+	}
+
+	.range-scale-words {
+		display: flex;
+		justify-content: space-between;
+
+		font-size: 15px;
+
+		span {
+			width: 60px;
+			text-align: center;
+		}
+
+		span:first-child {
+			text-align: left;
+		}
+		span:nth-child(2) {
+			padding-right: 1.5rem;
+		}
+
+		span:nth-child(4) {
+			padding-left: 1.5rem;
+		}
+
+		span:last-child {
+			text-align: right;
+		}
+	}
+
 }
 
 .progress-next-question {
@@ -134,6 +172,7 @@
 
 #retake-quiz {
 	margin: 1.5rem auto;
+	margin-bottom: 0;
 }
 
 @include color-mode(dark) {

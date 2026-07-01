@@ -1,5 +1,6 @@
 document.addEventListener('DOMContentLoaded', function () {
   const pages = Array.from(document.querySelectorAll('.quiz-page'));
+  const prevButtons = document.querySelectorAll('.prev-question');
   const nextButtons = document.querySelectorAll('.next-question');
   const resultsContainer = document.getElementById('results');
   const retakeButton = document.getElementById('retake-quiz');
@@ -40,6 +41,21 @@ const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstra
       }
     });
   });
+
+  function getCurrentPageIndex() {
+  return pages.findIndex(page => !page.hidden);
+}
+
+// Attach click handlers to "back" buttons (on set2, set3, set4)
+prevButtons.forEach(function (btn) {
+  btn.addEventListener('click', function (event) {
+    event.preventDefault();
+    const current = getCurrentPageIndex();
+    if (current > 0) {
+      showPage(current - 1);
+    }
+  });
+});
 
   function calculateAndShowResults() {
     // Hide quiz pages
@@ -234,7 +250,10 @@ const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstra
     }
   }
 
-  const likertSliders = document.querySelectorAll('.form-range');
+
+/*  
+ //uncomment for rollover funtionality
+ const likertSliders = document.querySelectorAll('.form-range');
   likertSliders.forEach(slider => {
     slider.addEventListener('mouseenter', () => showLabelsForSlider(slider));
     slider.addEventListener('focus', () => showLabelsForSlider(slider));
@@ -251,6 +270,7 @@ const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstra
       }
     });
   });
+*/
 
   // Initial state
   resetAllScaleLabels();

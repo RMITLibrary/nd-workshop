@@ -79,16 +79,16 @@ weight: 7
 			</h3>
 			<div id="body-how-it-works-2184" class="accordion-collapse collapse" aria-labelledby="head-how-it-works-9731">
 				<div class="accordion-body">
-					<ul>
+					<ol>
 						<li>Select a task you are having trouble getting started on. Make sure it’s something small &mdash; don’t set yourself the goal of “finishing Assignment 2”, for example. Something achievable like “write one paragraph” is much better.</li>
-						<li>Set a timer for 5-minutes. Before you start the timer, remove distractions from your study area.</li>
+						<li>Set a timer for 5 minutes. Before you start the timer, remove distractions from your study area.</li>
 						<li>When the time starts, you start.</li>
 						<li>Study for five minutes without stopping.</li>
-					</ul>
-					<p>	When the time’s up, you have two choices:</p>
-					<ol>
-						<li>Keep going</li>
-						<li>Stop</li>
+						<li>When the time’s up, you have two choices:</p>
+						<ol type="a">
+							<li>Keep going</li>
+							<li>Stop</li>
+						</ol></li>
 					</ol>
 					<p>If you keep going, fantastic! If you decide to stop, congratulate yourself for getting started on something you find difficult. And you can always start again later!</p>
 				</div>
@@ -153,8 +153,8 @@ Like many study strategies, it can take some experimenting to find the level of 
 						<li>If comfortable lighting, music, or a particular type of tea helps you feel settled, try incorporating those things into your study environment.</li>
 					</ul>
 					<p>Making tasks more pleasant is not just about rewards or treats. It is also about understanding yourself and recognising the environments, routines, and sensory experiences that help you feel comfortable and able to focus.</p>
-					<p>Want to take it a step further? Try <em>temptation bundling</em>. The idea is simple: you “bundle” something you like with something you tend to avoid.<br>
-					For example:</p>
+					<p>Want to take it a step further? Try <em>temptation bundling</em>. The idea is simple: you “bundle” something you like with something you tend to avoid.
+					<p>For example:</p>
 					<ul>
 						<li>only listening to your favourite podcast while cleaning the house</li>
 						<li>saving your favourite snack for study sessions </li>
@@ -201,5 +201,4 @@ Like many study strategies, it can take some experimenting to find the level of 
 		</div>
 	</div>
 <!-- END Gamify -->
-	<p class="small margin-top-md" id="my-attribution">Images on this page by <a href="https://rmit.edu.au/">RMIT</a>, licensed under <a href="https://creativecommons.org/licenses/by/4.0/">CC BY-NC 4.0</a></p>
 </div>

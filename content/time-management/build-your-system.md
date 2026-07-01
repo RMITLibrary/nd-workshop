@@ -9,7 +9,7 @@ weight: 8
     <ul>
         <li>What did you learn about how your brain works that felt accurate or validating?</li>
         <li>Which concepts (e.g. executive function, working memory, cognitive load) resonated most with you? Why?</li>
-        <li>Did anything in the module shift how you view your challenges (e.g., from “personal failure” to “brain-based difference”)?</li>
+        <li>Did anything in the module shift how you view your challenges (e.g. from “personal failure” to “brain-based difference”)?</li>
     </ul>
     <h2>Understanding your tools</h2>
     <ul>
@@ -155,6 +155,9 @@ weight: 8
                     </div>
                 </div>
                 <div class="progress-next-question">
+					<button class="btn btn-default prev-question">
+					Back
+					</button>
 					<button class="btn btn-default next-question">
 					Next <span class="visually-hidden">question</span></button>
 				</div>
@@ -169,6 +172,9 @@ weight: 8
                     <!-- JS will inject radio options here based on Q2 selections -->
                 </div>
                 <div class="progress-next-question">
+					<button class="btn btn-default prev-question">
+					Back
+					</button>
 					<button class="btn btn-default next-question">
 					Next <span class="visually-hidden">question</span></button>
 				</div>
@@ -409,6 +415,5 @@ weight: 8
         <!-- END plan -->
     </div>
     <!-- END build your system -->
-	<p class="small margin-top-md" id="my-attribution">Images on this page by <a href="https://rmit.edu.au/">RMIT</a>, licensed under <a href="https://creativecommons.org/licenses/by/4.0/">CC BY-NC 4.0</a></p>
 </div>
 <script src="/nd-workshop/js/build-your-system.js?ver=1.3"></script>

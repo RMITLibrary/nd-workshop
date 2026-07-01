@@ -3,13 +3,13 @@ title: "Why organisation can be tricky"
 weight: 2
 ---
 <div class="content-856px-max">
-    <p class="lead">Organisation can feel really hard, especially if you’re neurodivergent, because the brain systems that handle planning, memory, and juggling tasks often work differently. The topics here cover executive functioning, time awareness, prioritisation, working memory, and cognitive load. </p>
+    <p class="lead">Organisation can feel really hard, especially if you’re neurodivergent (ND), because the brain systems that handle planning, memory, and juggling tasks often work differently. The topics here cover executive functioning, time awareness, prioritisation, working memory, and cognitive load. </p>
     <!-- START two col -->
     <div class="nd-two-col">
         <img src="/nd-workshop/images/time-management/org-exe-func@2x.png" alt="" />
         <div class="nd-two-col-conttent">
             <h2 class="h3">Executive function = your brain’s manager</h2>
-            <p>Your brain’s self-management system for planning, prioritising, and following through. For ND brains, this may work differently. Here are some general examples, which may or may not be true for you:</p>
+            <p>This is your brain’s self-management system for planning, prioritising, and following through. For ND brains, this may work differently. Here are some general examples, which may or may not be true for you:</p>
         </div>
     </div>
     <!-- END two col -->
@@ -31,8 +31,8 @@ weight: 2
             </tr>
             <tr>
                 <th>Time sense (time blindness)</th>
-                <td>A task feels like it will take “forever” or “no time at all”, making it hard to plan; often underestimates how long study or travel will take</td>
-                <td>Has a more reliable sense of time e.g. "This will take about 30 minutes".</td>
+                <td>A task feels like it will take “forever” or “no time at all”, making it hard to plan; often underestimates how long study or travel will take.</td>
+                <td>Has a more reliable sense of time e.g. “This will take about 30 minutes.”</td>
             </tr>
             <tr>
                 <th>Prioritisation</th>
@@ -58,20 +58,20 @@ weight: 2
     <div class="nd-two-col">
         <img src="/nd-workshop/images/time-management/org-cog-load@2x.png" alt="" />
         <div class="nd-two-col-conttent">
-            <h2 class="h3">Cognitive load = your brain’s bandwidth.</h2>
+            <h2 class="h3">Cognitive load = your brain’s bandwidth</h2>
             <p>It’s how much your brain can handle at once.</p>
             <p>When too many things are competing for your attention, your bandwidth gets overloaded. This can lead to feeling shut down or frozen, making more mistakes, or feeling unable to start or finish tasks.</p>
         </div>
     </div>
     <!-- END two col -->
     <hr />
-    <p>If you struggle with organisation, it’s not because you’re lazy or broken. Your brain has real, structural reasons for finding this stuff hard. In the Deep Dive section, you can learn more about how these brain processes work.</p>
-    <p>Later in this course, we’ll share practical strategies and tools to help you manage your time, tasks, and study in ways that work for your brain.</p>
+    <p>If you struggle with organisation, it’s not because you’re lazy or broken. Your brain has real, structural reasons for finding this stuff hard. In the "Dig deeper" section, you can learn more about how these brain processes work.</p>
+    <p>Later in this module, we’ll share practical strategies and tools to help you manage your time, tasks, and study in ways that work for your brain.</p>
     <!-- START dig deeper -->
     <div class="nd-two-col nd-two-col-right nd-two-col-img-md">
         <img src="/nd-workshop/images/dig-deeper@2x.png"  alt="Dog digging a hole" aria-labelledby="my-attribution"  />
         <div class="nd-two-col-conttent">
-            <h2>Dig Deeper</h2>
+            <h2>Dig deeper</h2>
             <p class="lead">Keen to learn more? Let’s dig deeper into executive function, working memory and cognitive load.</p>
             <p class="lead">Already know enough? Feel free to skip this section.</p>
         </div>
@@ -122,7 +122,7 @@ weight: 2
 				</li>
 				</ul>
 				<p>These aren't clear-cut &mdash; every brain is different. But understanding your own patterns is a good starting point for finding strategies that actually work for you.</p>
-				<h3>The knowing-doing gap</h3>
+				<h4>The knowing-doing gap</h4>
 				<p>Knowing what you need to do and actually being able to do it are two completely different things. You can have the assignment open, know it's due Friday, genuinely want to start &mdash; but just can't start.</p>
 				<p>That's not laziness. That's a gap between intention and action, and it's an executive function thing &mdash; specifically around task initiation and self-regulation.</p>
 				<p>This is why "just try harder" doesn't really work. The strategies that actually help are the ones that reduce the load on your brain &mdash; external reminders, smaller starting points, less friction. We'll get into all of that later in the course.</p>
@@ -147,16 +147,16 @@ weight: 2
 				<p>
 				Most people can hold around 4–7 pieces of information at once. For a lot of neurodivergent people, that can be closer to 2–4.
 				</p>
-				<h3>Why this makes certain things genuinely harder</h3>
+				<h4>Why this makes certain things genuinely harder</h4>
 				<p>
 				Multi-step instructions are a classic example. By the time someone gets to step three, step one has already dropped out. It's not that you weren't paying attention — it's that the storage filled up.
 				</p>
 				<p>The same thing happens with:</p>
 				<ul>
-				<li>Following a lecture while also taking notes</li>
-				<li>Keeping track of what you were doing while dealing with an interruption</li>
-				<li>Holding a question in your head while waiting for the right moment to ask it</li>
-				<li>Reading a sentence and still remembering the start of it by the end</li>
+				<li>following a lecture while also taking notes</li>
+				<li>keeping track of what you were doing while dealing with an interruption</li>
+				<li>holding a question in your head while waiting for the right moment to ask it</li>
+				<li>reading a sentence and still remembering the start of it by the end.</li>
 				</ul>
 				<p>
 				When working memory is stretched, it also gets harder for information to move into long-term memory &mdash; so things that felt clear in the moment can be harder to recall later.
@@ -218,7 +218,6 @@ weight: 2
         </div>
     </div>
     <!-- END accordions -->
-    <p class="small margin-top-md" id="my-attribution">Images on this page by <a href="https://rmit.edu.au/">RMIT</a>, licensed under <a href="https://creativecommons.org/licenses/by/4.0/">CC BY-NC 4.0</a></p>
 </div>
 
 

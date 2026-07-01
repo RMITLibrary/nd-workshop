@@ -7,7 +7,7 @@ weight: 9
 	<ul>
 		<li>Organisational challenges are not laziness; they are often linked to how the brain processes information (e.g., executive function, working memory, cognitive load).</li>
 		<li>Understanding your own patterns (e.g., procrastination, distraction, over-committing) is the first step toward change.</li>
-		<li>Reduce overwhelm by simplifying systems, lowering cognitive load, and breaking large tasks into smaller steps.</li>
+		<li>Reduce the chances of feeling overwhelmed by simplifying systems, lowering cognitive load, and breaking large tasks into smaller steps.</li>
 		<li>Effective planning happens at different levels: big picture goals, weekly priorities, and immediate next actions.</li>
 		<li>Motivation can be supported through strategies such as creating urgency, making tasks more enjoyable, gamifying progress, and using body doubling.</li>
 		<li>Progress is about finding strategies that work for your brain, not achieving perfection.</li>
@@ -25,5 +25,4 @@ weight: 9
 			<p>Strengthen your concentration and memory with strategies designed for real study situations.</p>
 		</a>
 	</div>
-	<p class="small margin-top-md border-top" id="my-attribution">Images on this page by <a href="https://rmit.edu.au/">RMIT</a>, licensed under <a href="https://creativecommons.org/licenses/by/4.0/">CC BY-NC 4.0</a></p>
 </div>

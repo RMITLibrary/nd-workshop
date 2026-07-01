@@ -52,7 +52,7 @@ weight: 1      # overall order of sections if you list them on the home page
     <h2>Module features</h2>
     <p>Everything presented in this module is optional. Feel free to browse and pick out the content and advice that works best for you. </p>
     <ul>
-        <li>Any quizzes are not marked or assessed.</li>
+        <li>Quizzes are not marked or assessed.</li>
         <li>All links are optional — you will not miss any important information if you choose not to open them.</li>
         <li>Feel free to take breaks whenever you need to. A brain break page is included within the module to help with this.</li>
 		<li>Dark mode is available in the settings menu at the top right of the screen (look for the gear icon).</li>
@@ -60,13 +60,13 @@ weight: 1      # overall order of sections if you list them on the home page
 	<div class="nd-two-col nd-two-col-right nd-two-col-img-md">
         <img src="/nd-workshop/images/dig-deeper@2x.png" alt="Dog digging a hole" aria-labelledby="my-attribution" />
         <div class="nd-two-col-content">
-			<h3>Deep Dive</h3>
-            <p>Some sections include optional “Deep Dive” content hidden in accordions. These provide extra context and explanation if you would like more detail. Deep Dive sections are marked with the heading “Deep Dive” and an image of a dog digging a hole.</p>
+			<h3>Dig deeper</h3>
+            <p>Some sections include optional “Dig deeper” content hidden in accordions. These provide extra context and explanation if you would like more detail. These sections are marked with the heading "Dig deeper" and an image of a dog digging a hole.</p>
             <p>Here's an example:</p>
         </div>
     </div>
     <!-- END How this works -->
-	<!-- START deep dive examople -->
+	<!-- START dig deeper examople -->
 	<div class="accordion" id="accordionExample">
 		<div class="accordion-item">
 			<h3 class="accordion-header" id="headingOne">
@@ -81,7 +81,7 @@ weight: 1      # overall order of sections if you list them on the home page
 			</div>
 		</div>
 	</div>
-	<!-- END deep dive examople -->
+	<!-- END dig deeper examople -->
 	<!-- START What this module contains -->
 	<h2>What this module contains</h2>
 	<p>This module should take between <strong>30–40 minutes</strong> to complete.</p>

@@ -2,6 +2,7 @@
 title: "Brain break"
 weight: 6
 excludeFromProgress: true
+showAttribution: false
 ---
 <style>
 #riveCanvas {

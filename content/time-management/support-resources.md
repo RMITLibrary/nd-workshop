@@ -4,17 +4,9 @@ weight: 10
 ---
 <div class="content-856px-max support-section"> 
 	<!--<p class="lead">Congratulations on working through this module, however worked best for you! To finish, here are some final key takeaways and a brief overview of the other modules that you might check out next.</p>-->
-	<h2>RMIT Support Services</h2>
-	<h3 class="margin-top-md"><a href="https://www.rmit.edu.au/students/support-services/study-support" class="link-large margin-top-zero">Study Support</a></h3>
+	<h2>RMIT support services</h2>
+	<h3 class="margin-top-md"><a href="https://www.rmit.edu.au/students/support-services/study-support" class="link-large margin-top-zero">Study support</a></h3>
 	<p>Find out about one-to-one services, the Study Support Hub, the Peer Mentoring Program, and other services to help you develop your academic skills.</p>
-	<h3><a href="https://www.rmit.edu.au/library/events/neurodiverse-study-sessions" class="link-large margin-top-zero">Neurodiverse Study Sessions</a></h3>
-	<p>Study in a calm space with comfortable lighting and use the Pomodoro Technique to help structure your study sessions.</p>
-	<h3><a href="https://www.rmit.edu.au/students/support-services/equitable-learning" class="link-large margin-top-zero">Equitable Learning and Accessibility</a></h3>
-	<p>The Equitable Learning Services team assists students who have disabilities, ongoing medical conditions, or mental health issues, helping to ensure they have fair access to learning.</p>
-	<h3><a href="https://www.rmit.edu.au/students/support-services/health-safety-wellbeing/mental-health-counselling" class="link-large margin-top-zero">Counselling and Psychological Services</a></h3>
-	<p>Free, confidential, professional short-term counselling is available for students dealing with mental health concerns such as anxiety, depression, and stress.</p>
-	<h3><a href="https://www.rmit.edu.au/about/our-locations-and-facilities/facilities/safety-security/campus-security" class="link-large margin-top-zero">RMIT Emergency and Crisis Support</a></h3>
-	<p>Find out about support services such as Campus Security (9925 3333) and urgent mental health support (call 1300 305 737 / 0488 884 162).</p>
 	<div class="slideshow margin-top-lg">
 		<div class="my-slide" role="group" aria-labelledby="top-slide1">
 			<div class="slide-content">
@@ -22,7 +14,7 @@ weight: 10
 				<div class="nd-two-col nd-two-col-img-lg nd-two-col-right">
 					<img src="/nd-workshop/images/time-management/vis-story-01.jpg" alt="A portrait of Chelsea. An RMIT Student." />
 					<div>
-						<h3 id="top-slide1" tabindex="-1">Using Study Support</h3>
+						<h3 id="top-slide1" tabindex="-1">Using study support</h3>
 						<p class="margin-top-zero">Chelsea is looking for some assistance with academic writing and finding reliable information for her assignment, so she’s heading to RMIT’s Study Support Drop-in at the Swanston Library.</p>
 					</div>
 				</div>
@@ -36,7 +28,7 @@ weight: 10
 					<img src="/nd-workshop/images/time-management/vis-story-02.jpg" alt="The escalators linking level 4 in RMIT's building 12 to level 5." />
 					<div>
 						<p id="top-slide2" class="margin-top-zero">These sessions are held in the Swanston Library. 
-						She arrives at RMIT’s building 12, level 4 and takes the escalator up to level 5.</p>
+						Chelsea arrives at RMIT’s building 12, level 4 and takes the escalator up to level 5.</p>
 						<!-- <p>Alternatively, there are lifts available.</p> -->
 					</div>
 				</div>
@@ -49,7 +41,7 @@ weight: 10
 				<div class="nd-two-col nd-two-col-img-lg nd-two-col-right">
 					<img src="/nd-workshop/images/time-management/vis-story-03.jpg" alt="Chelsea arriving on level 5 of RMIT's building 12 via escalator." />
 					<div>
-						<p id="top-slide3" class="margin-top-zero">She arrives at level 5, where the Swanston Library is located. Lifts and stairs are also available nearby.</p>
+						<p id="top-slide3" class="margin-top-zero">Chelsea arrives at level 5, where the Swanston Library is located. Lifts and stairs are also available nearby.</p>
 					</div>
 				</div>
 				<!-- END content-->
@@ -61,7 +53,7 @@ weight: 10
 				<div class="nd-two-col nd-two-col-img-lg nd-two-col-right">
 					<img src="/nd-workshop/images/time-management/vis-story-04.jpg" alt="Chelsea approaching the Swanston Library's entrance. There is a large illuminated sign that says Swanston Library and a carpeted area leading into the Library." />
 					<div>
-						<p id="top-slide4" class="margin-top-zero">After getting off the escalator, she sees the entrance to the Swanston Library.</p>
+						<p id="top-slide4" class="margin-top-zero">After getting off the escalator, Chelsea sees the entrance to the Swanston Library.</p>
 					</div>
 				</div>
 				<!-- END content-->
@@ -73,7 +65,7 @@ weight: 10
 				<div class="nd-two-col nd-two-col-img-lg nd-two-col-right">
 					<img src="/nd-workshop/images/time-management/vis-story-05.jpg" alt="Chelsea approaches the Concierge desk close to the Library entrance. There is a Concierge staff member wearing a white apron." />
 					<div>
-						<p id="top-slide5" class="margin-top-zero">Near the Library entrance, Chelsea sees the Concierge desk Concierge staff wear “ask me” aprons and can help with any questions about the Library.</p>
+						<p id="top-slide5" class="margin-top-zero">Near the Library entrance, Chelsea sees the Concierge desk Concierge staff who wear “ask me” aprons and can help with any questions about the Library.</p>
 					</div>
 				</div>
 				<!-- END content-->
@@ -146,7 +138,15 @@ weight: 10
 		</div>
 	</div>
 	<!-- END slideshow -->   
-	<h2 class="margin-top-xl">RMIT Study and Assessment Tools</h2>
+	<h3><a href="https://www.rmit.edu.au/library/events/neurodiverse-study-sessions" class="link-large margin-top-zero">Neurodiverse Study Sessions</a></h3>
+	<p>Study in a calm space with comfortable lighting and use the Pomodoro Technique to help structure your study sessions.</p>
+	<h3><a href="https://www.rmit.edu.au/students/support-services/equitable-learning" class="link-large margin-top-zero">Equitable learning and accessibility</a></h3>
+	<p>The Equitable Learning Services team assists students who have disabilities, ongoing medical conditions, or mental health issues, helping to ensure they have fair access to learning.</p>
+	<h3><a href="https://www.rmit.edu.au/students/support-services/health-safety-wellbeing/mental-health-counselling" class="link-large margin-top-zero">Counselling and psychological services</a></h3>
+	<p>Free, confidential, professional short-term counselling is available for students dealing with mental health concerns such as anxiety, depression, and stress.</p>
+	<h3><a href="https://www.rmit.edu.au/about/our-locations-and-facilities/facilities/safety-security/campus-security" class="link-large margin-top-zero">RMIT emergency and crisis support</a></h3>
+	<p>Find out about support services such as Campus Security (9925 3333) and urgent mental health support (call 1300 305 737 / 0488 884 162).</p>
+	<h2 class="margin-top-xl">RMIT study and assessment tools</h2>
 	<div class="my-grid margin-top-md">
 			<div><h3 class="margin-top-xs"><a href="https://learninglab.rmit.edu.au/" class="link-large margin-top-zero">RMIT Learning Lab</a></h3>
 			<p>Resources to build your academic skills.</p></div>
@@ -192,6 +192,5 @@ weight: 10
 				</ul>
 			</div>
 		</div> -->
-	<p class="small margin-top-md border-top" id="my-attribution">Images on this page by <a href="https://rmit.edu.au/">RMIT</a>, licensed under <a href="https://creativecommons.org/licenses/by/4.0/">CC BY-NC 4.0</a></p>
 </div>
 <script src="/nd-workshop/js/slideshow.js?ver=1.1"></script>

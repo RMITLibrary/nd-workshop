@@ -32,6 +32,14 @@
 			</div>
 		</main>
 
+		{{ if ne .Params.showAttribution false }}
+		<div class="container">
+			<p class="content-856px-max small attribution margin-top-md" id="my-attribution">
+				Images on this page by <a href="https://rmit.edu.au/">RMIT</a>, licensed under <a href="https://creativecommons.org/licenses/by/4.0/">CC BY-NC 4.0</a>
+			</p>
+		</div>
+		{{ end }}
+
 	{{ partial "footer.html" . }}
 	</div>
 	<!-- END page-content -->

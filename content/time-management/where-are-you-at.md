@@ -6,12 +6,12 @@ weight: 1
     <p class="lead">This is a short self-assessment to help you understand your current time management strengths and challenges. There are no right or wrong answers.</p>
     <!-- START quiz -->
     <div section="quiz" class="quiz-container">
-		<div class="nd-two-col nd-two-col-right nd-two-col-img-md">
+		<div class="nd-two-col nd-two-col-right nd-two-col-img-md margin-top-sm">
 			<img src="/nd-workshop/images/time-management/where-you-at.png" alt="" />
 			<div class="nd-two-col-content">
 				<h2 class="title-icon quiz-icon">Self assessment quiz</h2>
-				<p>Read each statement and rate how often it applies to you using the scale below. Add up your scores within each group of three questions to see where to focus.</p>
-		<p>1 = Never, 2 = Rarely, 3 = Sometimes, 4 = Often, 5 = Always</p>
+				<p>Read each statement and rate how often it applies to you using the scale below. <!-- Add up your scores within each group of three questions to see where to focus. --></p>
+				<!-- <p>1 = Never, 2 = Rarely, 3 = Sometimes, 4 = Often, 5 = Always</p> -->
 			</div>
 		</div>
 		<!-- START set 1 -->
@@ -22,6 +22,9 @@ weight: 1
 			<input type="range" class="form-range" min="1" max="5" step="1"
 				id="set1-q1" name="set1-q1">
 			<div class="range-scale">
+				<div class="range-scale-words" aria-hidden="true">
+					<span>Never</span><span>|</span><span>|</span><span>|</span><span>Always</span>
+				</div>
 				<div class="range-scale-numbers" aria-hidden="true">
 					<span>1</span><span>2</span><span>3</span><span>4</span><span>5</span>
 				</div>
@@ -35,6 +38,9 @@ weight: 1
 			<input type="range" class="form-range" min="1" max="5" step="1"
 				id="set1-q2" name="set1-q2">
 			<div class="range-scale">
+				<div class="range-scale-words" aria-hidden="true">
+					<span>Never</span><span>|</span><span>|</span><span>|</span><span>Always</span>
+				</div>
 				<div class="range-scale-numbers" aria-hidden="true">
 					<span>1</span><span>2</span><span>3</span><span>4</span><span>5</span>
 				</div>
@@ -48,6 +54,9 @@ weight: 1
 			<input type="range" class="form-range" min="1" max="5" step="1"
 				id="set1-q3" name="set1-q3">
 			<div class="range-scale">
+				<div class="range-scale-words" aria-hidden="true">
+					<span>Never</span><span>|</span><span>|</span><span>|</span><span>Always</span>
+				</div>
 				<div class="range-scale-numbers" aria-hidden="true">
 					<span>1</span><span>2</span><span>3</span><span>4</span><span>5</span>
 				</div>
@@ -60,7 +69,7 @@ weight: 1
 			<div>&nbsp;</div>
 			<div><span class="visually-hidden">Question set</span> 1 of 4</div>
 			<button class="btn btn-default next-question">
-			Next <span class="visually-hidden">question set</span>
+			Next
 			</button>
 		</div>
 		</div>
@@ -73,6 +82,9 @@ weight: 1
 			<input type="range" class="form-range" min="1" max="5" step="1"
 				id="set2-q1" name="set2-q1">
 			<div class="range-scale">
+				<div class="range-scale-words" aria-hidden="true">
+					<span>Never</span><span>|</span><span>|</span><span>|</span><span>Always</span>
+				</div>
 				<div class="range-scale-numbers" aria-hidden="true">
 					<span>1</span><span>2</span><span>3</span><span>4</span><span>5</span>
 				</div>
@@ -86,6 +98,9 @@ weight: 1
 			<input type="range" class="form-range" min="1" max="5" step="1"
 				id="set2-q2" name="set2-q2">
 			<div class="range-scale">
+				<div class="range-scale-words" aria-hidden="true">
+					<span>Never</span><span>|</span><span>|</span><span>|</span><span>Always</span>
+				</div>
 				<div class="range-scale-numbers" aria-hidden="true">
 					<span>1</span><span>2</span><span>3</span><span>4</span><span>5</span>
 				</div>
@@ -99,6 +114,9 @@ weight: 1
 			<input type="range" class="form-range" min="1" max="5" step="1"
 				id="set2-q3" name="set2-q3">
 			<div class="range-scale">
+				<div class="range-scale-words" aria-hidden="true">
+					<span>Never</span><span>|</span><span>|</span><span>|</span><span>Always</span>
+				</div>
 				<div class="range-scale-numbers" aria-hidden="true">
 					<span>1</span><span>2</span><span>3</span><span>4</span><span>5</span>
 				</div>
@@ -108,10 +126,12 @@ weight: 1
 			</div>
 		</div>
 		<div class="progress-next-question">
-			<div>&nbsp;</div>
+			<button class="btn btn-default prev-question">
+			Back
+			</button>
 			<div><span class="visually-hidden">Question set</span> 2 of 4</div>
 			<button class="btn btn-default next-question">
-			Next <span class="visually-hidden">question set</span>
+			Next
 			</button>
 		</div>
 		</div>
@@ -124,6 +144,9 @@ weight: 1
 			<input type="range" class="form-range" min="1" max="5" step="1"
 				id="set3-q1" name="set3-q1">
 			<div class="range-scale">
+				<div class="range-scale-words" aria-hidden="true">
+					<span>Never</span><span>|</span><span>|</span><span>|</span><span>Always</span>
+				</div>
 				<div class="range-scale-numbers" aria-hidden="true">
 					<span>1</span><span>2</span><span>3</span><span>4</span><span>5</span>
 				</div>
@@ -137,6 +160,9 @@ weight: 1
 			<input type="range" class="form-range" min="1" max="5" step="1"
 				id="set3-q2" name="set3-q2">
 			<div class="range-scale">
+				<div class="range-scale-words" aria-hidden="true">
+					<span>Never</span><span>|</span><span>|</span><span>|</span><span>Always</span>
+				</div>
 				<div class="range-scale-numbers" aria-hidden="true">
 					<span>1</span><span>2</span><span>3</span><span>4</span><span>5</span>
 				</div>
@@ -150,6 +176,9 @@ weight: 1
 			<input type="range" class="form-range" min="1" max="5" step="1"
 				id="set3-q3" name="set3-q3">
 			<div class="range-scale">
+				<div class="range-scale-words" aria-hidden="true">
+					<span>Never</span><span>|</span><span>|</span><span>|</span><span>Always</span>
+				</div>
 				<div class="range-scale-numbers" aria-hidden="true">
 					<span>1</span><span>2</span><span>3</span><span>4</span><span>5</span>
 				</div>
@@ -159,10 +188,12 @@ weight: 1
 			</div>
 		</div>
 		<div class="progress-next-question">
-			<div>&nbsp;</div>
+			<button class="btn btn-default prev-question">
+			Back
+			</button>
 			<div><span class="visually-hidden">Question set</span> 3 of 4</div>
 			<button class="btn btn-default next-question">
-			Next <span class="visually-hidden">question set</span>
+			Next
 			</button>
 		</div>
 		</div>
@@ -175,6 +206,9 @@ weight: 1
 			<input type="range" class="form-range" min="1" max="5" step="1"
 				id="set4-q1" name="set4-q1">
 			<div class="range-scale">
+				<div class="range-scale-words" aria-hidden="true">
+					<span>Never</span><span>|</span><span>|</span><span>|</span><span>Always</span>
+				</div>
 				<div class="range-scale-numbers" aria-hidden="true">
 					<span>1</span><span>2</span><span>3</span><span>4</span><span>5</span>
 				</div>
@@ -188,6 +222,9 @@ weight: 1
 			<input type="range" class="form-range" min="1" max="5" step="1"
 				id="set4-q2" name="set4-q2">
 			<div class="range-scale">
+				<div class="range-scale-words" aria-hidden="true">
+					<span>Never</span><span>|</span><span>|</span><span>|</span><span>Always</span>
+				</div>
 				<div class="range-scale-numbers" aria-hidden="true">
 					<span>1</span><span>2</span><span>3</span><span>4</span><span>5</span>
 				</div>
@@ -201,6 +238,9 @@ weight: 1
 			<input type="range" class="form-range" min="1" max="5" step="1"
 				id="set4-q3" name="set4-q3">
 			<div class="range-scale">
+				<div class="range-scale-words" aria-hidden="true">
+					<span>Never</span><span>|</span><span>|</span><span>|</span><span>Always</span>
+				</div>
 				<div class="range-scale-numbers" aria-hidden="true">
 					<span>1</span><span>2</span><span>3</span><span>4</span><span>5</span>
 				</div>
@@ -210,7 +250,9 @@ weight: 1
 			</div>
 		</div>
 		<div class="progress-next-question">
-			<div>&nbsp;</div>
+			<button class="btn btn-default prev-question">
+			Back
+			</button>
 			<div><span class="visually-hidden">Question set</span> 4 of 4</div>
 			<button class="btn btn-default next-question">
 			Get results
@@ -320,12 +362,10 @@ weight: 1
 			<button id="retake-quiz" class="btn btn-secondary">Retake quiz</button>
 		</div>
 	</div>
-	<hr />
     <!-- END quiz -->
     <h2>Did you know?</h2>
     <p>Struggling with time management is not a sign of laziness.</p>
     <p>For many neurodivergent students, the issue is not motivation — common systems and expectations often do not match how their brains work.</p>
 	<p>Small changes can make a big difference.</p>
-	<p class="small margin-top-md border-top" id="my-attribution">Images on this page by <a href="https://rmit.edu.au/">RMIT</a>, licensed under <a href="https://creativecommons.org/licenses/by/4.0/">CC BY-NC 4.0</a></p>
 </div>
-<script src="/nd-workshop/js/quiz-results-end.js?ver=1.6"></script>
+<script src="/nd-workshop/js/quiz-results-end.js?ver=1.7"></script>
